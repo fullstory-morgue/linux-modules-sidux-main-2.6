@@ -1,3 +1,9 @@
+linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.11) unstable; urgency=low
+
+  * build against kernel 2.6.24-2.6.24.2.slh.11.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 22 Feb 2008 00:42:12 +0100
+
 linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.10) unstable; urgency=low
 
   * fork package as linux-modules-sidux-main-2.6 for sidux.
