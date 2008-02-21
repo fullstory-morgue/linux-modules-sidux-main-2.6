@@ -11,6 +11,7 @@ modules:
  gspca
  loop-aes
  lzma
+ omnibook
  redhat-cluster
  squashfs
  virtualbox-ose
