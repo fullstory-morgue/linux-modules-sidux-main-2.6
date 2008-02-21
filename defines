@@ -11,6 +11,5 @@ modules:
  r6040
  redhat-cluster
  squashfs
- unionfs
  virtualbox-ose
  virtualbox-ose-guest
