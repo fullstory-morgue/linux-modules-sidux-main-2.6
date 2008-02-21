@@ -1,5 +1,19 @@
-The Debian packaging is (C) 2006, Bastian Blank <waldi@debian.org>
+The Debian packaging is © 2006, Bastian Blank <waldi@debian.org>
 and is licensed under the GPL.
+
+Copyright Holders:
+
+	Copyright © 2006-2008 Bastian Blank <waldi@debian.org>
+	Copyright © 2007-2008 Daniel Baumann <daniel@debian.org>
+
+This package was forked as "linux-modules-sidux-main-2.6" to build 
+external modules for sidux' kernel packages in february 2008 by Stefan 
+Lippers-Hollmann <s.l-h@gmx.de> and is intended to closely track packaging 
+changes made in debian's (upstream) "linux-modules-extra-2.6".
+Decisions on the packaging and shipped module packages are made by the 
+sidux project.
+
+	Copyright © 2008 Stefan Lippers-Hollmann <s.l-h@gmx.de>
 
 License:
 

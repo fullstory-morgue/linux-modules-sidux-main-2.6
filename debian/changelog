@@ -1,3 +1,11 @@
+linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.10) unstable; urgency=low
+
+  * fork package as linux-modules-sidux-main-2.6 for sidux.
+  * shut up lintian and write (C) as © in debian/copyright, talk about the
+    fork and its intentions.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Feb 2008 12:56:39 +0100
+
 linux-modules-extra-2.6 (2.6.24-4) unstable; urgency=low
 
   * Disabling atl2 on s390.
