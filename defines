@@ -12,6 +12,7 @@ modules:
  loop-aes
  lzma
  omnibook
+ qc-usb
  redhat-cluster
  squashfs
  virtualbox-ose
