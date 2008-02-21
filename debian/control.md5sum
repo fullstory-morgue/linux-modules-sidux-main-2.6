@@ -1,0 +1,3 @@
+57c9b6ffb01208d936cec0d9adfad5cd  debian/changelog
+f7fffb43d1adc6790198e60c47f2e0fe  debian/templates/control.modules.in
+40ee25921a99554419699151adb56ee1  debian/templates/control.source.in

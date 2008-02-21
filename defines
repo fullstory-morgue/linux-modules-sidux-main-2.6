@@ -1,0 +1,16 @@
+[base]
+modules:
+ atl2
+ aufs
+ btrfs
+ drbd8
+ gspca
+ kqemu
+ loop-aes
+ lzma
+ r6040
+ redhat-cluster
+ squashfs
+ unionfs
+ virtualbox-ose
+ virtualbox-ose-guest
