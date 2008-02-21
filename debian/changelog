@@ -5,6 +5,7 @@ linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.10) unstable; urgency=low
     fork and its intentions.
   * drop unused modules:
     - iscsitarget
+    - kqemu, FTBS.
     - mol
     - r6040, no yada accepted.
     - tp-smapi
@@ -18,7 +19,7 @@ linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.10) unstable; urgency=low
     - acer-acpi (amd64 and i386).
     - et131x.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Feb 2008 14:01:55 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Feb 2008 14:05:20 +0100
 
 linux-modules-extra-2.6 (2.6.24-4) unstable; urgency=low
 

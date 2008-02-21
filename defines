@@ -8,7 +8,6 @@ modules:
  drbd8
  et131x
  gspca
- kqemu
  loop-aes
  lzma
  redhat-cluster
