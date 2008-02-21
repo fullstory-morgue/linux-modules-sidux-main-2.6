@@ -14,8 +14,9 @@ linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.10) unstable; urgency=low
     provide it.
   * add new external module packages:
     - acerhk (i386 only).
+    - acer-acpi (amd64 and i386).
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Feb 2008 13:40:16 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Feb 2008 13:43:56 +0100
 
 linux-modules-extra-2.6 (2.6.24-4) unstable; urgency=low
 
