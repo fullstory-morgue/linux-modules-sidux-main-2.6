@@ -14,6 +14,7 @@ modules:
  omnibook
  qc-usb
  redhat-cluster
+ rfswitch
  squashfs
  virtualbox-ose
  virtualbox-ose-guest
