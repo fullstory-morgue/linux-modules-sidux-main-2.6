@@ -9,12 +9,10 @@ modules:
  et131x
  fsam7400
  gspca
- loop-aes
  lzma
  ndiswrapper
  omnibook
  qc-usb
- redhat-cluster
  rfswitch
  squashfs
  virtualbox-ose
