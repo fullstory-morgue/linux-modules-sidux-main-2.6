@@ -11,6 +11,7 @@ modules:
  gspca
  loop-aes
  lzma
+ ndiswrapper
  omnibook
  qc-usb
  redhat-cluster

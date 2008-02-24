@@ -1,9 +1,16 @@
 linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.11) unstable; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * build against kernel 2.6.24-2.6.24.2.slh.11.
   * virtualbox-ose works fine on amd64.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 22 Feb 2008 01:39:44 +0100
+  [ Kel Modderman ]
+  * Add ndiswrapper to module line-up, providing ndiswrapper/rules override
+    file with targets for build and install phase.
+  * Add debain/README.hacking with small note about howto add/remove modules
+    from this package.
+
+ -- Kel Modderman <kel@otaku42.de>  Sun, 24 Feb 2008 12:58:00 +1000
 
 linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.10) unstable; urgency=low
 

@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Standards-Version: 3.7.3
-Build-Depends: debhelper (>= 6), linux-support-2.6.24-2.6.24.2.slh.11, linux-headers-2.6.24-2.6.24.2.slh.11-all-amd64 [amd64], linux-headers-2.6.24-2.6.24.2.slh.11-all-i386 [i386], acer-acpi-source [amd64 i386], atl2-source [amd64 i386], aufs-source, btrfs-source [amd64 i386], drbd8-source [amd64 i386], et131x-source, fsam7400-source [amd64 i386], gspca-source [amd64 i386], loop-aes-source, lzma-source, qc-usb-source, redhat-cluster-source, rfswitch-source, squashfs-source [amd64 i386], virtualbox-ose-source [amd64 i386], acerhk-source [i386], omnibook-source [i386], virtualbox-ose-guest-source [i386]
+Build-Depends: debhelper (>= 6), linux-support-2.6.24-2.6.24.2.slh.11, linux-headers-2.6.24-2.6.24.2.slh.11-all-amd64 [amd64], linux-headers-2.6.24-2.6.24.2.slh.11-all-i386 [i386], acer-acpi-source [amd64 i386], atl2-source [amd64 i386], aufs-source, btrfs-source [amd64 i386], drbd8-source [amd64 i386], et131x-source, fsam7400-source [amd64 i386], gspca-source [amd64 i386], loop-aes-source, lzma-source, ndiswrapper-source [amd64 i386], qc-usb-source, redhat-cluster-source, rfswitch-source, squashfs-source [amd64 i386], virtualbox-ose-source [amd64 i386], acerhk-source [i386], omnibook-source [i386], virtualbox-ose-guest-source [i386]
 Vcs-Svn: svn://svn.berlios.de/fullstory/linux-modules-sidux-main-2.6/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/linux-modules-sidux-main-2.6/trunk/
 
@@ -326,6 +326,41 @@ Description: Driver for Lempel Ziv compression method (LZMA) modules for Linux 2
  LZMA provides high compression ratio and very fast decompression, so it is
  very suitable for embedded applications.  For example, it can be used for
  ROM (firmware) compression.
+
+Package: ndiswrapper-modules-2.6.24-2.6.24.2.slh.11-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: ndiswrapper-modules
+Depends: linux-modules-2.6.24-2.6.24.2.slh.11-sidux-amd64
+Description: ndiswrapper Linux kernel module modules for Linux 2.6.24 on AMD64
+ This package provides the ndiswrapper Linux kernel module modules for the
+ Linux kernel version 2.6.24 on all 64bit single- and multiprocessor AMD
+ and Intel machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
+
+Package: ndiswrapper-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: ndiswrapper-modules-2.6.24-2.6.24.2.slh.11-sidux-amd64
+Description: ndiswrapper Linux kernel module modules for Linux 2.6 on AMD64
+ This package depends on the ndiswrapper Linux kernel module modules for
+ latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
+ AMD and Intel machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
 
 Package: qc-usb-modules-2.6.24-2.6.24.2.slh.11-sidux-amd64
 Architecture: amd64
@@ -838,6 +873,41 @@ Description: Driver for Lempel Ziv compression method (LZMA) modules for Linux 2
  LZMA provides high compression ratio and very fast decompression, so it is
  very suitable for embedded applications.  For example, it can be used for
  ROM (firmware) compression.
+
+Package: ndiswrapper-modules-2.6.24-2.6.24.2.slh.11-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: ndiswrapper-modules
+Depends: linux-modules-2.6.24-2.6.24.2.slh.11-sidux-686
+Description: ndiswrapper Linux kernel module modules for Linux 2.6.24 on PPro/Celeron/PII/PIII/P4
+ This package provides the ndiswrapper Linux kernel module modules for the
+ Linux kernel version 2.6.24 on Pentium Pro/Celeron/Pentium II/Pentium
+ III/Pentium 4 machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
+
+Package: ndiswrapper-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: ndiswrapper-modules-2.6.24-2.6.24.2.slh.11-sidux-686
+Description: ndiswrapper Linux kernel module modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the ndiswrapper Linux kernel module modules for
+ latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
+ II/Pentium III/Pentium 4 machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
 
 Package: omnibook-modules-2.6.24-2.6.24.2.slh.11-sidux-686
 Architecture: i386
