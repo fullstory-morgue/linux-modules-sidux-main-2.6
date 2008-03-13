@@ -1,8 +1,10 @@
-linux-modules-sidux-main-2.6 (2.6.24.rev17) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.24.rev17) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * rebuild against 2.6.24-2.6.24.3.slh.6.
+  * make sure to build against acer-acpi 0.11.2-1.
+  * make sure to build against et131x 1.2.3-2-1.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 12 Mar 2008 13:28:28 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 14 Mar 2008 00:10:20 +0100
 
 linux-modules-sidux-main-2.6 (2.6.24.rev16) unstable; urgency=low
 
