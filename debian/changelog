@@ -1,8 +1,9 @@
-linux-modules-sidux-main-2.6 (2.6.24.rev24) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.24.rev24) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * rebuild against 2.6.24-2.6.24.4.slh.1.
+  * hope to generate the initramfs with busybox >= 1:1.9.2-1+c0.sidux.2.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 25 Mar 2008 02:19:14 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 25 Mar 2008 19:03:56 +0100
 
 linux-modules-sidux-main-2.6 (2.6.24.rev23) unstable; urgency=low
 
