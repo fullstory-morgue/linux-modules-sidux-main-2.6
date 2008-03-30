@@ -8,7 +8,6 @@ modules:
  et131x
  fsam7400
  gspca
- lzma
  ndiswrapper
  omnibook
  qc-usb
