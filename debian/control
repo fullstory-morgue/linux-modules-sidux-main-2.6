@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Standards-Version: 3.7.3
-Build-Depends: debhelper (>= 6), linux-support-2.6.24-2.6.24.4.slh.2, linux-headers-2.6.24-2.6.24.4.slh.2-all-amd64 [amd64], linux-headers-2.6.24-2.6.24.4.slh.2-all-i386 [i386], acer-acpi-source [amd64 i386], atl2-source [amd64 i386], aufs-source, btrfs-source [amd64 i386], et131x-source, fsam7400-source [amd64 i386], gspca-source [amd64 i386], lzma-source, ndiswrapper-source [amd64 i386], qc-usb-source, rfswitch-source, squashfs-source [amd64 i386], virtualbox-ose-source [amd64 i386], acerhk-source [i386], omnibook-source [i386], virtualbox-ose-guest-source [i386]
+Build-Depends: debhelper (>= 6), linux-support-2.6.24-2.6.24.4.slh.2, linux-headers-2.6.24-2.6.24.4.slh.2-all-amd64 [amd64], linux-headers-2.6.24-2.6.24.4.slh.2-all-i386 [i386], acer-acpi-source [amd64 i386], atl2-source [amd64 i386], aufs-source, btrfs-source [amd64 i386], et131x-source, fsam7400-source [amd64 i386], gspca-source [amd64 i386], ndiswrapper-source [amd64 i386], qc-usb-source, rfswitch-source, squashfs-source [amd64 i386], virtualbox-ose-source [amd64 i386], acerhk-source [i386], omnibook-source [i386], virtualbox-ose-guest-source [i386]
 Vcs-Svn: svn://svn.berlios.de/fullstory/linux-modules-sidux-main-2.6/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/linux-modules-sidux-main-2.6/trunk/
 
@@ -207,49 +207,6 @@ Description: Driver for webcams and digicams based on spca5xx chipset modules fo
  digital cameras based on the spca5xx range of chips manufactured by
  SunPlus, Sonix, Z-star, Vimicro, Conexant, Etoms, Mars-semi, Pixart and
  Transvision.
-
-Package: lzma-modules-2.6.24-2.6.24.4.slh.2-sidux-amd64
-Architecture: amd64
-Section: admin
-Priority: optional
-Provides: lzma-modules
-Depends: linux-modules-2.6.24-2.6.24.4.slh.2-sidux-amd64
-Description: Driver for Lempel Ziv compression method (LZMA) modules for Linux 2.6.24 on AMD64
- This package provides the Driver for Lempel Ziv compression method (LZMA)
- modules for the Linux kernel version 2.6.24 on all 64bit single- and
- multiprocessor AMD and Intel machines.
- .
- LZMA is a compression algorithm, based on the famous Lempel Ziv
- compression method.
- .
- The main characteristics of the algorithm are very good compression, fast
- decompression, use of lot of RAM for compression and low usage of RAM for
- decompression.
- .
- LZMA provides high compression ratio and very fast decompression, so it is
- very suitable for embedded applications.  For example, it can be used for
- ROM (firmware) compression.
-
-Package: lzma-modules-2.6-sidux-amd64
-Architecture: amd64
-Section: admin
-Priority: optional
-Depends: lzma-modules-2.6.24-2.6.24.4.slh.2-sidux-amd64
-Description: Driver for Lempel Ziv compression method (LZMA) modules for Linux 2.6 on AMD64
- This package depends on the Driver for Lempel Ziv compression method
- (LZMA) modules for latest Linux kernel 2.6  for sidux on all 64bit single-
- and multiprocessor AMD and Intel machines.
- .
- LZMA is a compression algorithm, based on the famous Lempel Ziv
- compression method.
- .
- The main characteristics of the algorithm are very good compression, fast
- decompression, use of lot of RAM for compression and low usage of RAM for
- decompression.
- .
- LZMA provides high compression ratio and very fast decompression, so it is
- very suitable for embedded applications.  For example, it can be used for
- ROM (firmware) compression.
 
 Package: ndiswrapper-modules-2.6.24-2.6.24.4.slh.2-sidux-amd64
 Architecture: amd64
@@ -651,49 +608,6 @@ Description: Driver for webcams and digicams based on spca5xx chipset modules fo
  digital cameras based on the spca5xx range of chips manufactured by
  SunPlus, Sonix, Z-star, Vimicro, Conexant, Etoms, Mars-semi, Pixart and
  Transvision.
-
-Package: lzma-modules-2.6.24-2.6.24.4.slh.2-sidux-686
-Architecture: i386
-Section: admin
-Priority: optional
-Provides: lzma-modules
-Depends: linux-modules-2.6.24-2.6.24.4.slh.2-sidux-686
-Description: Driver for Lempel Ziv compression method (LZMA) modules for Linux 2.6.24 on PPro/Celeron/PII/PIII/P4
- This package provides the Driver for Lempel Ziv compression method (LZMA)
- modules for the Linux kernel version 2.6.24 on Pentium Pro/Celeron/Pentium
- II/Pentium III/Pentium 4 machines.
- .
- LZMA is a compression algorithm, based on the famous Lempel Ziv
- compression method.
- .
- The main characteristics of the algorithm are very good compression, fast
- decompression, use of lot of RAM for compression and low usage of RAM for
- decompression.
- .
- LZMA provides high compression ratio and very fast decompression, so it is
- very suitable for embedded applications.  For example, it can be used for
- ROM (firmware) compression.
-
-Package: lzma-modules-2.6-sidux-686
-Architecture: i386
-Section: admin
-Priority: optional
-Depends: lzma-modules-2.6.24-2.6.24.4.slh.2-sidux-686
-Description: Driver for Lempel Ziv compression method (LZMA) modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
- This package depends on the Driver for Lempel Ziv compression method
- (LZMA) modules for latest Linux kernel 2.6  for sidux on Pentium
- Pro/Celeron/Pentium II/Pentium III/Pentium 4 machines.
- .
- LZMA is a compression algorithm, based on the famous Lempel Ziv
- compression method.
- .
- The main characteristics of the algorithm are very good compression, fast
- decompression, use of lot of RAM for compression and low usage of RAM for
- decompression.
- .
- LZMA provides high compression ratio and very fast decompression, so it is
- very suitable for embedded applications.  For example, it can be used for
- ROM (firmware) compression.
 
 Package: ndiswrapper-modules-2.6.24-2.6.24.4.slh.2-sidux-686
 Architecture: i386
