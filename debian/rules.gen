@@ -3,7 +3,7 @@ binary-arch: binary-arch_amd64 binary-arch_i386
 binary-arch_amd64: binary-arch_amd64_none binary-arch_amd64_real
 binary-arch_amd64_none: binary-arch_amd64_none_real binary-arch_amd64_none_sidux-amd64
 binary-arch_amd64_none_real:
-binary-arch_amd64_none_sidux-amd64: binary-arch_amd64_none_sidux-amd64_acer-acpi binary-arch_amd64_none_sidux-amd64_atl2 binary-arch_amd64_none_sidux-amd64_aufs binary-arch_amd64_none_sidux-amd64_btrfs binary-arch_amd64_none_sidux-amd64_et131x binary-arch_amd64_none_sidux-amd64_fsam7400 binary-arch_amd64_none_sidux-amd64_gspca binary-arch_amd64_none_sidux-amd64_ndiswrapper binary-arch_amd64_none_sidux-amd64_qc-usb binary-arch_amd64_none_sidux-amd64_real binary-arch_amd64_none_sidux-amd64_rfswitch binary-arch_amd64_none_sidux-amd64_squashfs binary-arch_amd64_none_sidux-amd64_virtualbox-ose
+binary-arch_amd64_none_sidux-amd64: binary-arch_amd64_none_sidux-amd64_acer-acpi binary-arch_amd64_none_sidux-amd64_atl2 binary-arch_amd64_none_sidux-amd64_aufs binary-arch_amd64_none_sidux-amd64_btrfs binary-arch_amd64_none_sidux-amd64_et131x binary-arch_amd64_none_sidux-amd64_fsam7400 binary-arch_amd64_none_sidux-amd64_gspca binary-arch_amd64_none_sidux-amd64_ndiswrapper binary-arch_amd64_none_sidux-amd64_qc-usb binary-arch_amd64_none_sidux-amd64_r5u870 binary-arch_amd64_none_sidux-amd64_real binary-arch_amd64_none_sidux-amd64_rfswitch binary-arch_amd64_none_sidux-amd64_squashfs binary-arch_amd64_none_sidux-amd64_virtualbox-ose
 binary-arch_amd64_none_sidux-amd64_acer-acpi::
 	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='acer-acpi-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='acer-acpi' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
 binary-arch_amd64_none_sidux-amd64_atl2::
@@ -22,6 +22,8 @@ binary-arch_amd64_none_sidux-amd64_ndiswrapper::
 	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
 binary-arch_amd64_none_sidux-amd64_qc-usb::
 	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
+binary-arch_amd64_none_sidux-amd64_r5u870::
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='r5u870-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='r5u870' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
 binary-arch_amd64_none_sidux-amd64_real:
 binary-arch_amd64_none_sidux-amd64_rfswitch::
 	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
@@ -33,7 +35,7 @@ binary-arch_amd64_real:
 binary-arch_i386: binary-arch_i386_none binary-arch_i386_real
 binary-arch_i386_none: binary-arch_i386_none_real binary-arch_i386_none_sidux-686
 binary-arch_i386_none_real:
-binary-arch_i386_none_sidux-686: binary-arch_i386_none_sidux-686_acer-acpi binary-arch_i386_none_sidux-686_acerhk binary-arch_i386_none_sidux-686_atl2 binary-arch_i386_none_sidux-686_aufs binary-arch_i386_none_sidux-686_btrfs binary-arch_i386_none_sidux-686_et131x binary-arch_i386_none_sidux-686_fsam7400 binary-arch_i386_none_sidux-686_gspca binary-arch_i386_none_sidux-686_ndiswrapper binary-arch_i386_none_sidux-686_omnibook binary-arch_i386_none_sidux-686_qc-usb binary-arch_i386_none_sidux-686_real binary-arch_i386_none_sidux-686_rfswitch binary-arch_i386_none_sidux-686_squashfs binary-arch_i386_none_sidux-686_virtualbox-ose binary-arch_i386_none_sidux-686_virtualbox-ose-guest
+binary-arch_i386_none_sidux-686: binary-arch_i386_none_sidux-686_acer-acpi binary-arch_i386_none_sidux-686_acerhk binary-arch_i386_none_sidux-686_atl2 binary-arch_i386_none_sidux-686_aufs binary-arch_i386_none_sidux-686_btrfs binary-arch_i386_none_sidux-686_et131x binary-arch_i386_none_sidux-686_fsam7400 binary-arch_i386_none_sidux-686_gspca binary-arch_i386_none_sidux-686_ndiswrapper binary-arch_i386_none_sidux-686_omnibook binary-arch_i386_none_sidux-686_qc-usb binary-arch_i386_none_sidux-686_r5u870 binary-arch_i386_none_sidux-686_real binary-arch_i386_none_sidux-686_rfswitch binary-arch_i386_none_sidux-686_squashfs binary-arch_i386_none_sidux-686_virtualbox-ose binary-arch_i386_none_sidux-686_virtualbox-ose-guest
 binary-arch_i386_none_sidux-686_acer-acpi::
 	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='acer-acpi-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='acer-acpi' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
 binary-arch_i386_none_sidux-686_acerhk::
@@ -56,6 +58,8 @@ binary-arch_i386_none_sidux-686_omnibook::
 	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='omnibook-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='omnibook' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
 binary-arch_i386_none_sidux-686_qc-usb::
 	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
+binary-arch_i386_none_sidux-686_r5u870::
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='r5u870-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='r5u870' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
 binary-arch_i386_none_sidux-686_real:
 binary-arch_i386_none_sidux-686_rfswitch::
 	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
@@ -71,7 +75,7 @@ build: build_amd64 build_i386
 build_amd64: build_amd64_none build_amd64_real
 build_amd64_none: build_amd64_none_real build_amd64_none_sidux-amd64
 build_amd64_none_real:
-build_amd64_none_sidux-amd64: build_amd64_none_sidux-amd64_acer-acpi build_amd64_none_sidux-amd64_atl2 build_amd64_none_sidux-amd64_aufs build_amd64_none_sidux-amd64_btrfs build_amd64_none_sidux-amd64_et131x build_amd64_none_sidux-amd64_fsam7400 build_amd64_none_sidux-amd64_gspca build_amd64_none_sidux-amd64_ndiswrapper build_amd64_none_sidux-amd64_qc-usb build_amd64_none_sidux-amd64_real build_amd64_none_sidux-amd64_rfswitch build_amd64_none_sidux-amd64_squashfs build_amd64_none_sidux-amd64_virtualbox-ose
+build_amd64_none_sidux-amd64: build_amd64_none_sidux-amd64_acer-acpi build_amd64_none_sidux-amd64_atl2 build_amd64_none_sidux-amd64_aufs build_amd64_none_sidux-amd64_btrfs build_amd64_none_sidux-amd64_et131x build_amd64_none_sidux-amd64_fsam7400 build_amd64_none_sidux-amd64_gspca build_amd64_none_sidux-amd64_ndiswrapper build_amd64_none_sidux-amd64_qc-usb build_amd64_none_sidux-amd64_r5u870 build_amd64_none_sidux-amd64_real build_amd64_none_sidux-amd64_rfswitch build_amd64_none_sidux-amd64_squashfs build_amd64_none_sidux-amd64_virtualbox-ose
 build_amd64_none_sidux-amd64_acer-acpi::
 	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='acer-acpi-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='acer-acpi' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
 build_amd64_none_sidux-amd64_atl2::
@@ -90,6 +94,8 @@ build_amd64_none_sidux-amd64_ndiswrapper::
 	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
 build_amd64_none_sidux-amd64_qc-usb::
 	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
+build_amd64_none_sidux-amd64_r5u870::
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='r5u870-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='r5u870' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
 build_amd64_none_sidux-amd64_real:
 build_amd64_none_sidux-amd64_rfswitch::
 	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
@@ -101,7 +107,7 @@ build_amd64_real:
 build_i386: build_i386_none build_i386_real
 build_i386_none: build_i386_none_real build_i386_none_sidux-686
 build_i386_none_real:
-build_i386_none_sidux-686: build_i386_none_sidux-686_acer-acpi build_i386_none_sidux-686_acerhk build_i386_none_sidux-686_atl2 build_i386_none_sidux-686_aufs build_i386_none_sidux-686_btrfs build_i386_none_sidux-686_et131x build_i386_none_sidux-686_fsam7400 build_i386_none_sidux-686_gspca build_i386_none_sidux-686_ndiswrapper build_i386_none_sidux-686_omnibook build_i386_none_sidux-686_qc-usb build_i386_none_sidux-686_real build_i386_none_sidux-686_rfswitch build_i386_none_sidux-686_squashfs build_i386_none_sidux-686_virtualbox-ose build_i386_none_sidux-686_virtualbox-ose-guest
+build_i386_none_sidux-686: build_i386_none_sidux-686_acer-acpi build_i386_none_sidux-686_acerhk build_i386_none_sidux-686_atl2 build_i386_none_sidux-686_aufs build_i386_none_sidux-686_btrfs build_i386_none_sidux-686_et131x build_i386_none_sidux-686_fsam7400 build_i386_none_sidux-686_gspca build_i386_none_sidux-686_ndiswrapper build_i386_none_sidux-686_omnibook build_i386_none_sidux-686_qc-usb build_i386_none_sidux-686_r5u870 build_i386_none_sidux-686_real build_i386_none_sidux-686_rfswitch build_i386_none_sidux-686_squashfs build_i386_none_sidux-686_virtualbox-ose build_i386_none_sidux-686_virtualbox-ose-guest
 build_i386_none_sidux-686_acer-acpi::
 	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='acer-acpi-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='acer-acpi' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
 build_i386_none_sidux-686_acerhk::
@@ -124,6 +130,8 @@ build_i386_none_sidux-686_omnibook::
 	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='omnibook-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='omnibook' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
 build_i386_none_sidux-686_qc-usb::
 	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
+build_i386_none_sidux-686_r5u870::
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='r5u870-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='r5u870' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
 build_i386_none_sidux-686_real:
 build_i386_none_sidux-686_rfswitch::
 	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
@@ -138,7 +146,7 @@ setup: setup_amd64 setup_i386
 setup_amd64: setup_amd64_none setup_amd64_real
 setup_amd64_none: setup_amd64_none_real setup_amd64_none_sidux-amd64
 setup_amd64_none_real:
-setup_amd64_none_sidux-amd64: setup_amd64_none_sidux-amd64_acer-acpi setup_amd64_none_sidux-amd64_atl2 setup_amd64_none_sidux-amd64_aufs setup_amd64_none_sidux-amd64_btrfs setup_amd64_none_sidux-amd64_et131x setup_amd64_none_sidux-amd64_fsam7400 setup_amd64_none_sidux-amd64_gspca setup_amd64_none_sidux-amd64_ndiswrapper setup_amd64_none_sidux-amd64_qc-usb setup_amd64_none_sidux-amd64_real setup_amd64_none_sidux-amd64_rfswitch setup_amd64_none_sidux-amd64_squashfs setup_amd64_none_sidux-amd64_virtualbox-ose
+setup_amd64_none_sidux-amd64: setup_amd64_none_sidux-amd64_acer-acpi setup_amd64_none_sidux-amd64_atl2 setup_amd64_none_sidux-amd64_aufs setup_amd64_none_sidux-amd64_btrfs setup_amd64_none_sidux-amd64_et131x setup_amd64_none_sidux-amd64_fsam7400 setup_amd64_none_sidux-amd64_gspca setup_amd64_none_sidux-amd64_ndiswrapper setup_amd64_none_sidux-amd64_qc-usb setup_amd64_none_sidux-amd64_r5u870 setup_amd64_none_sidux-amd64_real setup_amd64_none_sidux-amd64_rfswitch setup_amd64_none_sidux-amd64_squashfs setup_amd64_none_sidux-amd64_virtualbox-ose
 setup_amd64_none_sidux-amd64_acer-acpi::
 	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='acer-acpi-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='acer-acpi' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
 setup_amd64_none_sidux-amd64_atl2::
@@ -157,6 +165,8 @@ setup_amd64_none_sidux-amd64_ndiswrapper::
 	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
 setup_amd64_none_sidux-amd64_qc-usb::
 	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
+setup_amd64_none_sidux-amd64_r5u870::
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='r5u870-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='r5u870' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
 setup_amd64_none_sidux-amd64_real:
 setup_amd64_none_sidux-amd64_rfswitch::
 	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-amd64' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-amd64' ARCH='amd64' VERSION_DEBIAN='24'
@@ -168,7 +178,7 @@ setup_amd64_real:
 setup_i386: setup_i386_none setup_i386_real
 setup_i386_none: setup_i386_none_real setup_i386_none_sidux-686
 setup_i386_none_real:
-setup_i386_none_sidux-686: setup_i386_none_sidux-686_acer-acpi setup_i386_none_sidux-686_acerhk setup_i386_none_sidux-686_atl2 setup_i386_none_sidux-686_aufs setup_i386_none_sidux-686_btrfs setup_i386_none_sidux-686_et131x setup_i386_none_sidux-686_fsam7400 setup_i386_none_sidux-686_gspca setup_i386_none_sidux-686_ndiswrapper setup_i386_none_sidux-686_omnibook setup_i386_none_sidux-686_qc-usb setup_i386_none_sidux-686_real setup_i386_none_sidux-686_rfswitch setup_i386_none_sidux-686_squashfs setup_i386_none_sidux-686_virtualbox-ose setup_i386_none_sidux-686_virtualbox-ose-guest
+setup_i386_none_sidux-686: setup_i386_none_sidux-686_acer-acpi setup_i386_none_sidux-686_acerhk setup_i386_none_sidux-686_atl2 setup_i386_none_sidux-686_aufs setup_i386_none_sidux-686_btrfs setup_i386_none_sidux-686_et131x setup_i386_none_sidux-686_fsam7400 setup_i386_none_sidux-686_gspca setup_i386_none_sidux-686_ndiswrapper setup_i386_none_sidux-686_omnibook setup_i386_none_sidux-686_qc-usb setup_i386_none_sidux-686_r5u870 setup_i386_none_sidux-686_real setup_i386_none_sidux-686_rfswitch setup_i386_none_sidux-686_squashfs setup_i386_none_sidux-686_virtualbox-ose setup_i386_none_sidux-686_virtualbox-ose-guest
 setup_i386_none_sidux-686_acer-acpi::
 	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='acer-acpi-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='acer-acpi' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
 setup_i386_none_sidux-686_acerhk::
@@ -191,6 +201,8 @@ setup_i386_none_sidux-686_omnibook::
 	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='omnibook-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='omnibook' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
 setup_i386_none_sidux-686_qc-usb::
 	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
+setup_i386_none_sidux-686_r5u870::
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='r5u870-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='r5u870' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
 setup_i386_none_sidux-686_real:
 setup_i386_none_sidux-686_rfswitch::
 	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-686' KERNEL_ARCH='x86' UPSTREAMVERSION='2.6.24' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.24' VERSION='2.6.24' ABINAME='-2.6.24.4.slh.2' LOCALVERSION='-sidux-686' ARCH='i386' VERSION_DEBIAN='24'
@@ -205,7 +217,7 @@ source: source_amd64 source_i386
 source_amd64: source_amd64_none source_amd64_real
 source_amd64_none: source_amd64_none_real source_amd64_none_sidux-amd64
 source_amd64_none_real:
-source_amd64_none_sidux-amd64: source_amd64_none_sidux-amd64_acer-acpi source_amd64_none_sidux-amd64_atl2 source_amd64_none_sidux-amd64_aufs source_amd64_none_sidux-amd64_btrfs source_amd64_none_sidux-amd64_et131x source_amd64_none_sidux-amd64_fsam7400 source_amd64_none_sidux-amd64_gspca source_amd64_none_sidux-amd64_ndiswrapper source_amd64_none_sidux-amd64_qc-usb source_amd64_none_sidux-amd64_real source_amd64_none_sidux-amd64_rfswitch source_amd64_none_sidux-amd64_squashfs source_amd64_none_sidux-amd64_virtualbox-ose
+source_amd64_none_sidux-amd64: source_amd64_none_sidux-amd64_acer-acpi source_amd64_none_sidux-amd64_atl2 source_amd64_none_sidux-amd64_aufs source_amd64_none_sidux-amd64_btrfs source_amd64_none_sidux-amd64_et131x source_amd64_none_sidux-amd64_fsam7400 source_amd64_none_sidux-amd64_gspca source_amd64_none_sidux-amd64_ndiswrapper source_amd64_none_sidux-amd64_qc-usb source_amd64_none_sidux-amd64_r5u870 source_amd64_none_sidux-amd64_real source_amd64_none_sidux-amd64_rfswitch source_amd64_none_sidux-amd64_squashfs source_amd64_none_sidux-amd64_virtualbox-ose
 source_amd64_none_sidux-amd64_acer-acpi:
 source_amd64_none_sidux-amd64_atl2:
 source_amd64_none_sidux-amd64_aufs:
@@ -215,6 +227,7 @@ source_amd64_none_sidux-amd64_fsam7400:
 source_amd64_none_sidux-amd64_gspca:
 source_amd64_none_sidux-amd64_ndiswrapper:
 source_amd64_none_sidux-amd64_qc-usb:
+source_amd64_none_sidux-amd64_r5u870:
 source_amd64_none_sidux-amd64_real:
 source_amd64_none_sidux-amd64_rfswitch:
 source_amd64_none_sidux-amd64_squashfs:
@@ -223,7 +236,7 @@ source_amd64_real:
 source_i386: source_i386_none source_i386_real
 source_i386_none: source_i386_none_real source_i386_none_sidux-686
 source_i386_none_real:
-source_i386_none_sidux-686: source_i386_none_sidux-686_acer-acpi source_i386_none_sidux-686_acerhk source_i386_none_sidux-686_atl2 source_i386_none_sidux-686_aufs source_i386_none_sidux-686_btrfs source_i386_none_sidux-686_et131x source_i386_none_sidux-686_fsam7400 source_i386_none_sidux-686_gspca source_i386_none_sidux-686_ndiswrapper source_i386_none_sidux-686_omnibook source_i386_none_sidux-686_qc-usb source_i386_none_sidux-686_real source_i386_none_sidux-686_rfswitch source_i386_none_sidux-686_squashfs source_i386_none_sidux-686_virtualbox-ose source_i386_none_sidux-686_virtualbox-ose-guest
+source_i386_none_sidux-686: source_i386_none_sidux-686_acer-acpi source_i386_none_sidux-686_acerhk source_i386_none_sidux-686_atl2 source_i386_none_sidux-686_aufs source_i386_none_sidux-686_btrfs source_i386_none_sidux-686_et131x source_i386_none_sidux-686_fsam7400 source_i386_none_sidux-686_gspca source_i386_none_sidux-686_ndiswrapper source_i386_none_sidux-686_omnibook source_i386_none_sidux-686_qc-usb source_i386_none_sidux-686_r5u870 source_i386_none_sidux-686_real source_i386_none_sidux-686_rfswitch source_i386_none_sidux-686_squashfs source_i386_none_sidux-686_virtualbox-ose source_i386_none_sidux-686_virtualbox-ose-guest
 source_i386_none_sidux-686_acer-acpi:
 source_i386_none_sidux-686_acerhk:
 source_i386_none_sidux-686_atl2:
@@ -235,6 +248,7 @@ source_i386_none_sidux-686_gspca:
 source_i386_none_sidux-686_ndiswrapper:
 source_i386_none_sidux-686_omnibook:
 source_i386_none_sidux-686_qc-usb:
+source_i386_none_sidux-686_r5u870:
 source_i386_none_sidux-686_real:
 source_i386_none_sidux-686_rfswitch:
 source_i386_none_sidux-686_squashfs:
