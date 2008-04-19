@@ -1,0 +1,391 @@
+linux-modules-sidux-main-2.6 (2.6.24.rev30) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.5.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 19 Apr 2008 16:54:38 +0200
+
+linux-modules-sidux-main-2.6 (2.6.24.rev29) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.4.slh.7.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 17 Apr 2008 23:47:42 +0200
+
+linux-modules-sidux-main-2.6 (2.6.24.rev28) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.4.slh.6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 17 Apr 2008 17:38:12 +0200
+
+linux-modules-sidux-main-2.6 (2.6.24.rev27) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.4.slh.5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Apr 2008 00:13:26 +0200
+
+linux-modules-sidux-main-2.6 (2.6.24.rev26) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.4.slh.4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 06 Apr 2008 16:09:52 +0200
+
+linux-modules-sidux-main-2.6 (2.6.24.rev25) unstable; urgency=low
+
+  [ Stefan Lippers-Hollmann ]
+  * no longer build lzma modules, squashfs doesn't need those anymore.
+  * rebuild against 2.6.24-2.6.24.4.slh.3.
+
+  [ Kel Modderman ]
+  * Remove remnants of lzma from ./debian/* using maintainerclean.
+  * Add r5u870 module to the line-up.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 31 Mar 2008 18:07:51 +0200
+
+linux-modules-sidux-main-2.6 (2.6.24.rev24) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.4.slh.1.
+  * hope to generate the initramfs with busybox >= 1:1.9.2-1+c0.sidux.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 25 Mar 2008 19:03:56 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev23) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.4.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 25 Mar 2008 02:01:02 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev22) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.11.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 23 Mar 2008 04:11:10 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev19) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.8.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 21 Mar 2008 10:31:41 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev18) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.7.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 19 Mar 2008 15:27:11 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev17) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.6.
+  * make sure to build against acer-acpi 0.11.2-1.
+  * make sure to build against et131x 1.2.3-2-1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 14 Mar 2008 00:10:20 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev16) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.5.
+  * give ndiswrapper 1.52+svn20080312.r2638 some real life exposure.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 12 Mar 2008 13:10:00 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev14) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.3.
+  * make sure to pull in the official acerhk.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 11 Mar 2008 14:18:23 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev13) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 06 Mar 2008 23:10:40 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev12) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 26 Feb 2008 14:17:58 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev11.b1) unstable; urgency=low
+
+  * drop drbd8.
+  * rebuild against new squashfs 3.3-3+c0.sidux.1, fixing a number of data
+    corruption issues.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 25 Feb 2008 00:47:05 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev11) unstable; urgency=low
+
+  * build against kernel 2.6.24-2.6.24.2.slh.12.
+  * switch to new versioning scheme based on the debian revision of the given
+    linux-2.6-sidux package.
+  * loop-aes diverts kernel functionality, don't ship it.
+  * drop redhat-cluster, gfs2 is shipping mainline.
+
+  [ Kel Modderman ]
+  * Add ndiswrapper to module line-up, providing ndiswrapper/rules override
+    file with targets for build and install phase.
+  * Add debain/README.hacking with small note about howto add/remove modules
+    from this package.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 24 Feb 2008 04:10:42 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.11) unstable; urgency=low
+
+  * build against kernel 2.6.24-2.6.24.2.slh.11.
+  * virtualbox-ose works fine on amd64.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 22 Feb 2008 01:39:44 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.10) unstable; urgency=low
+
+  * fork package as linux-modules-sidux-main-2.6 for sidux.
+  * shut up lintian and write (C) as © in debian/copyright, talk about the
+    fork and its intentions.
+  * drop unused modules:
+    - iscsitarget
+    - mol
+    - r6040, no yada accepted.
+    - tp-smapi
+  * don't build unionfs, we use kernel patches.
+  * adapt package templates.
+  * drop the dependency on
+    linux-latest-modules-@upstreamversion@@abiname@@localversion@, we don't
+    provide it.
+  * add new external module packages:
+    - acerhk (i386 only)
+    - acer-acpi (amd64 and i386)
+    - et131x
+    - fsam7400
+    - omnibook
+    - qc-usb
+    - rfswitch
+  * disable for the time being (FTBS inside of linux-modules-sidux-main-2.6):
+    - kqemu, FTBS.
+    - ndiswrapper
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Feb 2008 14:30:09 +0100
+
+linux-modules-extra-2.6 (2.6.24-4) unstable; urgency=low
+
+  * Disabling atl2 on s390.
+  * Adding missing and improving existing long descriptions.
+  * Re-enabling unionfs.
+  * Adding lzma.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon,  4 Feb 2008 13:43:00 +0100
+
+linux-modules-extra-2.6 (2.6.24-3) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Enabling kqemu on amd64 (Closes: #433527).
+  * Enabling atl2 on all archs.
+  * This build is build against the fixed squashfs (Closes: #463594).
+  * Adding and enabling r6040 (Closes: #457603).
+  * Enabling redhat-cluster again.
+
+  [ Max Vozeler ]
+  * Adding long description for loop-aes.
+  * Updating loop-aes/rules to install into updates/.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon,  4 Feb 2008 13:43:00 +0100
+
+linux-modules-extra-2.6 (2.6.24-2) unstable; urgency=low
+
+  * Enabling forgotten virtualbox-ose-guest (Closes: #451116).
+  * Disabling mol, doesn't build with 2.6.24.
+  * Disabling drdb8 on alpha and s390, doesn't build with 2.6.24 on those
+    architectures.
+
+ -- Daniel Baumann <daniel@debian.org>  Thu, 31 Jan 2008 14:06:00 +0100
+
+linux-modules-extra-2.6 (2.6.24-1) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Adding Vcs fields in control.
+  * Enabling kqemu, finally (Closes: #433527).
+  * Updating to 2.6.24-1 (Closes: #456647, #460380).
+  * Bumping standards version, no other changes needed.
+  * Disabling iscsitarget, doesn't build with 2.6.24.
+  * Disabling unionfs, doesn't build with 2.6.24.
+  * Updating gspca long-description.
+  * Updating redhat-cluster copyright.
+  * Adding virtualbox-ose-guest (Closes: #451116).
+  * Disabling atl2 on xen flavours.
+
+  [ Max Vozeler ]
+  * Adding loop-aes (Closes: #461754).
+
+ -- Daniel Baumann <daniel@debian.org>  Tue, 31 Jan 2008 08:25:00 +0100
+
+linux-modules-extra-2.6 (2.6.22-9) unstable; urgency=low
+
+  * Don't build drbd8 on mips/mipsel.
+
+ -- Daniel Baumann <daniel@debian.org>  Tue, 27 Nov 2007 08:56:00 +0100
+
+linux-modules-extra-2.6 (2.6.22-8) unstable; urgency=low
+
+  * Restricting atl2 to i386 only.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon, 26 Nov 2007 20:20:00 +0100
+
+linux-modules-extra-2.6 (2.6.22-7) unstable; urgency=low
+
+  * Adding atl2.
+  * Adding provides to control (Closes: #451955).
+  * Re-enabling virtualbox-ose.
+  * Updating virtualbox-ose copyright file.
+  * Adding drbd8.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon, 26 Nov 2007 13:54:00 +0100
+
+linux-modules-extra-2.6 (2.6.22-6) unstable; urgency=low
+
+  * Disabling btrfs on some architectures.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon, 29 Oct 2007 22:10:00 +0100
+
+linux-modules-extra-2.6 (2.6.22-5) unstable; urgency=low
+
+  * Updating to 2.6.22-3.
+  * Disabling virtualbox-ose; module source is broken.
+
+ -- Daniel Baumann <daniel@debian.org>  Thu, 25 Oct 2007 12:10:00 +0200
+
+linux-modules-extra-2.6 (2.6.22-4) unstable; urgency=low
+
+  * Adding btrfs.
+  * Adding iscsitarget.
+  * Adding virtualbox-ose.
+
+ -- Daniel Baumann <daniel@debian.org>  Thu, 11 Oct 2007 10:04:00 +0200
+
+linux-modules-extra-2.6 (2.6.22-3) unstable; urgency=medium
+
+  * Re-enabling vserver flavours for aufs.
+  * Re-enabling unionfs.
+
+ -- Daniel Baumann <daniel@debian.org>  Tue,  9 Oct 2007 12:35:00 +0200
+
+linux-modules-extra-2.6 (2.6.22-2) unstable; urgency=low
+
+  * Not building aufs on vserver flavours.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat,  8 Sep 2007 22:47:00 +0200
+
+linux-modules-extra-2.6 (2.6.22-1) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Added aufs modules.
+  * Moving kqemu from linux-modules-non-free-2.6 to here.
+  * Removed squashfs overrides, not needed anymore.
+  * Update to 2.6.22-2.
+
+  [ Bastian Blank ]
+  * Adopt linux-latest-2.6 changes.
+
+ -- Daniel Baumann <daniel@debian.org>  Tue,  4 Sep 2007 07:51:00 +0200
+
+linux-modules-extra-2.6 (2.6.21-4) unstable; urgency=low
+
+  * Rebuild against new gspca upstream release.
+
+ -- Daniel Baumann <daniel@debian.org>  Wed,  4 Jul 2007 20:20:00 +0200
+
+linux-modules-extra-2.6 (2.6.21-3) unstable; urgency=low
+
+  [ Bastian Blank ]
+  * Adopt linux-latest-2.6 changes.
+
+  [ Daniel Baumann ]
+  * Temporarily disabling mol; doesn't build with 2.6.21+.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon,  2 Jul 2007 13:20:00 +0200
+
+linux-modules-extra-2.6 (2.6.21-2) unstable; urgency=low
+
+  * Update to 2.6.21-2.
+
+ -- Daniel Baumann <daniel@debian.org>  Tue, 26 Jun 2007 15:49:00 +0200
+
+linux-modules-extra-2.6 (2.6.21-1) unstable; urgency=low
+
+  [ Bastian Blank ]
+  * Update to 2.6.21-1.
+
+  [ Daniel Baumann ]
+  * Temporarily disabling redhat-cluster; doesn't build with 2.6.21+.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 17 Jun 2007 20:55:00 +0100
+
+linux-modules-extra-2.6 (2.6.18-8) unstable; urgency=medium
+
+  * Triggering rebuild because of redhat-cluster modules.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 11 Mar 2007 11:57:00 +0100
+
+linux-modules-extra-2.6 (2.6.18-7) unstable; urgency=medium
+
+  * linux-modules-*-2.6 are currently not binNMU capable, so triggering
+    required rebuild for sparc (see #410497) with new revision.
+
+ -- Daniel Baumann <daniel@debian.org>  Fri, 23 Feb 2007 09:55:00 +0100
+
+linux-modules-extra-2.6 (2.6.18-6) unstable; urgency=low
+
+  * Building against 2.6.18-4.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 27 Jan 2007 20:26:00 +0100
+
+linux-modules-extra-2.6 (2.6.18-5) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Added myself as co-maintainer.
+  * rules.real:
+    - Adjusting install-base:, now the module copyright file is installed
+      instead of the wrong one of the conglomeration package.
+  * Removing spca5xx modules as requested by maintainer (Closes: #400750).
+  * Adding gspca modules as requested by maintainer (Closes: #400751).
+
+ -- Daniel Baumann <daniel@debian.org>  Sat,  6 Jan 2007 17:58:00 +0100
+
+linux-modules-extra-2.6 (2.6.18-4) unstable; urgency=low
+
+  * Disable squashfs on hppa.
+
+ -- Bastian Blank <waldi@debian.org>  Wed,  6 Dec 2006 12:05:33 +0100
+
+linux-modules-extra-2.6 (2.6.18-3) unstable; urgency=low
+
+  * Disable squashfs on arm.
+
+ -- Bastian Blank <waldi@debian.org>  Mon,  4 Dec 2006 19:49:43 +0100
+
+linux-modules-extra-2.6 (2.6.18-2) unstable; urgency=low
+
+  [ Gaudenz Steinlin ]
+  * Add mol modules.
+
+  [ Bastian Blank ]
+  * Update to 2.6.18-3.
+  * Depend on linux-modules instead of linux-image.
+
+ -- Bastian Blank <waldi@debian.org>  Tue, 28 Nov 2006 15:10:49 +0100
+
+linux-modules-extra-2.6 (2.6.18-1) unstable; urgency=low
+
+  * Update to 2.6.18.
+
+ -- Bastian Blank <waldi@debian.org>  Thu,  5 Oct 2006 10:25:57 +0200
+
+linux-modules-extra-2.6 (2.6.17-2) unstable; urgency=low
+
+  * Add spca5xx modules.
+
+ -- Bastian Blank <waldi@debian.org>  Thu, 31 Aug 2006 15:12:36 +0200
+
+linux-modules-extra-2.6 (2.6.17-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Bastian Blank <waldi@debian.org>  Tue, 15 Aug 2006 14:48:09 +0200
