@@ -8,8 +8,10 @@ linux-modules-sidux-main-2.6 (2.6.25.rev3) UNRELEAS; urgency=low
     - aufs
     - r5u870
     - squashfs
+  * re- enable locally fixed modules:
+    - squashfs
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 28 Apr 2008 15:54:34 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 28 Apr 2008 16:26:46 +0200
 
 linux-modules-sidux-main-2.6 (2.6.24.rev28) unstable; urgency=low
 

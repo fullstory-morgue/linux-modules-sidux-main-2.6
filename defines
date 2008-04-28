@@ -13,6 +13,6 @@ modules:
  qc-usb
 # r5u870
  rfswitch
-# squashfs
+ squashfs
  virtualbox-ose
  virtualbox-ose-guest
