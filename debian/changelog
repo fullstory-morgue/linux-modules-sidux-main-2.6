@@ -8,10 +8,11 @@ linux-modules-sidux-main-2.6 (2.6.25.rev3) unstable; urgency=low
     - omnibook
     - r5u870
     - squashfs
+    - virtualbox-ose-guest-modules
   * drop external modules merged upstream:
     - acer-acpi
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 28 Apr 2008 19:24:21 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 28 Apr 2008 20:27:50 +0200
 
 linux-modules-sidux-main-2.6 (2.6.24.rev28) unstable; urgency=low
 
