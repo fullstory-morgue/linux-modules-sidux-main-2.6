@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Standards-Version: 3.7.3
-Build-Depends: debhelper (>= 6), linux-support-2.6.25-0.slh.9, linux-headers-2.6.25-0.slh.9-all-amd64 [amd64], linux-headers-2.6.25-0.slh.9-all-i386 [i386], atl2-source [amd64 i386], btrfs-source [amd64 i386], et131x-source, fsam7400-source [amd64 i386], gspca-source [amd64 i386], ndiswrapper-source [amd64 i386], qc-usb-source, rfswitch-source, squashfs-source [amd64 i386], virtualbox-ose-source [amd64 i386], acerhk-source [i386], omnibook-source [i386], virtualbox-ose-guest-source [i386]
+Build-Depends: debhelper (>= 6), linux-support-2.6.25-0.slh.9, linux-headers-2.6.25-0.slh.9-all-amd64 [amd64], linux-headers-2.6.25-0.slh.9-all-i386 [i386], atl2-source [amd64 i386], btrfs-source [amd64 i386], et131x-source, fsam7400-source [amd64 i386], gspca-source [amd64 i386], ndiswrapper-source [amd64 i386], qc-usb-source, r5u870-source [amd64 i386], rfswitch-source, squashfs-source [amd64 i386], virtualbox-ose-source [amd64 i386], acerhk-source [i386], virtualbox-ose-guest-source [i386]
 Vcs-Svn: svn://svn.berlios.de/fullstory/linux-modules-sidux-main-2.6/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/linux-modules-sidux-main-2.6/trunk/
 
@@ -211,6 +211,33 @@ Description: Modules for the QuickCam Express driver modules for Linux 2.6 on AM
  This package provides the source code for the quickcam kernel module for
  Logitech's QuickCam Express webcam and similar webcams.  This driver
  supercedes the qce-ga driver.
+
+Package: r5u870-modules-2.6.25-0.slh.9-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: r5u870-modules
+Depends: linux-modules-2.6.25-0.slh.9-sidux-amd64
+Description: driver for Ricoh R5U870 OEM cameras modules for Linux 2.6.25 on AMD64
+ This package provides the driver for Ricoh R5U870 OEM cameras modules for
+ the Linux kernel version 2.6.25 on all 64bit single- and multiprocessor
+ AMD and Intel machines.
+ .
+ This kernel module provides Linux support for webcams found in a some Sony
+ and a few HP laptops that use the OEM Ricoh cameras.
+
+Package: r5u870-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: r5u870-modules-2.6.25-0.slh.9-sidux-amd64
+Description: driver for Ricoh R5U870 OEM cameras modules for Linux 2.6 on AMD64
+ This package depends on the driver for Ricoh R5U870 OEM cameras modules
+ for latest Linux kernel 2.6  for sidux on all 64bit single- and
+ multiprocessor AMD and Intel machines.
+ .
+ This kernel module provides Linux support for webcams found in a some Sony
+ and a few HP laptops that use the OEM Ricoh cameras.
 
 Package: rfswitch-modules-2.6.25-0.slh.9-sidux-amd64
 Architecture: amd64
@@ -524,35 +551,6 @@ Description: ndiswrapper Linux kernel module modules for Linux 2.6 on PPro/Celer
  linked to this implementation so that the driver runs natively, as though
  it is in Windows, without binary emulation.
 
-Package: omnibook-modules-2.6.25-0.slh.9-sidux-686
-Architecture: i386
-Section: admin
-Priority: optional
-Provides: omnibook-modules
-Depends: linux-modules-2.6.25-0.slh.9-sidux-686
-Description: Modules for the omnibook driver modules for Linux 2.6.25 on PPro/Celeron/PII/PIII/P4
- This package provides the Modules for the omnibook driver modules for the
- Linux kernel version 2.6.25 on Pentium Pro/Celeron/Pentium II/Pentium
- III/Pentium 4 machines.
- .
- This package contains the loadable kernel modules for the HP OmniBooks,
- Pavilions, Toshiba Satellites and some other laptops manufactured by
- Compal Electronics, Inc as ODM.
-
-Package: omnibook-modules-2.6-sidux-686
-Architecture: i386
-Section: admin
-Priority: optional
-Depends: omnibook-modules-2.6.25-0.slh.9-sidux-686
-Description: Modules for the omnibook driver modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
- This package depends on the Modules for the omnibook driver modules for
- latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
- II/Pentium III/Pentium 4 machines.
- .
- This package contains the loadable kernel modules for the HP OmniBooks,
- Pavilions, Toshiba Satellites and some other laptops manufactured by
- Compal Electronics, Inc as ODM.
-
 Package: qc-usb-modules-2.6.25-0.slh.9-sidux-686
 Architecture: i386
 Section: admin
@@ -581,6 +579,33 @@ Description: Modules for the QuickCam Express driver modules for Linux 2.6 on PP
  This package provides the source code for the quickcam kernel module for
  Logitech's QuickCam Express webcam and similar webcams.  This driver
  supercedes the qce-ga driver.
+
+Package: r5u870-modules-2.6.25-0.slh.9-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: r5u870-modules
+Depends: linux-modules-2.6.25-0.slh.9-sidux-686
+Description: driver for Ricoh R5U870 OEM cameras modules for Linux 2.6.25 on PPro/Celeron/PII/PIII/P4
+ This package provides the driver for Ricoh R5U870 OEM cameras modules for
+ the Linux kernel version 2.6.25 on Pentium Pro/Celeron/Pentium II/Pentium
+ III/Pentium 4 machines.
+ .
+ This kernel module provides Linux support for webcams found in a some Sony
+ and a few HP laptops that use the OEM Ricoh cameras.
+
+Package: r5u870-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: r5u870-modules-2.6.25-0.slh.9-sidux-686
+Description: driver for Ricoh R5U870 OEM cameras modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the driver for Ricoh R5U870 OEM cameras modules
+ for latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
+ II/Pentium III/Pentium 4 machines.
+ .
+ This kernel module provides Linux support for webcams found in a some Sony
+ and a few HP laptops that use the OEM Ricoh cameras.
 
 Package: rfswitch-modules-2.6.25-0.slh.9-sidux-686
 Architecture: i386

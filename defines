@@ -10,7 +10,7 @@ modules:
  ndiswrapper
  omnibook
  qc-usb
-# r5u870
+ r5u870
  rfswitch
  squashfs
  virtualbox-ose
