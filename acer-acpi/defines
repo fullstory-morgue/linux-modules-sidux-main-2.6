@@ -1,9 +1,0 @@
-[base]
-arches: amd64 i386
-desc: Modules for the acer-acpi driver
-longdesc:
- acer_acpi is a driver to allow you to control various aspects of your Acer
- laptop hardware using the proc filesystem.  It was originally developed in
- order to activate the wireless LAN card under a 64-bit version of Linux,
- as acerhk (the previous fine solution to the problem) relied on making BIOS
- calls which are not allowed from a 64-bit OS.

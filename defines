@@ -1,7 +1,6 @@
 [base]
 modules:
  acerhk
-# acer-acpi
  atl2
 # aufs
  btrfs
