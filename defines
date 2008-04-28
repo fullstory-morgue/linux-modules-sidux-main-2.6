@@ -1,9 +1,9 @@
 [base]
 modules:
  acerhk
- acer-acpi
+# acer-acpi
  atl2
- aufs
+# aufs
  btrfs
  et131x
  fsam7400
@@ -11,8 +11,8 @@ modules:
  ndiswrapper
  omnibook
  qc-usb
- r5u870
+# r5u870
  rfswitch
- squashfs
+# squashfs
  virtualbox-ose
  virtualbox-ose-guest
