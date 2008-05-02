@@ -1,9 +1,9 @@
-linux-modules-sidux-main-2.6 (2.6.25.rev7) unstable; urgency=low
+linux-modules-sidux-main-2.6 (2.6.25.rev8) unstable; urgency=low
 
   * disable still broken aufs again.
-  * rebuild against 2.6.25-1.slh.1.
+  * rebuild against 2.6.25-1.slh.2.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 02 May 2008 10:27:53 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 02 May 2008 14:57:52 +0200
 
 linux-modules-sidux-main-2.6 (2.6.25.rev6) unstable; urgency=low
 
