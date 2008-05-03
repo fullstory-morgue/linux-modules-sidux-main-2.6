@@ -1,3 +1,9 @@
+linux-modules-sidux-main-2.6 (2.6.25.rev9) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 03 May 2008 12:59:41 +0200
+
 linux-modules-sidux-main-2.6 (2.6.25.rev8) unstable; urgency=low
 
   * disable still broken aufs again.
