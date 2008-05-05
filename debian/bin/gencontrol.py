@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.4
+#!/usr/bin/env python2.5
 
 import sys
 sys.path.append(sys.argv[1] + "/lib/python")
@@ -16,8 +16,10 @@ class Gencontrol(Base):
     def do_main_setup(self, vars, makeflags, extra):
         super(Gencontrol, self).do_main_setup(vars, makeflags, extra)
         makeflags.update({
-            'VERSION_SOURCE': self.version.upstream,
-            'VERSION_DEBIAN': self.version.debian,
+            'VERSION_SOURCE': self.version.complete,
+            'VERSION_REVISION': self.package_version.revision,
+            'UPSTREAMVERSION': self.version.linux_upstream,
+            'ABINAME': self.abiname,
         })
 
     def do_main_makefile(self, makefile, makeflags, extra):
@@ -107,7 +109,14 @@ class Gencontrol(Base):
         self.package_version = self.changelog[0].version
         self.version = VersionLinux(self.config['version',]['source'])
         self.abiname = self.config['version',]['abiname']
-        self.vars = self.process_version_linux(self.version, self.abiname)
+#        self.vars = self.process_version_linux(self.version, self.abiname)
+        self.vars = {
+            'upstreamversion': self.version.linux_upstream,
+            'version': self.version.linux_version,
+            'source_upstream': self.version.upstream,
+            'major': self.version.linux_major,
+            'abiname': self.abiname,
+        }
 
 class Config(ConfigCoreDump):
     config_name = "defines"
