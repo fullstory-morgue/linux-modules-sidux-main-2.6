@@ -11,8 +11,9 @@ linux-modules-sidux-main-2.6 (2.6.25-9) UNRELEASED; urgency=low
     - Switching to new argument name for 'debian'.
   * add lirc-module stub, but keep it disabled.
   * add linux-uvc stub, but keep it disabled.
+  * temporarily disable virtualbox-ose*, kbuild is broken.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 05 May 2008 20:18:32 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 05 May 2008 23:12:20 +0200
 
 linux-modules-sidux-main-2.6 (2.6.25.rev8) unstable; urgency=low
 
