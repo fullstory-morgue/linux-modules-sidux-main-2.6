@@ -2,20 +2,21 @@ linux-modules-sidux-main-2.6 (2.6.25-9) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
   * FTBS
-  * sync with debian-kernel svn r11284:
+  * sync with debian-kernel svn r11319:
     [ Daniel Baumann ]
       - Enabling sfc.
       - Enabling tp-smapi.
       - Adding eeepc-acpi.
       - Using python2.5 now.
       - Switching to new argument name for 'debian'.
+      - Using default python version rather than a specific one.
     [ Bastian Blank ]
       - debian/bin/gencontrol.py: Use new makeflags.
   * add lirc-module stub, but keep it disabled.
   * add linux-uvc stub, but keep it disabled.
   * temporarily disable virtualbox-ose*, kbuild is broken.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 06 May 2008 18:20:07 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 06 May 2008 22:06:23 +0200
 
 linux-modules-sidux-main-2.6 (2.6.25.rev8) unstable; urgency=low
 
