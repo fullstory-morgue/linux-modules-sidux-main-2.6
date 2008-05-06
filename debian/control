@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Standards-Version: 3.7.3
-Build-Depends: debhelper (>= 6), linux-support-2.6.25-1.slh.3, linux-headers-2.6.25-1.slh.3-all-amd64 [amd64], linux-headers-2.6.25-1.slh.3-all-i386 [i386], atl2-source [amd64 i386], btrfs-source [amd64 i386], eeepc-acpi-source, et131x-source, fsam7400-source [amd64 i386], gspca-source [amd64 i386], ndiswrapper-source [amd64 i386], qc-usb-source, r5u870-source [amd64 i386], rfswitch-source, sfc-source, squashfs-source [amd64 i386], tp-smapi-source [amd64 i386], acerhk-source [i386], omnibook-source [i386]
+Build-Depends: debhelper (>= 6), linux-support-2.6.25-1.slh.3, linux-headers-2.6.25-1.slh.3-all-amd64 [amd64], linux-headers-2.6.25-1.slh.3-all-i386 [i386], atl2-source [amd64 i386], aufs-source, btrfs-source [amd64 i386], eeepc-acpi-source, et131x-source, fsam7400-source [amd64 i386], gspca-source [amd64 i386], ndiswrapper-source [amd64 i386], qc-usb-source, r5u870-source [amd64 i386], rfswitch-source, sfc-source, squashfs-source [amd64 i386], tp-smapi-source [amd64 i386], acerhk-source [i386], omnibook-source [i386]
 Vcs-Svn: svn://svn.berlios.de/fullstory/linux-modules-sidux-main-2.6/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/linux-modules-sidux-main-2.6/trunk/
 
@@ -35,6 +35,33 @@ Description: Driver for the Atheros L2 Fast Ethernet Adapter modules for Linux 2
  atl2 is the Linux Base Driver for the Atheros(R) L2 Fast Ethernet Adapter.
  The the Atheros(R) L2 Fast Ethernet Adapter is present in a few low cost
  Asus laptop systems, such as the Asus Eee PC.
+
+Package: aufs-modules-2.6.25-1.slh.3-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: aufs-modules
+Depends: linux-modules-2.6.25-1.slh.3-sidux-amd64
+Description: Driver for a stackable unification filesystem modules for Linux 2.6.25 on AMD64
+ This package provides the Driver for a stackable unification filesystem
+ modules for the Linux kernel version 2.6.25 on all 64bit single- and
+ multiprocessor AMD and Intel machines.
+ .
+ Aufs is a stackable unification filesystem such as Unionfs, which unifies
+ several directories and provides a merged single directory.
+
+Package: aufs-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: aufs-modules-2.6.25-1.slh.3-sidux-amd64
+Description: Driver for a stackable unification filesystem modules for Linux 2.6 on AMD64
+ This package depends on the Driver for a stackable unification filesystem
+ modules for latest Linux kernel 2.6  for sidux on all 64bit single- and
+ multiprocessor AMD and Intel machines.
+ .
+ Aufs is a stackable unification filesystem such as Unionfs, which unifies
+ several directories and provides a merged single directory.
 
 Package: btrfs-modules-2.6.25-1.slh.3-sidux-amd64
 Architecture: amd64
@@ -461,6 +488,33 @@ Description: Driver for the Atheros L2 Fast Ethernet Adapter modules for Linux 2
  atl2 is the Linux Base Driver for the Atheros(R) L2 Fast Ethernet Adapter.
  The the Atheros(R) L2 Fast Ethernet Adapter is present in a few low cost
  Asus laptop systems, such as the Asus Eee PC.
+
+Package: aufs-modules-2.6.25-1.slh.3-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: aufs-modules
+Depends: linux-modules-2.6.25-1.slh.3-sidux-686
+Description: Driver for a stackable unification filesystem modules for Linux 2.6.25 on PPro/Celeron/PII/PIII/P4
+ This package provides the Driver for a stackable unification filesystem
+ modules for the Linux kernel version 2.6.25 on Pentium Pro/Celeron/Pentium
+ II/Pentium III/Pentium 4 machines.
+ .
+ Aufs is a stackable unification filesystem such as Unionfs, which unifies
+ several directories and provides a merged single directory.
+
+Package: aufs-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: aufs-modules-2.6.25-1.slh.3-sidux-686
+Description: Driver for a stackable unification filesystem modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the Driver for a stackable unification filesystem
+ modules for latest Linux kernel 2.6  for sidux on Pentium
+ Pro/Celeron/Pentium II/Pentium III/Pentium 4 machines.
+ .
+ Aufs is a stackable unification filesystem such as Unionfs, which unifies
+ several directories and provides a merged single directory.
 
 Package: btrfs-modules-2.6.25-1.slh.3-sidux-686
 Architecture: i386

@@ -2,7 +2,7 @@
 modules:
  acerhk
  atl2
-# aufs
+ aufs
  btrfs
  eeepc-acpi
  et131x
