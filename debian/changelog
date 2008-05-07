@@ -4,6 +4,7 @@ linux-modules-sidux-main-2.6 (2.6.25-9) unstable; urgency=low
   * add linux-uvc stub, but keep it disabled.
   * re- enable aufs, a (hopefully) 2.6.25 compatible version has entered sid.
   * rebuild against 2.6.25-2.slh.1.
+  * use the system's default python.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 15:31:28 +0200
 
