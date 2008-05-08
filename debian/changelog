@@ -1,6 +1,17 @@
 linux-modules-sidux-main-2.6 (2.6.25.rev12) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * FTBS
+  * sync with debian-kernel svn r11337:
+    [ Daniel Baumann ]
+      - Enabling sfc.
+      - Enabling tp-smapi.
+      - Adding eeepc-acpi.
+      - Using python2.5 now.
+      - Switching to new argument name for 'debian'.
+      - Using default python version rather than a specific one.
+    [ Bastian Blank ]
+      - debian/bin/gencontrol.py: Use new makeflags.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 16:27:20 +0200
 
