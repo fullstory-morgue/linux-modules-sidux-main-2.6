@@ -1,0 +1,6 @@
+[base]
+desc: Modules for the QuickCam Express driver
+longdesc:
+ This package provides the source code for the quickcam kernel module for
+ Logitech's QuickCam Express webcam and similar webcams. This driver
+ supercedes the qce-ga driver.
