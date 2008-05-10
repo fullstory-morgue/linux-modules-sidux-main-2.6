@@ -1,6 +1,5 @@
-linux-modules-sidux-main-2.6 (2.6.25-12) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.25.rev14-1) unstable; urgency=low
 
-  * NOT RELEASED YET
   * sync with debian-kernel svn r11337:
     [ Daniel Baumann ]
       - Enabling sfc.
@@ -15,9 +14,9 @@ linux-modules-sidux-main-2.6 (2.6.25-12) UNRELEASED; urgency=low
   * enable linux-uvc.
   * fix debian/rules.real to use VERSION_REVISION instead of the no longer
     available VERSION_DEBIAN.
-  * rebuild against 2.6.25-2.slh.2.
+  * rebuild against 2.6.25-3.slh.2.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 16:27:20 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 May 2008 00:42:06 +0200
 
 linux-modules-sidux-main-2.6 (2.6.25.rev11) unstable; urgency=low
 
