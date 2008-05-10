@@ -1,7 +1,6 @@
 linux-modules-sidux-main-2.6 (2.6.25-12) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
-  * FTBS
   * sync with debian-kernel svn r11337:
     [ Daniel Baumann ]
       - Enabling sfc.
@@ -12,6 +11,7 @@ linux-modules-sidux-main-2.6 (2.6.25-12) UNRELEASED; urgency=low
       - Using default python version rather than a specific one.
     [ Bastian Blank ]
       - debian/bin/gencontrol.py: Use new makeflags.
+      - debian/bin/gencontrol.py: Export MAJOR.
   * enable linux-uvc.
   * fix debian/rules.real to use VERSION_REVISION instead of the no longer
     available VERSION_DEBIAN.
