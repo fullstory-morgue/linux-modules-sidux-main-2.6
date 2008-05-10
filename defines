@@ -9,7 +9,7 @@ modules:
  fsam7400
  gspca
 # kqemu
- linux-uvc
+# linux-uvc
 # lirc-modules
 # lzma
  ndiswrapper

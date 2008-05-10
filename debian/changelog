@@ -11,12 +11,12 @@ linux-modules-sidux-main-2.6 (2.6.25.rev14-1) unstable; urgency=low
     [ Bastian Blank ]
       - debian/bin/gencontrol.py: Use new makeflags.
       - debian/bin/gencontrol.py: Export MAJOR.
-  * enable linux-uvc.
+  * drop linux-uvc again, it's too broken to be true.
   * fix debian/rules.real to use VERSION_REVISION instead of the no longer
     available VERSION_DEBIAN.
   * rebuild against 2.6.25-3.slh.2.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 May 2008 00:42:06 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 May 2008 00:59:07 +0200
 
 linux-modules-sidux-main-2.6 (2.6.25.rev11) unstable; urgency=low
 
