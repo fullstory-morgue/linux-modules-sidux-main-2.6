@@ -1,23 +1,23 @@
-linux-modules-sidux-main-2.6 (2.6.25.rev18-5) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.25.rev19-1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * rebuild against 2.6.25-4.slh.3.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 May 2008 01:30:38 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 23 May 2008 23:57:59 +0200
 
-linux-modules-sidux-main-2.6 (2.6.25.rev18-4) unstable; urgency=low
+linux-modules-sidux-main-2.6 (2.6.25.rev18-1) unstable; urgency=low
 
   * rebuild against 2.6.25-4.slh.2.
   * ensure to build against new aufs.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 May 2008 01:24:05 +0200
 
-linux-modules-sidux-main-2.6 (2.6.25.rev17-3) unstable; urgency=low
+linux-modules-sidux-main-2.6 (2.6.25.rev17-1) unstable; urgency=low
 
   * rebuild against 2.6.25-4.slh.1.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 13 May 2008 23:58:36 +0200
 
-linux-modules-sidux-main-2.6 (2.6.25.rev16-2) unstable; urgency=low
+linux-modules-sidux-main-2.6 (2.6.25.rev16-1) unstable; urgency=low
 
   * rebuild against 2.6.25-3.slh.3.
 
