@@ -5,20 +5,17 @@ modules:
  atl2
  aufs
  btrfs
- eeepc-acpi
  et131x
  fsam7400
  gspca
 # kqemu
-# linux-uvc
 # lirc-modules
 # lzma
  ndiswrapper
  omnibook
- qc-usb
- r5u870
- rfswitch
- sfc
+# qc-usb
+# r5u870
+# rfswitch
  squashfs
  tp-smapi
 # unionfs
