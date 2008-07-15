@@ -1,4 +1,5 @@
 [base]
+not-featuresets: xen xen-vserver
 desc: infra-red remote control support
 long-desc:
  LIRC stands for 'Linux Infra-red Remote Control'.

@@ -11,8 +11,9 @@ linux-modules-sidux-main-2.6 (2.6.26.rev2-1) UNRELEASED; urgency=low
     - rfswitch
   * new additions:
     - lirc-modules
+  * disable lirc on Xen kernels (USB undefined).
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 15 Jul 2008 11:59:01 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 15 Jul 2008 14:16:09 +0200
 
 linux-modules-sidux-main-2.6 (2.6.25.rev39-1) unstable; urgency=low
 
