@@ -14,8 +14,8 @@ modules:
  ndiswrapper
  omnibook
 # qc-usb
-# r5u870
-# rfswitch
+ r5u870
+ rfswitch
  squashfs
  tp-smapi
 # unionfs
