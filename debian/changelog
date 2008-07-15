@@ -1,6 +1,5 @@
-linux-modules-sidux-main-2.6 (2.6.26.rev2-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.26.rev2-1) unstable; urgency=low
 
-  * NOT RELEASED YET
   * build against 2.6.26-0.slh.2.
   * obsoleted, and dropped, by in-kernel support:
     - eeepc-acpi
@@ -8,10 +7,11 @@ linux-modules-sidux-main-2.6 (2.6.26.rev2-1) UNRELEASED; urgency=low
   * FTBS, dropped for the time being:
     - qc-usb
   * new additions:
-    - lirc-modules
+    - lirc-modules, still cosmetic issues with module naming --> needs changes
+      in lirc's packaging not possible before lenny.
   * disable lirc on Xen kernels (USB undefined).
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 15 Jul 2008 14:21:17 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 15 Jul 2008 14:51:22 +0200
 
 linux-modules-sidux-main-2.6 (2.6.25.rev39-1) unstable; urgency=low
 
