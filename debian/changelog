@@ -1,9 +1,8 @@
 linux-modules-sidux-main-2.6 (2.6.26.rev3-1) unstable; urgency=low
 
   * NOT RELEASED YET
-  * remove custom ndiswrapper overrides, shouldn't be necessary since 1.53-1.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 17 Jul 2008 17:11:22 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 17 Jul 2008 18:07:58 +0200
 
 linux-modules-sidux-main-2.6 (2.6.26.rev2-1) unstable; urgency=low
 
