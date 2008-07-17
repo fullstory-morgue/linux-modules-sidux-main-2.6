@@ -1,0 +1,9 @@
+[base]
+desc: Linux kernel USB video class module
+long-desc:
+ The linux-uvc kernel module supports some standard devices that
+ implement the USB video class.
+ .
+ It currently includes support for the Logitech Quickcam Fusion,
+ Logitech Quickcam Orbit, Logitech Quickcam Pro for Notebooks, Logitech
+ Quickcam Pro 5000 device
