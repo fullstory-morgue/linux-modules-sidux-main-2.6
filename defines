@@ -1,7 +1,6 @@
 [base]
 modules:
  acerhk
- atl1e
  atl2
  aufs
  btrfs

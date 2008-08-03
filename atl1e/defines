@@ -1,7 +1,0 @@
-[base]
-not-arches: s390
-not-featuresets: xen xen-vserver
-desc: Driver for the Atheros L1E gigabit ethernet adapter
-longdesc:
- This package contains the loadable kernel modules for the atl1e
- driver for the Atheros L1E gigabit ethernet adapter.
