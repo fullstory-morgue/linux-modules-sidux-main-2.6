@@ -1,3 +1,9 @@
+linux-modules-sidux-main-2.6 (2.6.26.rev13-2) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Aug 2008 04:20:27 +0200
+
 linux-modules-sidux-main-2.6 (2.6.26.rev13-1) unstable; urgency=low
 
   * drop atl1e, merged upstream, added to our kernel.
