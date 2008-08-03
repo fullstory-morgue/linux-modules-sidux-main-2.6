@@ -1,13 +1,12 @@
-linux-modules-sidux-main-2.6 (2.6.26.revi13-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.26.revi13-1) unstable; urgency=low
 
-  * NOT RELEASED YET
   * drop atl1e, merged upstream, added to our kernel.
   * sync with debian-kernel svn r11937:
     [ Bastian Blank ]
     - debian/bin/gencontrol.py: Adopt linux-2.6 changes.
   * build against 2.6.26-1.slh.3.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Aug 2008 02:57:16 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Aug 2008 03:57:45 +0200
 
 linux-modules-sidux-main-2.6 (2.6.26.rev8-1) unstable; urgency=low
 
