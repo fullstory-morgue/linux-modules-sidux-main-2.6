@@ -1,8 +1,8 @@
-linux-modules-sidux-main-2.6 (2.6.26.rev18-1) unstable; urgency=low
+linux-modules-sidux-main-2.6 (2.6.26.rev20-1) unstable; urgency=low
 
-  * build against 2.6.26-2.slh.3.
+  * build against 2.6.26-2.slh.6.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 19 Aug 2008 10:37:14 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 20 Aug 2008 00:50:34 +0200
 
 linux-modules-sidux-main-2.6 (2.6.26.rev17-1) unstable; urgency=low
 
