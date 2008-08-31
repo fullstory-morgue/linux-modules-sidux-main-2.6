@@ -1,8 +1,9 @@
 linux-modules-sidux-main-2.6 (2.6.26.rev23-1) unstable; urgency=low
 
   * build against 2.6.26-3.slh.1.
+  * drop btrf, FTBS and of little use without a stable ondisk file format.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 31 Aug 2008 13:37:40 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 31 Aug 2008 13:40:18 +0200
 
 linux-modules-sidux-main-2.6 (2.6.26.rev21-1) unstable; urgency=low
 
