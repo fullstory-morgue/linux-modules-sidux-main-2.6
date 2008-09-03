@@ -1,13 +1,13 @@
-linux-modules-sidux-main-2.6 (2.6.26.rev24-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.26.rev24-1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * build against 2.6.26-3.slh.4.
   * disable r5u870, broken with 2.6.26, upstream MIA, no debgging hardware.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 01 Sep 2008 22:36:59 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 03 Sep 2008 22:45:34 +0200
 
 linux-modules-sidux-main-2.6 (2.6.26.rev23-1) unstable; urgency=low
 
-  * build against 2.6.26-3.slh.1.
+  * build against 2.6.26-3.slh.3.
   * drop btrf, FTBS and of little use without a stable ondisk file format.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 31 Aug 2008 13:40:18 +0200
