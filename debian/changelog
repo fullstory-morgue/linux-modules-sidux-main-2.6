@@ -1,3 +1,9 @@
+linux-modules-sidux-main-2.6 (2.6.26.rev31-1) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 22 Sep 2008 19:13:19 +0200
+
 linux-modules-sidux-main-2.6 (2.6.26.rev30.1-1) unstable; urgency=low
 
   * pull in new virtualbox-ose 1.6.6.
