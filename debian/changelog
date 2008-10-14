@@ -1,6 +1,12 @@
 linux-modules-sidux-main-2.6 (2.6.27.rev0-1) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * remove drivers applied upstream:
+    - atl2
+    - gspca
+  * diable drivers handled differently:
+    - et131x
+    - omnibook
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 09 Oct 2008 22:52:06 +0200
 

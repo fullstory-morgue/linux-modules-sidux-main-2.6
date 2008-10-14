@@ -1,17 +1,15 @@
 [base]
 modules:
  acerhk
- atl2
  aufs
 # btrfs
- et131x
+# et131x
  fsam7400
- gspca
 # kqemu
  lirc-modules
 # lzma
  ndiswrapper
- omnibook
+# omnibook
  qc-usb
 # r5u870
  rfswitch
