@@ -4,7 +4,6 @@ linux-modules-sidux-main-2.6 (2.6.27.rev0-1) unstable; urgency=low
   * remove drivers applied upstream:
     - gspca
   * temporarily disable currently FTBS modules:
-    - aufs
     - qc-usb
   * disable drivers handled differently:
     - et131x
