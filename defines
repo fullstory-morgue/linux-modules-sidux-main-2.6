@@ -1,17 +1,15 @@
 [base]
 modules:
  acerhk
- aufs
+# aufs
  atl2
-# btrfs
 # et131x
  fsam7400
-# kqemu
  lirc-modules
 # lzma
- ndiswrapper
+# ndiswrapper
 # omnibook
- qc-usb
+# qc-usb
 # r5u870
  rfswitch
  squashfs
