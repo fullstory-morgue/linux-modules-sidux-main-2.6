@@ -9,7 +9,7 @@ modules:
 # lzma
  ndiswrapper
 # omnibook
-# qc-usb
+ qc-usb
 # r5u870
  rfswitch
  squashfs
