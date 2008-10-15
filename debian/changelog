@@ -1,6 +1,5 @@
-linux-modules-sidux-main-2.6 (2.6.27.rev0-1) unstable; urgency=low
+linux-modules-sidux-main-2.6 (2.6.27.rev4-1) unstable; urgency=low
 
-  * NOT RELEASED YET
   * remove drivers applied upstream:
     - gspca
   * disable drivers handled differently:
@@ -9,8 +8,9 @@ linux-modules-sidux-main-2.6 (2.6.27.rev0-1) unstable; urgency=low
   * drop modules:
     - btrfs, unstable on-disk structures.
     - kqemu, simply broken and superceded by virtualbox-ose and kvm.
+  * build against 2.6.27-0.slh.5.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 15 Oct 2008 15:25:49 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 15 Oct 2008 19:52:58 +0200
 
 linux-modules-sidux-main-2.6 (2.6.26.rev37-1) unstable; urgency=low
 
