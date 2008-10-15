@@ -2,6 +2,7 @@
 modules:
  acerhk
  aufs
+ atl2
 # btrfs
 # et131x
  fsam7400
