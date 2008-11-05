@@ -5,56 +5,56 @@ binary-arch_amd64_none: binary-arch_amd64_none_real binary-arch_amd64_none_sidux
 binary-arch_amd64_none_real:
 binary-arch_amd64_none_sidux-amd64: binary-arch_amd64_none_sidux-amd64_atl2 binary-arch_amd64_none_sidux-amd64_aufs binary-arch_amd64_none_sidux-amd64_fsam7400 binary-arch_amd64_none_sidux-amd64_lirc-modules binary-arch_amd64_none_sidux-amd64_ndiswrapper binary-arch_amd64_none_sidux-amd64_qc-usb binary-arch_amd64_none_sidux-amd64_real binary-arch_amd64_none_sidux-amd64_rfswitch binary-arch_amd64_none_sidux-amd64_squashfs binary-arch_amd64_none_sidux-amd64_tp-smapi binary-arch_amd64_none_sidux-amd64_virtualbox-ose
 binary-arch_amd64_none_sidux-amd64_atl2::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 binary-arch_amd64_none_sidux-amd64_aufs::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 binary-arch_amd64_none_sidux-amd64_fsam7400::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 binary-arch_amd64_none_sidux-amd64_lirc-modules::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 binary-arch_amd64_none_sidux-amd64_ndiswrapper::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 binary-arch_amd64_none_sidux-amd64_qc-usb::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 binary-arch_amd64_none_sidux-amd64_real:
 binary-arch_amd64_none_sidux-amd64_rfswitch::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 binary-arch_amd64_none_sidux-amd64_squashfs::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 binary-arch_amd64_none_sidux-amd64_tp-smapi::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 binary-arch_amd64_none_sidux-amd64_virtualbox-ose::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 binary-arch_amd64_real:
 binary-arch_i386: binary-arch_i386_none binary-arch_i386_real
 binary-arch_i386_none: binary-arch_i386_none_real binary-arch_i386_none_sidux-686
 binary-arch_i386_none_real:
 binary-arch_i386_none_sidux-686: binary-arch_i386_none_sidux-686_acerhk binary-arch_i386_none_sidux-686_atl2 binary-arch_i386_none_sidux-686_aufs binary-arch_i386_none_sidux-686_fsam7400 binary-arch_i386_none_sidux-686_lirc-modules binary-arch_i386_none_sidux-686_ndiswrapper binary-arch_i386_none_sidux-686_qc-usb binary-arch_i386_none_sidux-686_real binary-arch_i386_none_sidux-686_rfswitch binary-arch_i386_none_sidux-686_squashfs binary-arch_i386_none_sidux-686_tp-smapi binary-arch_i386_none_sidux-686_virtualbox-ose binary-arch_i386_none_sidux-686_virtualbox-ose-guest
 binary-arch_i386_none_sidux-686_acerhk::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='acerhk-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='acerhk' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='acerhk-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='acerhk' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_none_sidux-686_atl2::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_none_sidux-686_aufs::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_none_sidux-686_fsam7400::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_none_sidux-686_lirc-modules::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_none_sidux-686_ndiswrapper::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_none_sidux-686_qc-usb::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_none_sidux-686_real:
 binary-arch_i386_none_sidux-686_rfswitch::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_none_sidux-686_squashfs::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_none_sidux-686_tp-smapi::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_none_sidux-686_virtualbox-ose::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_none_sidux-686_virtualbox-ose-guest::
-	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='virtualbox-ose-guest-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose-guest' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real binary-arch MAJOR='2.6' MODULESOURCE='virtualbox-ose-guest-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose-guest' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 binary-arch_i386_real:
 binary-indep:
 build: build_amd64 build_i386
@@ -63,56 +63,56 @@ build_amd64_none: build_amd64_none_real build_amd64_none_sidux-amd64
 build_amd64_none_real:
 build_amd64_none_sidux-amd64: build_amd64_none_sidux-amd64_atl2 build_amd64_none_sidux-amd64_aufs build_amd64_none_sidux-amd64_fsam7400 build_amd64_none_sidux-amd64_lirc-modules build_amd64_none_sidux-amd64_ndiswrapper build_amd64_none_sidux-amd64_qc-usb build_amd64_none_sidux-amd64_real build_amd64_none_sidux-amd64_rfswitch build_amd64_none_sidux-amd64_squashfs build_amd64_none_sidux-amd64_tp-smapi build_amd64_none_sidux-amd64_virtualbox-ose
 build_amd64_none_sidux-amd64_atl2::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 build_amd64_none_sidux-amd64_aufs::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 build_amd64_none_sidux-amd64_fsam7400::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 build_amd64_none_sidux-amd64_lirc-modules::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 build_amd64_none_sidux-amd64_ndiswrapper::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 build_amd64_none_sidux-amd64_qc-usb::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 build_amd64_none_sidux-amd64_real:
 build_amd64_none_sidux-amd64_rfswitch::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 build_amd64_none_sidux-amd64_squashfs::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 build_amd64_none_sidux-amd64_tp-smapi::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 build_amd64_none_sidux-amd64_virtualbox-ose::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 build_amd64_real:
 build_i386: build_i386_none build_i386_real
 build_i386_none: build_i386_none_real build_i386_none_sidux-686
 build_i386_none_real:
 build_i386_none_sidux-686: build_i386_none_sidux-686_acerhk build_i386_none_sidux-686_atl2 build_i386_none_sidux-686_aufs build_i386_none_sidux-686_fsam7400 build_i386_none_sidux-686_lirc-modules build_i386_none_sidux-686_ndiswrapper build_i386_none_sidux-686_qc-usb build_i386_none_sidux-686_real build_i386_none_sidux-686_rfswitch build_i386_none_sidux-686_squashfs build_i386_none_sidux-686_tp-smapi build_i386_none_sidux-686_virtualbox-ose build_i386_none_sidux-686_virtualbox-ose-guest
 build_i386_none_sidux-686_acerhk::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='acerhk-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='acerhk' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='acerhk-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='acerhk' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_none_sidux-686_atl2::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_none_sidux-686_aufs::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_none_sidux-686_fsam7400::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_none_sidux-686_lirc-modules::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_none_sidux-686_ndiswrapper::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_none_sidux-686_qc-usb::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_none_sidux-686_real:
 build_i386_none_sidux-686_rfswitch::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_none_sidux-686_squashfs::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_none_sidux-686_tp-smapi::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_none_sidux-686_virtualbox-ose::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_none_sidux-686_virtualbox-ose-guest::
-	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='virtualbox-ose-guest-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose-guest' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real build MAJOR='2.6' MODULESOURCE='virtualbox-ose-guest-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose-guest' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 build_i386_real:
 setup: setup_amd64 setup_i386
 setup_amd64: setup_amd64_none setup_amd64_real
@@ -120,56 +120,56 @@ setup_amd64_none: setup_amd64_none_real setup_amd64_none_sidux-amd64
 setup_amd64_none_real:
 setup_amd64_none_sidux-amd64: setup_amd64_none_sidux-amd64_atl2 setup_amd64_none_sidux-amd64_aufs setup_amd64_none_sidux-amd64_fsam7400 setup_amd64_none_sidux-amd64_lirc-modules setup_amd64_none_sidux-amd64_ndiswrapper setup_amd64_none_sidux-amd64_qc-usb setup_amd64_none_sidux-amd64_real setup_amd64_none_sidux-amd64_rfswitch setup_amd64_none_sidux-amd64_squashfs setup_amd64_none_sidux-amd64_tp-smapi setup_amd64_none_sidux-amd64_virtualbox-ose
 setup_amd64_none_sidux-amd64_atl2::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 setup_amd64_none_sidux-amd64_aufs::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 setup_amd64_none_sidux-amd64_fsam7400::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 setup_amd64_none_sidux-amd64_lirc-modules::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 setup_amd64_none_sidux-amd64_ndiswrapper::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 setup_amd64_none_sidux-amd64_qc-usb::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 setup_amd64_none_sidux-amd64_real:
 setup_amd64_none_sidux-amd64_rfswitch::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 setup_amd64_none_sidux-amd64_squashfs::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 setup_amd64_none_sidux-amd64_tp-smapi::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 setup_amd64_none_sidux-amd64_virtualbox-ose::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-amd64' ARCH='amd64'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-amd64' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-amd64' ARCH='amd64'
 setup_amd64_real:
 setup_i386: setup_i386_none setup_i386_real
 setup_i386_none: setup_i386_none_real setup_i386_none_sidux-686
 setup_i386_none_real:
 setup_i386_none_sidux-686: setup_i386_none_sidux-686_acerhk setup_i386_none_sidux-686_atl2 setup_i386_none_sidux-686_aufs setup_i386_none_sidux-686_fsam7400 setup_i386_none_sidux-686_lirc-modules setup_i386_none_sidux-686_ndiswrapper setup_i386_none_sidux-686_qc-usb setup_i386_none_sidux-686_real setup_i386_none_sidux-686_rfswitch setup_i386_none_sidux-686_squashfs setup_i386_none_sidux-686_tp-smapi setup_i386_none_sidux-686_virtualbox-ose setup_i386_none_sidux-686_virtualbox-ose-guest
 setup_i386_none_sidux-686_acerhk::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='acerhk-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='acerhk' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='acerhk-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='acerhk' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_none_sidux-686_atl2::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='atl2-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='atl2' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_none_sidux-686_aufs::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='aufs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='aufs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_none_sidux-686_fsam7400::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='fsam7400-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='fsam7400' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_none_sidux-686_lirc-modules::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='lirc-modules-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='lirc-modules' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_none_sidux-686_ndiswrapper::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='ndiswrapper-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='ndiswrapper' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_none_sidux-686_qc-usb::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='qc-usb-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='qc-usb' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_none_sidux-686_real:
 setup_i386_none_sidux-686_rfswitch::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='rfswitch-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='rfswitch' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_none_sidux-686_squashfs::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='squashfs-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='squashfs' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_none_sidux-686_tp-smapi::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='tp-smapi-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='tp-smapi' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_none_sidux-686_virtualbox-ose::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='virtualbox-ose-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_none_sidux-686_virtualbox-ose-guest::
-	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='virtualbox-ose-guest-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose-guest' FEATURESET='none' VERSION_SOURCE='2.6.27.rev19' VERSION_REVISION='2' ABINAME='-4.slh.5' LOCALVERSION='-sidux-686' ARCH='i386'
+	$(MAKE) -f debian/rules.real setup MAJOR='2.6' MODULESOURCE='virtualbox-ose-guest-source' FLAVOUR='sidux-686' UPSTREAMVERSION='2.6.27' MODULE='virtualbox-ose-guest' FEATURESET='none' VERSION_SOURCE='2.6.27.rev21' VERSION_REVISION='1' ABINAME='-4.slh.7' LOCALVERSION='-sidux-686' ARCH='i386'
 setup_i386_real:
 source: source_amd64 source_i386
 source_amd64: source_amd64_none source_amd64_real
