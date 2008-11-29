@@ -3,16 +3,16 @@ Section: devel
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Standards-Version: 3.7.3
-Build-Depends: debhelper (>= 6), linux-support-2.6.27-7.slh.1, linux-headers-2.6.27-7.slh.1-all-amd64 [amd64], linux-headers-2.6.27-7.slh.1-all-i386 [i386], aufs-source, atl2-source [amd64 i386], fsam7400-source [amd64 i386], lirc-modules-source, ndiswrapper-source [amd64 i386], qc-usb-source, rfswitch-source, squashfs-source [amd64 i386], tp-smapi-source [amd64 i386], virtualbox-ose-source [amd64 i386], acerhk-source [i386], virtualbox-ose-guest-source [i386]
+Build-Depends: debhelper (>= 6), linux-support-2.6.27-7.slh.2, linux-headers-2.6.27-7.slh.2-all-amd64 [amd64], linux-headers-2.6.27-7.slh.2-all-i386 [i386], aufs-source, atl2-source [amd64 i386], fsam7400-source [amd64 i386], lirc-modules-source, ndiswrapper-source [amd64 i386], qc-usb-source, rfswitch-source, squashfs-source [amd64 i386], tp-smapi-source [amd64 i386], virtualbox-ose-source [amd64 i386], acerhk-source [i386], virtualbox-ose-guest-source [i386]
 Vcs-Svn: svn://svn.berlios.de/fullstory/linux-modules-sidux-main-2.6/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/linux-modules-sidux-main-2.6/trunk/
 
-Package: aufs-modules-2.6.27-7.slh.1-sidux-amd64
+Package: aufs-modules-2.6.27-7.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: aufs-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: linux-modules-2.6.27-7.slh.2-sidux-amd64
 Description: Driver for a stackable unification filesystem modules for Linux 2.6.27 on AMD64
  This package provides the Driver for a stackable unification filesystem
  modules for the Linux kernel version 2.6.27 on all 64bit single- and
@@ -25,7 +25,7 @@ Package: aufs-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: aufs-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: aufs-modules-2.6.27-7.slh.2-sidux-amd64
 Description: Driver for a stackable unification filesystem modules for Linux 2.6 on AMD64
  This package depends on the Driver for a stackable unification filesystem
  modules for latest Linux kernel 2.6  for sidux on all 64bit single- and
@@ -34,12 +34,12 @@ Description: Driver for a stackable unification filesystem modules for Linux 2.6
  Aufs is a stackable unification filesystem such as Unionfs, which unifies
  several directories and provides a merged single directory.
 
-Package: atl2-modules-2.6.27-7.slh.1-sidux-amd64
+Package: atl2-modules-2.6.27-7.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: atl2-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: linux-modules-2.6.27-7.slh.2-sidux-amd64
 Description: Driver for the Atheros L2 Fast Ethernet Adapter modules for Linux 2.6.27 on AMD64
  This package provides the Driver for the Atheros L2 Fast Ethernet Adapter
  modules for the Linux kernel version 2.6.27 on all 64bit single- and
@@ -53,7 +53,7 @@ Package: atl2-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: atl2-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: atl2-modules-2.6.27-7.slh.2-sidux-amd64
 Description: Driver for the Atheros L2 Fast Ethernet Adapter modules for Linux 2.6 on AMD64
  This package depends on the Driver for the Atheros L2 Fast Ethernet
  Adapter modules for latest Linux kernel 2.6  for sidux on all 64bit
@@ -63,12 +63,12 @@ Description: Driver for the Atheros L2 Fast Ethernet Adapter modules for Linux 2
  The the Atheros(R) L2 Fast Ethernet Adapter is present in a few low cost
  Asus laptop systems, such as the Asus Eee PC.
 
-Package: fsam7400-modules-2.6.27-7.slh.1-sidux-amd64
+Package: fsam7400-modules-2.6.27-7.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: fsam7400-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: linux-modules-2.6.27-7.slh.2-sidux-amd64
 Description: SW RF kill switch driver for Fujitsu Siemens Amilo M 7400 modules for Linux 2.6.27 on AMD64
  This package provides the SW RF kill switch driver for Fujitsu Siemens
  Amilo M 7400 modules for the Linux kernel version 2.6.27 on all 64bit
@@ -82,7 +82,7 @@ Package: fsam7400-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: fsam7400-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: fsam7400-modules-2.6.27-7.slh.2-sidux-amd64
 Description: SW RF kill switch driver for Fujitsu Siemens Amilo M 7400 modules for Linux 2.6 on AMD64
  This package depends on the SW RF kill switch driver for Fujitsu Siemens
  Amilo M 7400 modules for latest Linux kernel 2.6  for sidux on all 64bit
@@ -92,12 +92,12 @@ Description: SW RF kill switch driver for Fujitsu Siemens Amilo M 7400 modules f
  RF kill switches on the Fujitsu Siemens Amilo M 7400 laptop.  This package
  provides the source code for the fsam7400 modules.
 
-Package: lirc-modules-modules-2.6.27-7.slh.1-sidux-amd64
+Package: lirc-modules-modules-2.6.27-7.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: lirc-modules-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: linux-modules-2.6.27-7.slh.2-sidux-amd64
 Description: infra-red remote control support modules for Linux 2.6.27 on AMD64
  This package provides the infra-red remote control support modules for the
  Linux kernel version 2.6.27 on all 64bit single- and multiprocessor AMD
@@ -107,18 +107,18 @@ Package: lirc-modules-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: lirc-modules-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: lirc-modules-modules-2.6.27-7.slh.2-sidux-amd64
 Description: infra-red remote control support modules for Linux 2.6 on AMD64
  This package depends on the infra-red remote control support modules for
  latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
  AMD and Intel machines.
 
-Package: ndiswrapper-modules-2.6.27-7.slh.1-sidux-amd64
+Package: ndiswrapper-modules-2.6.27-7.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: ndiswrapper-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: linux-modules-2.6.27-7.slh.2-sidux-amd64
 Description: ndiswrapper Linux kernel module modules for Linux 2.6.27 on AMD64
  This package provides the ndiswrapper Linux kernel module modules for the
  Linux kernel version 2.6.27 on all 64bit single- and multiprocessor AMD
@@ -135,7 +135,7 @@ Package: ndiswrapper-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: ndiswrapper-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: ndiswrapper-modules-2.6.27-7.slh.2-sidux-amd64
 Description: ndiswrapper Linux kernel module modules for Linux 2.6 on AMD64
  This package depends on the ndiswrapper Linux kernel module modules for
  latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
@@ -148,12 +148,12 @@ Description: ndiswrapper Linux kernel module modules for Linux 2.6 on AMD64
  linked to this implementation so that the driver runs natively, as though
  it is in Windows, without binary emulation.
 
-Package: qc-usb-modules-2.6.27-7.slh.1-sidux-amd64
+Package: qc-usb-modules-2.6.27-7.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: qc-usb-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: linux-modules-2.6.27-7.slh.2-sidux-amd64
 Description: Modules for the QuickCam Express driver modules for Linux 2.6.27 on AMD64
  This package provides the Modules for the QuickCam Express driver modules
  for the Linux kernel version 2.6.27 on all 64bit single- and
@@ -167,7 +167,7 @@ Package: qc-usb-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: qc-usb-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: qc-usb-modules-2.6.27-7.slh.2-sidux-amd64
 Description: Modules for the QuickCam Express driver modules for Linux 2.6 on AMD64
  This package depends on the Modules for the QuickCam Express driver
  modules for latest Linux kernel 2.6  for sidux on all 64bit single- and
@@ -177,12 +177,12 @@ Description: Modules for the QuickCam Express driver modules for Linux 2.6 on AM
  Logitech's QuickCam Express webcam and similar webcams.  This driver
  supercedes the qce-ga driver.
 
-Package: rfswitch-modules-2.6.27-7.slh.1-sidux-amd64
+Package: rfswitch-modules-2.6.27-7.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: rfswitch-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: linux-modules-2.6.27-7.slh.2-sidux-amd64
 Description: Modules for the rfswitch drivers modules for Linux 2.6.27 on AMD64
  This package provides the Modules for the rfswitch drivers modules for the
  Linux kernel version 2.6.27 on all 64bit single- and multiprocessor AMD
@@ -196,7 +196,7 @@ Package: rfswitch-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: rfswitch-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: rfswitch-modules-2.6.27-7.slh.2-sidux-amd64
 Description: Modules for the rfswitch drivers modules for Linux 2.6 on AMD64
  This package depends on the Modules for the rfswitch drivers modules for
  latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
@@ -206,12 +206,12 @@ Description: Modules for the rfswitch drivers modules for Linux 2.6 on AMD64
  and Packard Bell EasyNote E5. The code may work on other laptops, but
  these are the only models on which it has been tested.
 
-Package: squashfs-modules-2.6.27-7.slh.1-sidux-amd64
+Package: squashfs-modules-2.6.27-7.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: squashfs-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: linux-modules-2.6.27-7.slh.2-sidux-amd64
 Description: Driver for compression filesystem modules for Linux 2.6.27 on AMD64
  This package provides the Driver for compression filesystem modules for
  the Linux kernel version 2.6.27 on all 64bit single- and multiprocessor
@@ -232,7 +232,7 @@ Package: squashfs-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: squashfs-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: squashfs-modules-2.6.27-7.slh.2-sidux-amd64
 Description: Driver for compression filesystem modules for Linux 2.6 on AMD64
  This package depends on the Driver for compression filesystem modules for
  latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
@@ -249,12 +249,12 @@ Description: Driver for compression filesystem modules for Linux 2.6 on AMD64
  block device/memory systems (e.g.  embedded systems) where low overhead is
  needed.
 
-Package: tp-smapi-modules-2.6.27-7.slh.1-sidux-amd64
+Package: tp-smapi-modules-2.6.27-7.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: tp-smapi-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: linux-modules-2.6.27-7.slh.2-sidux-amd64
 Description: ThinkPad hardware/firmware access through sysfs modules for Linux 2.6.27 on AMD64
  This package provides the ThinkPad hardware/firmware access through sysfs
  modules for the Linux kernel version 2.6.27 on all 64bit single- and
@@ -270,7 +270,7 @@ Package: tp-smapi-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: tp-smapi-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: tp-smapi-modules-2.6.27-7.slh.2-sidux-amd64
 Description: ThinkPad hardware/firmware access through sysfs modules for Linux 2.6 on AMD64
  This package depends on the ThinkPad hardware/firmware access through
  sysfs modules for latest Linux kernel 2.6  for sidux on all 64bit single-
@@ -282,12 +282,12 @@ Description: ThinkPad hardware/firmware access through sysfs modules for Linux 2
  The underlying hardware interfaces are SMAPI and direct access to the
  embedded controller.
 
-Package: virtualbox-ose-modules-2.6.27-7.slh.1-sidux-amd64
+Package: virtualbox-ose-modules-2.6.27-7.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: virtualbox-ose-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: linux-modules-2.6.27-7.slh.2-sidux-amd64
 Description: PC virtualization solution modules for Linux 2.6.27 on AMD64
  This package provides the PC virtualization solution modules for the Linux
  kernel version 2.6.27 on all 64bit single- and multiprocessor AMD and
@@ -300,7 +300,7 @@ Package: virtualbox-ose-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: virtualbox-ose-modules-2.6.27-7.slh.1-sidux-amd64
+Depends: virtualbox-ose-modules-2.6.27-7.slh.2-sidux-amd64
 Description: PC virtualization solution modules for Linux 2.6 on AMD64
  This package depends on the PC virtualization solution modules for latest
  Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor AMD
@@ -309,12 +309,12 @@ Description: PC virtualization solution modules for Linux 2.6 on AMD64
  VirtualBox is a free PC virtualization solution allowing you to run a wide
  range of PC operating systems on your system.
 
-Package: acerhk-modules-2.6.27-7.slh.1-sidux-686
+Package: acerhk-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: acerhk-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: Acer Hotkey driver for Linux modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the Acer Hotkey driver for Linux modules for the
  Linux kernel version 2.6.27 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -332,7 +332,7 @@ Package: acerhk-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: acerhk-modules-2.6.27-7.slh.1-sidux-686
+Depends: acerhk-modules-2.6.27-7.slh.2-sidux-686
 Description: Acer Hotkey driver for Linux modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the Acer Hotkey driver for Linux modules for
  latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
@@ -346,12 +346,12 @@ Description: Acer Hotkey driver for Linux modules for Linux 2.6 on PPro/Celeron/
  It also has some other related functionality (depending on the model): -
  controlling LEDs (Mail, Wireless) - enable/disable wireless hardware
 
-Package: aufs-modules-2.6.27-7.slh.1-sidux-686
+Package: aufs-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: aufs-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: Driver for a stackable unification filesystem modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the Driver for a stackable unification filesystem
  modules for the Linux kernel version 2.6.27 on Pentium Pro/Celeron/Pentium
@@ -364,7 +364,7 @@ Package: aufs-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: aufs-modules-2.6.27-7.slh.1-sidux-686
+Depends: aufs-modules-2.6.27-7.slh.2-sidux-686
 Description: Driver for a stackable unification filesystem modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the Driver for a stackable unification filesystem
  modules for latest Linux kernel 2.6  for sidux on Pentium
@@ -373,12 +373,12 @@ Description: Driver for a stackable unification filesystem modules for Linux 2.6
  Aufs is a stackable unification filesystem such as Unionfs, which unifies
  several directories and provides a merged single directory.
 
-Package: atl2-modules-2.6.27-7.slh.1-sidux-686
+Package: atl2-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: atl2-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: Driver for the Atheros L2 Fast Ethernet Adapter modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the Driver for the Atheros L2 Fast Ethernet Adapter
  modules for the Linux kernel version 2.6.27 on Pentium Pro/Celeron/Pentium
@@ -392,7 +392,7 @@ Package: atl2-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: atl2-modules-2.6.27-7.slh.1-sidux-686
+Depends: atl2-modules-2.6.27-7.slh.2-sidux-686
 Description: Driver for the Atheros L2 Fast Ethernet Adapter modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the Driver for the Atheros L2 Fast Ethernet
  Adapter modules for latest Linux kernel 2.6  for sidux on Pentium
@@ -402,12 +402,12 @@ Description: Driver for the Atheros L2 Fast Ethernet Adapter modules for Linux 2
  The the Atheros(R) L2 Fast Ethernet Adapter is present in a few low cost
  Asus laptop systems, such as the Asus Eee PC.
 
-Package: fsam7400-modules-2.6.27-7.slh.1-sidux-686
+Package: fsam7400-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: fsam7400-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: SW RF kill switch driver for Fujitsu Siemens Amilo M 7400 modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the SW RF kill switch driver for Fujitsu Siemens
  Amilo M 7400 modules for the Linux kernel version 2.6.27 on Pentium
@@ -421,7 +421,7 @@ Package: fsam7400-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: fsam7400-modules-2.6.27-7.slh.1-sidux-686
+Depends: fsam7400-modules-2.6.27-7.slh.2-sidux-686
 Description: SW RF kill switch driver for Fujitsu Siemens Amilo M 7400 modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the SW RF kill switch driver for Fujitsu Siemens
  Amilo M 7400 modules for latest Linux kernel 2.6  for sidux on Pentium
@@ -431,12 +431,12 @@ Description: SW RF kill switch driver for Fujitsu Siemens Amilo M 7400 modules f
  RF kill switches on the Fujitsu Siemens Amilo M 7400 laptop.  This package
  provides the source code for the fsam7400 modules.
 
-Package: lirc-modules-modules-2.6.27-7.slh.1-sidux-686
+Package: lirc-modules-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: lirc-modules-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: infra-red remote control support modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the infra-red remote control support modules for the
  Linux kernel version 2.6.27 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -446,18 +446,18 @@ Package: lirc-modules-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: lirc-modules-modules-2.6.27-7.slh.1-sidux-686
+Depends: lirc-modules-modules-2.6.27-7.slh.2-sidux-686
 Description: infra-red remote control support modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the infra-red remote control support modules for
  latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
  II/Pentium III/Pentium 4 machines.
 
-Package: ndiswrapper-modules-2.6.27-7.slh.1-sidux-686
+Package: ndiswrapper-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: ndiswrapper-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: ndiswrapper Linux kernel module modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the ndiswrapper Linux kernel module modules for the
  Linux kernel version 2.6.27 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -474,7 +474,7 @@ Package: ndiswrapper-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: ndiswrapper-modules-2.6.27-7.slh.1-sidux-686
+Depends: ndiswrapper-modules-2.6.27-7.slh.2-sidux-686
 Description: ndiswrapper Linux kernel module modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the ndiswrapper Linux kernel module modules for
  latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
@@ -487,12 +487,12 @@ Description: ndiswrapper Linux kernel module modules for Linux 2.6 on PPro/Celer
  linked to this implementation so that the driver runs natively, as though
  it is in Windows, without binary emulation.
 
-Package: qc-usb-modules-2.6.27-7.slh.1-sidux-686
+Package: qc-usb-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: qc-usb-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: Modules for the QuickCam Express driver modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the Modules for the QuickCam Express driver modules
  for the Linux kernel version 2.6.27 on Pentium Pro/Celeron/Pentium
@@ -506,7 +506,7 @@ Package: qc-usb-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: qc-usb-modules-2.6.27-7.slh.1-sidux-686
+Depends: qc-usb-modules-2.6.27-7.slh.2-sidux-686
 Description: Modules for the QuickCam Express driver modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the Modules for the QuickCam Express driver
  modules for latest Linux kernel 2.6  for sidux on Pentium
@@ -516,12 +516,12 @@ Description: Modules for the QuickCam Express driver modules for Linux 2.6 on PP
  Logitech's QuickCam Express webcam and similar webcams.  This driver
  supercedes the qce-ga driver.
 
-Package: rfswitch-modules-2.6.27-7.slh.1-sidux-686
+Package: rfswitch-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: rfswitch-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: Modules for the rfswitch drivers modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the Modules for the rfswitch drivers modules for the
  Linux kernel version 2.6.27 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -535,7 +535,7 @@ Package: rfswitch-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: rfswitch-modules-2.6.27-7.slh.1-sidux-686
+Depends: rfswitch-modules-2.6.27-7.slh.2-sidux-686
 Description: Modules for the rfswitch drivers modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the Modules for the rfswitch drivers modules for
  latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
@@ -545,12 +545,12 @@ Description: Modules for the rfswitch drivers modules for Linux 2.6 on PPro/Cele
  and Packard Bell EasyNote E5. The code may work on other laptops, but
  these are the only models on which it has been tested.
 
-Package: squashfs-modules-2.6.27-7.slh.1-sidux-686
+Package: squashfs-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: squashfs-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: Driver for compression filesystem modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the Driver for compression filesystem modules for
  the Linux kernel version 2.6.27 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -571,7 +571,7 @@ Package: squashfs-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: squashfs-modules-2.6.27-7.slh.1-sidux-686
+Depends: squashfs-modules-2.6.27-7.slh.2-sidux-686
 Description: Driver for compression filesystem modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the Driver for compression filesystem modules for
  latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
@@ -588,12 +588,12 @@ Description: Driver for compression filesystem modules for Linux 2.6 on PPro/Cel
  block device/memory systems (e.g.  embedded systems) where low overhead is
  needed.
 
-Package: tp-smapi-modules-2.6.27-7.slh.1-sidux-686
+Package: tp-smapi-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: tp-smapi-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: ThinkPad hardware/firmware access through sysfs modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the ThinkPad hardware/firmware access through sysfs
  modules for the Linux kernel version 2.6.27 on Pentium Pro/Celeron/Pentium
@@ -609,7 +609,7 @@ Package: tp-smapi-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: tp-smapi-modules-2.6.27-7.slh.1-sidux-686
+Depends: tp-smapi-modules-2.6.27-7.slh.2-sidux-686
 Description: ThinkPad hardware/firmware access through sysfs modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the ThinkPad hardware/firmware access through
  sysfs modules for latest Linux kernel 2.6  for sidux on Pentium
@@ -621,12 +621,12 @@ Description: ThinkPad hardware/firmware access through sysfs modules for Linux 2
  The underlying hardware interfaces are SMAPI and direct access to the
  embedded controller.
 
-Package: virtualbox-ose-modules-2.6.27-7.slh.1-sidux-686
+Package: virtualbox-ose-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: virtualbox-ose-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: PC virtualization solution modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the PC virtualization solution modules for the Linux
  kernel version 2.6.27 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -639,7 +639,7 @@ Package: virtualbox-ose-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: virtualbox-ose-modules-2.6.27-7.slh.1-sidux-686
+Depends: virtualbox-ose-modules-2.6.27-7.slh.2-sidux-686
 Description: PC virtualization solution modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the PC virtualization solution modules for latest
  Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium II/Pentium
@@ -648,12 +648,12 @@ Description: PC virtualization solution modules for Linux 2.6 on PPro/Celeron/PI
  VirtualBox is a free PC virtualization solution allowing you to run a wide
  range of PC operating systems on your system.
 
-Package: virtualbox-ose-guest-modules-2.6.27-7.slh.1-sidux-686
+Package: virtualbox-ose-guest-modules-2.6.27-7.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: virtualbox-ose-guest-modules
-Depends: linux-modules-2.6.27-7.slh.1-sidux-686
+Depends: linux-modules-2.6.27-7.slh.2-sidux-686
 Description: PC virtualization solution modules for Linux 2.6.27 on PPro/Celeron/PII/PIII/P4
  This package provides the PC virtualization solution modules for the Linux
  kernel version 2.6.27 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -666,7 +666,7 @@ Package: virtualbox-ose-guest-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: virtualbox-ose-guest-modules-2.6.27-7.slh.1-sidux-686
+Depends: virtualbox-ose-guest-modules-2.6.27-7.slh.2-sidux-686
 Description: PC virtualization solution modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the PC virtualization solution modules for latest
  Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium II/Pentium
