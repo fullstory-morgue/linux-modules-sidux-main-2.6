@@ -1,7 +1,6 @@
 linux-modules-sidux-main-2.6 (2.6.27.rev37-1) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
-  * make lintian happy and depend on ${misc:Depends}.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 02:47:14 +0100
 
