@@ -1,0 +1,6 @@
+To add/remove module from build system:
+  * edit top level 'defines' and add/remove $(MODULE)
+  * provide/remove top level $(MODULE) directory
+  * regenerate control file templates:
+      debian/rules maintainerclean
+      debian/rules clean

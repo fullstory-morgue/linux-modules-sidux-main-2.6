@@ -1,0 +1,19 @@
+[base]
+modules:
+ acerhk
+ aufs
+ atl2
+# et131x
+ fsam7400
+ lirc-modules
+# lzma
+ ndiswrapper
+# omnibook
+ qc-usb
+# r5u870
+ rfswitch
+ squashfs
+ tp-smapi
+# unionfs
+ virtualbox-ose
+ virtualbox-ose-guest
