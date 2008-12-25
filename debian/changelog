@@ -1,4 +1,4 @@
-linux-modules-sidux-main-2.6 (2.6.28.rev1-1) unstable; urgency=low
+linux-modules-sidux-main-2.6 (2.6.28.rev1-1) experimental; urgency=low
 
   * build against 2.6.28-1.slh.1.
   * drop obsolete packages:
@@ -14,7 +14,7 @@ linux-modules-sidux-main-2.6 (2.6.28.rev1-1) unstable; urgency=low
     - qc-usb
     - squashfs
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 25 Dec 2008 21:30:44 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 25 Dec 2008 22:00:23 +0100
 
 linux-modules-sidux-main-2.6 (2.6.27.rev41a-1) unstable; urgency=low
 
