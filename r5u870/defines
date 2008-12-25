@@ -1,6 +1,0 @@
-[base]
-arches: amd64 i386 powerpc
-desc: driver for Ricoh R5U870 OEM cameras
-longdesc:
- This kernel module provides Linux support for webcams found in a some Sony
- and a few HP laptops that use the OEM Ricoh cameras.

@@ -1,8 +1,20 @@
-linux-modules-sidux-main-2.6 (2.6.27.rev42-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.28.rev1-1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * build against 2.6.28-1.slh.1.
+  * drop obsolete packages:
+    - atl2
+    - et131x
+    - omnibook
+    - r5u870
+    - tp-smapi
+  * temporarily disable, FTBS:
+    - qc-usb
+    - squashfs
+  * re- enable fixed modules:
+    - qc-usb
+    - squashfs
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 22 Dec 2008 17:23:04 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 25 Dec 2008 21:30:44 +0100
 
 linux-modules-sidux-main-2.6 (2.6.27.rev41a-1) unstable; urgency=low
 
