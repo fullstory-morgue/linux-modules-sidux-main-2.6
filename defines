@@ -8,7 +8,6 @@ modules:
  ndiswrapper
  qc-usb
  rfswitch
- squashfs
 # unionfs
  virtualbox-ose
  virtualbox-ose-guest
