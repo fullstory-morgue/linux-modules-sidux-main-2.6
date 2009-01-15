@@ -4,7 +4,6 @@ modules:
  aufs
  fsam7400
  lirc-modules
-# lzma
  ndiswrapper
  qc-usb
  rfswitch
