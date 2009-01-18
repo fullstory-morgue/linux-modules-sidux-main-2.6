@@ -1,24 +1,24 @@
-linux-modules-sidux-main-2.6 (2.6.28.rev12-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.28.rev12-1) experimental; urgency=low
 
-  * NOT RELEASED YET
+  * build against 2.6.28-1.slh.1.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 Jan 2009 00:53:36 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 18 Jan 2009 22:26:46 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev11-1) experimental; urgency=low
 
-  * build against 2.6.28-1.slh.11.
+  * build against 2.6.28-0.slh.11.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 Jan 2009 00:47:53 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev10-1) experimental; urgency=low
 
-  * build against 2.6.28-1.slh.10.
+  * build against 2.6.28-0.slh.10.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 Jan 2009 17:12:30 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev9-1) experimental; urgency=low
 
-  * build against 2.6.28-1.slh.9.
+  * build against 2.6.28-0.slh.9.
   * squashfs 4.0 is now mainline and has been backported to our 2.6.28, 
     drop external modules.
 
@@ -26,49 +26,49 @@ linux-modules-sidux-main-2.6 (2.6.28.rev9-1) experimental; urgency=low
 
 linux-modules-sidux-main-2.6 (2.6.28.rev8-1) experimental; urgency=low
 
-  * build against 2.6.28-1.slh.8.
+  * build against 2.6.28-0.slh.8.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 08 Jan 2009 13:56:35 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev7-1) experimental; urgency=low
 
-  * build against 2.6.28-1.slh.7.
+  * build against 2.6.28-0.slh.7.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 Jan 2009 20:20:40 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev6-1) experimental; urgency=low
 
-  * build against 2.6.28-1.slh.6.
+  * build against 2.6.28-0.slh.6.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 03 Jan 2009 16:44:29 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev5-1) experimental; urgency=low
 
-  * build against 2.6.28-1.slh.5.
+  * build against 2.6.28-0.slh.5.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 02 Jan 2009 01:00:23 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev4-1) experimental; urgency=low
 
-  * build against 2.6.28-1.slh.4.
+  * build against 2.6.28-0.slh.4.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 01 Jan 2009 01:18:34 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev3-1) experimental; urgency=low
 
-  * build against 2.6.28-1.slh.3.
+  * build against 2.6.28-0.slh.3.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 29 Dec 2008 15:12:14 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev2-1) experimental; urgency=low
 
-  * build against 2.6.28-1.slh.2.
+  * build against 2.6.28-0.slh.2.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 26 Dec 2008 16:30:18 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev1-1) experimental; urgency=low
 
-  * build against 2.6.28-1.slh.1.
+  * build against 2.6.28-0.slh.1.
   * drop obsolete packages:
     - atl2
     - et131x
