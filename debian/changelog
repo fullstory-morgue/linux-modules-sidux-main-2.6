@@ -1,8 +1,8 @@
-linux-modules-sidux-main-2.6 (2.6.28.rev22-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.28.rev22-1) experimental; urgency=low
 
-  * NOT RELEASED YET
+  * build against 2.6.28-3.slh.3.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Feb 2009 17:12:15 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Feb 2009 22:24:06 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev21-1) experimental; urgency=low
 
