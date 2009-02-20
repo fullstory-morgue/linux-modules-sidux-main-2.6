@@ -3,9 +3,46 @@ Section: devel
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Standards-Version: 3.7.3
-Build-Depends: debhelper (>= 6), linux-support-2.6.28-6.slh.2, linux-headers-2.6.28-6.slh.2-all-amd64 [amd64], linux-headers-2.6.28-6.slh.2-all-i386 [i386], aufs-source, fsam7400-source [amd64 i386], lirc-modules-source, ndiswrapper-source [amd64 i386], qc-usb-source, rfswitch-source, virtualbox-ose-source [amd64 i386], virtualbox-ose-guest-source [amd64 i386], acerhk-source [i386]
+Build-Depends: debhelper (>= 6), linux-support-2.6.28-6.slh.2, linux-headers-2.6.28-6.slh.2-all-amd64 [amd64], linux-headers-2.6.28-6.slh.2-all-i386 [i386], acerhk-source [amd64 i386], aufs-source, fsam7400-source [amd64 i386], lirc-modules-source, ndiswrapper-source [amd64 i386], qc-usb-source, rfswitch-source, virtualbox-ose-source [amd64 i386], virtualbox-ose-guest-source [amd64 i386]
 Vcs-Svn: svn://svn.berlios.de/fullstory/linux-modules-sidux-main-2.6/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/linux-modules-sidux-main-2.6/trunk/
+
+Package: acerhk-modules-2.6.28-6.slh.2-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: acerhk-modules
+Depends: linux-modules-2.6.28-6.slh.2-sidux-amd64
+Description: Acer Hotkey driver for Linux modules for Linux 2.6.28 on AMD64
+ This package provides the Acer Hotkey driver for Linux modules for the
+ Linux kernel version 2.6.28 on all 64bit single- and multiprocessor AMD
+ and Intel machines.
+ .
+ This driver will give access to the special keys on notebooks of the Acer
+ Travelmate series, which are not handled by the keyboard driver.  It also
+ works on notebooks from other manufacturers (some Medion, Fujitsu-Siemens,
+ ...).
+ .
+ It also has some other related functionality (depending on the model): -
+ controlling LEDs (Mail, Wireless) - enable/disable wireless hardware
+
+Package: acerhk-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: acerhk-modules-2.6.28-6.slh.2-sidux-amd64
+Description: Acer Hotkey driver for Linux modules for Linux 2.6 on AMD64
+ This package depends on the Acer Hotkey driver for Linux modules for
+ latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
+ AMD and Intel machines.
+ .
+ This driver will give access to the special keys on notebooks of the Acer
+ Travelmate series, which are not handled by the keyboard driver.  It also
+ works on notebooks from other manufacturers (some Medion, Fujitsu-Siemens,
+ ...).
+ .
+ It also has some other related functionality (depending on the model): -
+ controlling LEDs (Mail, Wireless) - enable/disable wireless hardware
 
 Package: aufs-modules-2.6.28-6.slh.2-sidux-amd64
 Architecture: amd64
