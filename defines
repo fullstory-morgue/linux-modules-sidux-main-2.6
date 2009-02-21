@@ -1,9 +1,9 @@
 [base]
 modules:
  acerhk
- aufs
+# aufs
  fsam7400
- lirc-modules
+# lirc-modules
  ndiswrapper
  qc-usb
  rfswitch
