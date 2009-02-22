@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Standards-Version: 3.7.3
-Build-Depends: debhelper (>= 6), linux-support-2.6.29-rc5, linux-headers-2.6.29-rc5-all-amd64 [amd64], linux-headers-2.6.29-rc5-all-i386 [i386], acerhk-source [amd64 i386], fsam7400-source [amd64 i386], ndiswrapper-source [amd64 i386], qc-usb-source, rfswitch-source, virtualbox-ose-source [amd64 i386], virtualbox-ose-guest-source [amd64 i386]
+Build-Depends: debhelper (>= 6), linux-support-2.6.29-rc5, linux-headers-2.6.29-rc5-all-amd64 [amd64], linux-headers-2.6.29-rc5-all-i386 [i386], acerhk-source [amd64 i386], aufs-source, fsam7400-source [amd64 i386], ndiswrapper-source [amd64 i386], qc-usb-source, rfswitch-source, virtualbox-ose-source [amd64 i386], virtualbox-ose-guest-source [amd64 i386]
 Vcs-Svn: svn://svn.berlios.de/fullstory/linux-modules-sidux-main-2.6/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/linux-modules-sidux-main-2.6/trunk/
 
@@ -43,6 +43,33 @@ Description: Acer Hotkey driver for Linux modules for Linux 2.6 on AMD64
  .
  It also has some other related functionality (depending on the model): -
  controlling LEDs (Mail, Wireless) - enable/disable wireless hardware
+
+Package: aufs-modules-2.6.29-rc5-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: aufs-modules
+Depends: linux-modules-2.6.29-rc5-sidux-amd64
+Description: Driver for a stackable unification filesystem modules for Linux 2.6.29-rc5 on AMD64
+ This package provides the Driver for a stackable unification filesystem
+ modules for the Linux kernel version 2.6.29-rc5 on all 64bit single- and
+ multiprocessor AMD and Intel machines.
+ .
+ Aufs is a stackable unification filesystem such as Unionfs, which unifies
+ several directories and provides a merged single directory.
+
+Package: aufs-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: aufs-modules-2.6.29-rc5-sidux-amd64
+Description: Driver for a stackable unification filesystem modules for Linux 2.6 on AMD64
+ This package depends on the Driver for a stackable unification filesystem
+ modules for latest Linux kernel 2.6  for sidux on all 64bit single- and
+ multiprocessor AMD and Intel machines.
+ .
+ Aufs is a stackable unification filesystem such as Unionfs, which unifies
+ several directories and provides a merged single directory.
 
 Package: fsam7400-modules-2.6.29-rc5-sidux-amd64
 Architecture: amd64
@@ -256,6 +283,33 @@ Description: Acer Hotkey driver for Linux modules for Linux 2.6 on PPro/Celeron/
  .
  It also has some other related functionality (depending on the model): -
  controlling LEDs (Mail, Wireless) - enable/disable wireless hardware
+
+Package: aufs-modules-2.6.29-rc5-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: aufs-modules
+Depends: linux-modules-2.6.29-rc5-sidux-686
+Description: Driver for a stackable unification filesystem modules for Linux 2.6.29-rc5 on PPro/Celeron/PII/PIII/P4
+ This package provides the Driver for a stackable unification filesystem
+ modules for the Linux kernel version 2.6.29-rc5 on Pentium
+ Pro/Celeron/Pentium II/Pentium III/Pentium 4 machines.
+ .
+ Aufs is a stackable unification filesystem such as Unionfs, which unifies
+ several directories and provides a merged single directory.
+
+Package: aufs-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: aufs-modules-2.6.29-rc5-sidux-686
+Description: Driver for a stackable unification filesystem modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the Driver for a stackable unification filesystem
+ modules for latest Linux kernel 2.6  for sidux on Pentium
+ Pro/Celeron/Pentium II/Pentium III/Pentium 4 machines.
+ .
+ Aufs is a stackable unification filesystem such as Unionfs, which unifies
+ several directories and provides a merged single directory.
 
 Package: fsam7400-modules-2.6.29-rc5-sidux-686
 Architecture: i386
