@@ -1,7 +1,7 @@
 [base]
 modules:
  acerhk
- aufs
+# aufs
  fsam7400
 # lirc-modules
  ndiswrapper
