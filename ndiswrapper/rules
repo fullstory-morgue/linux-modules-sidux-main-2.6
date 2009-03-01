@@ -1,0 +1,7 @@
+$(BUILD_STAMP):
+	$(MAKE) -C $(CURDIR)/$(DIR) KBUILD=$(HEADERS_DIR)
+	touch $@
+
+install: LIB_MODULES = $(PACKAGE_DIR)/lib/modules/$(REAL_VERSION)
+install:
+	install -D -m 0644 $(CURDIR)/$(DIR)/ndiswrapper.ko $(LIB_MODULES)/misc/ndiswrapper.ko
