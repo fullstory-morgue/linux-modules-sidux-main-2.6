@@ -1,13 +1,13 @@
-linux-modules-sidux-main-2.6 (2.6.29~rc6.git7-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.29~rc7.git0-1) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
-  * build against 2.6.29-rc6-git7.
+  * build against 2.6.29-rc7.
   * temporarily disable, FTBS:
     - lirc-modules
   * temporarily disable, building but broken:
     - aufs
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Mar 2009 01:56:39 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Mar 2009 19:16:46 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev32-1) unstable; urgency=low
 
