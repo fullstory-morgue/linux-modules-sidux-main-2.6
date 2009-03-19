@@ -4,8 +4,10 @@ linux-modules-sidux-main-2.6 (2.6.29~rc8.git3-1) UNRELEASED; urgency=low
   * build against 2.6.29-rc8-git3.
   * temporarily disable, building but broken:
     - aufs, aufs2 included as kernel patch for now.
+  * disable, FTBS:
+    - ndiswrapper
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 18 Mar 2009 23:36:22 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Mar 2009 01:15:24 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev32-1) unstable; urgency=low
 
