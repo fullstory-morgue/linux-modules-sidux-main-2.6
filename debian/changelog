@@ -1,0 +1,1250 @@
+linux-modules-sidux-main-2.6 (2.6.28.rev40-1) unstable; urgency=low
+
+  * build against 2.6.28-8.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 23 Mar 2009 02:25:07 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev39-1) unstable; urgency=low
+
+  * build against 2.6.28-8.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 21 Mar 2009 12:02:28 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev38-1) unstable; urgency=low
+
+  * build against 2.6.28-8.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 18 Mar 2009 20:14:23 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev37-1) unstable; urgency=low
+
+  * build against 2.6.28-7.slh.6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 15 Mar 2009 03:04:41 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev35-1) unstable; urgency=low
+
+  * build against 2.6.28-7.slh.4.
+  * drop aufs v1 for now.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 12 Mar 2009 02:37:22 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev34.1-1) unstable; urgency=low
+
+  * build against 2.6.28-7.slh.3.
+  * pull in 2.6.29 compatible lirc.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 10 Mar 2009 01:32:10 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev34-1) unstable; urgency=low
+
+  * build against 2.6.28-7.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Mar 2009 23:57:29 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev33-1) unstable; urgency=low
+
+  * build against 2.6.28-7.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Mar 2009 01:55:38 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev32.1-1) unstable; urgency=low
+
+  * pull in new virtualbox-ose sources.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 01 Mar 2009 21:56:19 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev32-1) unstable; urgency=low
+
+  * build against 2.6.28-7.slh.1.
+  * acerhk is now amd64 capable as well, enable it accordingly.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 21 Feb 2009 01:36:59 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev31-1) unstable; urgency=low
+
+  * build against 2.6.28-6.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Feb 2009 03:08:07 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev30-1) unstable; urgency=low
+
+  * build against 2.6.28-6.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 17 Feb 2009 21:16:03 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev29.1-1) experimental; urgency=low
+
+  * take care to build against virtualbox-ose-{source,guest-source} 
+    >= 2.1.2-dfsg-2.
+  * also build virtualbox-ose-guest-source on amd64.
+  * build against 2.6.28-5.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 16 Feb 2009 18:29:37 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev29-1) experimental; urgency=low
+
+  * build against 2.6.28-5.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 14 Feb 2009 16:49:47 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev28-1) experimental; urgency=low
+
+  * build against 2.6.28-5.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 14 Feb 2009 03:53:48 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev27-1) experimental; urgency=low
+
+  * build against 2.6.28-5.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 12 Feb 2009 22:13:25 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev26-1) experimental; urgency=low
+
+  * build against 2.6.28-4.slh.4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 10 Feb 2009 22:55:03 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev25-1) experimental; urgency=low
+
+  * build against 2.6.28-4.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 09 Feb 2009 02:44:57 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev24-1) experimental; urgency=low
+
+  * build against 2.6.28-4.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Feb 2009 15:09:41 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev23-1) experimental; urgency=low
+
+  * build against 2.6.28-4.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 07 Feb 2009 13:44:10 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev22-1) experimental; urgency=low
+
+  * build against 2.6.28-3.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Feb 2009 22:24:06 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev21-1) experimental; urgency=low
+
+  * build against 2.6.28-3.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Feb 2009 17:09:36 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev20-1) experimental; urgency=low
+
+  * build against 2.6.28-3.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 02 Feb 2009 23:33:04 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev19-1) experimental; urgency=low
+
+  * build against 2.6.28-2.slh.5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 31 Jan 2009 16:45:34 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev18-1) experimental; urgency=low
+
+  * build against 2.6.28-2.slh.4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 31 Jan 2009 12:52:48 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev17-1) experimental; urgency=low
+
+  * build against 2.6.28-2.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 30 Jan 2009 02:57:45 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev16-1) experimental; urgency=low
+
+  * build against 2.6.28-2.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 27 Jan 2009 01:42:09 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev15-1) experimental; urgency=low
+
+  * build against 2.6.28-2.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 25 Jan 2009 03:37:03 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev14-1) experimental; urgency=low
+
+  * build against 2.6.28-1.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 23 Jan 2009 23:40:40 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev13-1) experimental; urgency=low
+
+  * build against 2.6.28-1.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 23 Jan 2009 14:42:35 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev12-1) experimental; urgency=low
+
+  * build against 2.6.28-1.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 18 Jan 2009 22:26:46 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev11-1) experimental; urgency=low
+
+  * build against 2.6.28-0.slh.11.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 Jan 2009 00:47:53 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev10-1) experimental; urgency=low
+
+  * build against 2.6.28-0.slh.10.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 Jan 2009 17:12:30 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev9-1) experimental; urgency=low
+
+  * build against 2.6.28-0.slh.9.
+  * squashfs 4.0 is now mainline and has been backported to our 2.6.28, 
+    drop external modules.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 10 Jan 2009 15:53:59 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev8-1) experimental; urgency=low
+
+  * build against 2.6.28-0.slh.8.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 08 Jan 2009 13:56:35 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev7-1) experimental; urgency=low
+
+  * build against 2.6.28-0.slh.7.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 Jan 2009 20:20:40 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev6-1) experimental; urgency=low
+
+  * build against 2.6.28-0.slh.6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 03 Jan 2009 16:44:29 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev5-1) experimental; urgency=low
+
+  * build against 2.6.28-0.slh.5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 02 Jan 2009 01:00:23 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev4-1) experimental; urgency=low
+
+  * build against 2.6.28-0.slh.4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 01 Jan 2009 01:18:34 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev3-1) experimental; urgency=low
+
+  * build against 2.6.28-0.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 29 Dec 2008 15:12:14 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev2-1) experimental; urgency=low
+
+  * build against 2.6.28-0.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 26 Dec 2008 16:30:18 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev1-1) experimental; urgency=low
+
+  * build against 2.6.28-0.slh.1.
+  * drop obsolete packages:
+    - atl2
+    - et131x
+    - omnibook
+    - r5u870
+    - tp-smapi
+  * temporarily disable, FTBS:
+    - qc-usb
+    - squashfs
+  * re- enable fixed modules:
+    - qc-usb
+    - squashfs
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 25 Dec 2008 22:00:23 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev41a-1) unstable; urgency=low
+
+  * build against 2.6.27-10.slh.1.
+  * update external drivers.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 22 Dec 2008 17:14:09 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev41-1) unstable; urgency=low
+
+  * build against 2.6.27-10.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 18 Dec 2008 21:50:43 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev40-1) unstable; urgency=low
+
+  * build against 2.6.27-9.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 17 Dec 2008 19:18:20 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev39-1) unstable; urgency=low
+
+  * build against 2.6.27-9.slh.1.
+  * take care to build against new aufs.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 14 Dec 2008 03:46:48 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev38-1) unstable; urgency=low
+
+  * build against 2.6.27-8.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 11 Dec 2008 22:50:00 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev37-1) unstable; urgency=low
+
+  * build against 2.6.27-8.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 10 Dec 2008 20:19:53 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev36-1) unstable; urgency=low
+
+  * build against 2.6.27-8.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 06 Dec 2008 00:20:57 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev35-1) unstable; urgency=low
+
+  * build against 2.6.27-7.slh.4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 03 Dec 2008 21:38:58 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev34-1) unstable; urgency=low
+
+  * build against 2.6.27-7.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 03 Dec 2008 14:38:36 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev33-1) unstable; urgency=low
+
+  * build against 2.6.27-7.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 29 Nov 2008 15:23:19 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev32-1) unstable; urgency=low
+
+  * build against 2.6.27-7.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 21 Nov 2008 02:00:52 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev31-1) unstable; urgency=low
+
+  * build against 2.6.27-6.slh.6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 20 Nov 2008 02:08:11 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev30-1) unstable; urgency=low
+
+  * build against 2.6.27-6.slh.5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 17 Nov 2008 01:00:50 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev29-1) unstable; urgency=low
+
+  * build against 2.6.27-6.slh.4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 15 Nov 2008 15:34:05 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev27-1) unstable; urgency=low
+
+  * build against 2.6.27-6.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 14 Nov 2008 01:37:48 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev25-1) unstable; urgency=low
+
+  * build against 2.6.27-5.slh.4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 12 Nov 2008 17:59:53 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev22-1) unstable; urgency=low
+
+  * build against 2.6.27-5.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 07 Nov 2008 21:31:19 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev21.1-1) unstable; urgency=high
+
+  * rebuild against security fixed ndiswrapper and 2.6.27-4.slh.7 again.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 Nov 2008 16:29:23 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev21-1) unstable; urgency=low
+
+  * build against 2.6.27-4.slh.7.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 Nov 2008 16:25:59 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev19-1) unstable; urgency=low
+
+  * build against 2.6.27-4.slh.5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 03 Nov 2008 22:06:54 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev16-2) unstable; urgency=low
+
+  * build against 2.6.27-4.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 01 Nov 2008 23:30:02 +0100
+
+linux-modules-sidux-main-2.6 (2.6.27.rev16-1) unstable; urgency=low
+
+  * build against 2.6.27-4.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 25 Oct 2008 02:50:16 +0200
+
+linux-modules-sidux-main-2.6 (2.6.27.rev14-1) unstable; urgency=low
+
+  * build against 2.6.27-3.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 25 Oct 2008 02:46:40 +0200
+
+linux-modules-sidux-main-2.6 (2.6.27.rev13-1) unstable; urgency=low
+
+  * build against 2.6.27-3.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Oct 2008 18:43:27 +0200
+
+linux-modules-sidux-main-2.6 (2.6.27.rev12-1) unstable; urgency=low
+
+  * build against 2.6.27-2.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 22 Oct 2008 18:07:28 +0200
+
+linux-modules-sidux-main-2.6 (2.6.27.revi10-1) unstable; urgency=low
+
+  * build against 2.6.27-2.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 19 Oct 2008 02:51:43 +0200
+
+linux-modules-sidux-main-2.6 (2.6.27.rev9-1) unstable; urgency=low
+
+  * build against 2.6.27-1.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 18 Oct 2008 15:00:49 +0200
+
+linux-modules-sidux-main-2.6 (2.6.27.rev8-1) unstable; urgency=low
+
+  * build against 2.6.27-1.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 17 Oct 2008 14:02:11 +0200
+
+linux-modules-sidux-main-2.6 (2.6.27.rev7-1) unstable; urgency=low
+
+  * build against 2.6.27-1.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 16 Oct 2008 20:49:04 +0200
+
+linux-modules-sidux-main-2.6 (2.6.27.rev5-1) unstable; urgency=low
+
+  * remove drivers applied upstream:
+    - gspca
+  * disable drivers handled differently:
+    - et131x
+    - omnibook
+  * drop modules:
+    - btrfs, unstable on-disk structures.
+    - kqemu, simply broken and superceded by virtualbox-ose and kvm.
+  * build against 2.6.27-0.slh.5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 15 Oct 2008 19:52:58 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev37-1) unstable; urgency=low
+
+  * build against 2.6.26-6.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 09 Oct 2008 22:30:58 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev36-1) unstable; urgency=low
+
+  * build against 2.6.26-5.slh.12.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 07 Oct 2008 18:07:56 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev34-1) unstable; urgency=low
+
+  * build against 2.6.26-5.slh.10.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Oct 2008 19:40:10 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev33-1) unstable; urgency=low
+
+  * build against 2.6.26-5.slh.9.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Oct 2008 19:19:50 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev32-1) unstable; urgency=low
+
+  * build against 2.6.26-5.slh.8.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 01 Oct 2008 16:51:01 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev31-1) unstable; urgency=low
+
+  * build against 2.6.26-5.slh.7.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 29 Sep 2008 23:03:47 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev30.2-1) unstable; urgency=low
+
+  * pull in fixed vbox.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 28 Sep 2008 21:10:31 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev30.1-1) unstable; urgency=low
+
+  * pull in new virtualbox-ose 1.6.6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 22 Sep 2008 19:09:19 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev30-1) unstable; urgency=low
+
+  * build against 2.6.26-5.slh.6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 20 Sep 2008 19:38:50 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev29-1) unstable; urgency=low
+
+  * build against 2.6.26-5.slh.5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 18 Sep 2008 23:19:24 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev28+b1-1) unstable; urgency=low
+
+  * pull in new virtualbox-ose modules.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 14 Sep 2008 01:33:36 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev28-1) unstable; urgency=low
+
+  * build against 2.6.26-5.slh.4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 13 Sep 2008 15:03:59 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev27-1) unstable; urgency=low
+
+  * build against 2.6.26-5.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 10 Sep 2008 23:23:35 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev26-1) unstable; urgency=low
+
+  * build against 2.6.26-5.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 10 Sep 2008 00:30:35 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev25-1) unstable; urgency=low
+
+  * build against 2.6.26-5.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Sep 2008 22:41:35 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev24-1) unstable; urgency=low
+
+  * build against 2.6.26-3.slh.4.
+  * disable r5u870, broken with 2.6.26, upstream MIA, no debgging hardware.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 03 Sep 2008 22:45:34 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev23-1) unstable; urgency=low
+
+  * build against 2.6.26-3.slh.3.
+  * drop btrf, FTBS and of little use without a stable ondisk file format.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 31 Aug 2008 13:40:18 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev21-1) unstable; urgency=low
+
+  * build against 2.6.26-3.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Aug 2008 02:03:31 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev20-1) unstable; urgency=low
+
+  * build against 2.6.26-2.slh.6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 20 Aug 2008 00:50:34 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev17-1) unstable; urgency=low
+
+  * build against 2.6.26-2.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 19 Aug 2008 00:48:04 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev16-1) unstable; urgency=low
+
+  * build against 2.6.26-2.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 17 Aug 2008 15:28:07 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev14-1) unstable; urgency=low
+
+  * build against 2.6.26-1.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 06 Aug 2008 23:29:39 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev13-1) unstable; urgency=low
+
+  * drop atl1e, merged upstream, added to our kernel.
+  * sync with debian-kernel svn r11937:
+    [ Bastian Blank ]
+    - debian/bin/gencontrol.py: Adopt linux-2.6 changes.
+  * build against 2.6.26-1.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Aug 2008 04:14:03 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev8-1) unstable; urgency=low
+
+  * build against 2.6.26-0.slh.8.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 31 Jul 2008 02:00:13 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev7-1) unstable; urgency=low
+
+  * build against 2.6.26-0.slh.7.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 30 Jul 2008 22:42:24 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev6-1) unstable; urgency=low
+
+  * build against 2.6.26-0.slh.6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 29 Jul 2008 01:31:27 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev5-1) unstable; urgency=low
+
+  * build against 2.6.26-0.slh.5.
+  * 2.6.26 is default now.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 27 Jul 2008 21:37:44 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev4-1) experimental; urgency=low
+
+  * enable qc-usb again, thanks to Guillaume Bedot <littletux@mandriva.org>.
+  * build against 2.6.26-0.slh.4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 27 Jul 2008 01:48:55 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev3-1) experimental; urgency=low
+
+  * build against 2.6.26-0.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 18 Jul 2008 18:44:49 +0200
+
+linux-modules-sidux-main-2.6 (2.6.26.rev2-1) experimental; urgency=low
+
+  * build against 2.6.26-0.slh.2.
+  * obsoleted, and dropped, by in-kernel support:
+    - eeepc-acpi
+    - sfc
+  * FTBS, dropped for the time being:
+    - qc-usb
+  * new additions:
+    - lirc-modules, still cosmetic issues with module naming --> needs changes
+      in lirc's packaging not possible before lenny.
+  * disable lirc on Xen kernels (USB undefined).
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 15 Jul 2008 14:51:22 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev39-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-11.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 14 Jul 2008 00:57:15 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev38-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-10.slh.1.
+  * add Atheros atl1e driver.
+  * pull in virtualbox-ose 1.6.2-dfsg-2 modules.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 03 Jul 2008 13:22:37 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev37-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-9.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 02 Jul 2008 02:47:24 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev36-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-9.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 25 Jun 2008 01:51:56 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev35-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-8.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Jun 2008 10:39:43 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev34-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-8.slh.1.
+  * pull in r5u870 0.11.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 22 Jun 2008 21:08:02 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev33-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-7.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Jun 2008 02:17:35 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev32-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-7.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 17 Jun 2008 01:06:52 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev31-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-6.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 14 Jun 2008 15:29:42 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev30-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-6.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 13 Jun 2008 17:50:32 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev29-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-6.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 13 Jun 2008 02:47:49 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev28-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-5.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 07 Jun 2008 02:07:31 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev27-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-4.slh.10.
+  * pull in virtualbox-ose 1.6.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 06 Jun 2008 19:50:59 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev26-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-4.slh.9.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 06 Jun 2008 11:37:53 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev25-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-4.slh.8.
+  * build modules with gcc-4.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Jun 2008 17:35:58 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev23-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-4.slh.7.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 03 Jun 2008 19:34:44 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev21-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-4.slh.5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 02 Jun 2008 19:39:28 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev20-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-4.slh.4.
+  * pull in ndiswrapper 1.53.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 02 Jun 2008 15:12:17 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev19-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-4.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 23 May 2008 23:57:59 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev18-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-4.slh.2.
+  * ensure to build against new aufs.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 May 2008 01:24:05 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev17-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-4.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 13 May 2008 23:58:36 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev16-1) unstable; urgency=low
+
+  * rebuild against 2.6.25-3.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 May 2008 01:05:08 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev14-1) unstable; urgency=low
+
+  * sync with debian-kernel svn r11337:
+    [ Daniel Baumann ]
+      - Enabling sfc.
+      - Enabling tp-smapi.
+      - Adding eeepc-acpi.
+      - Using python2.5 now.
+      - Switching to new argument name for 'debian'.
+      - Using default python version rather than a specific one.
+    [ Bastian Blank ]
+      - debian/bin/gencontrol.py: Use new makeflags.
+      - debian/bin/gencontrol.py: Export MAJOR.
+  * drop linux-uvc again, it's too broken to be true.
+  * fix debian/rules.real to use VERSION_REVISION instead of the no longer
+    available VERSION_DEBIAN.
+  * rebuild against 2.6.25-3.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 May 2008 00:59:07 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev11) unstable; urgency=low
+
+  * rebuild against 2.6.25-2.slh.1.
+  * add lirc-module stub, but keep it disabled.
+  * add linux-uvc stub, but keep it disabled.
+  * re- enable aufs, a (hopefully) 2.6.25 compatible version has entered sid.
+  * use the system's default python.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 16:22:16 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev8) unstable; urgency=low
+
+  * disable still broken aufs again.
+  * rebuild against 2.6.25-1.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 02 May 2008 14:57:52 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev6) unstable; urgency=low
+
+  * rebuild against 2.6.25-0.slh.12, which is actually 2.6.25.1-rc1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 29 Apr 2008 23:12:14 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev5) unstable; urgency=low
+
+  * rebuild against 2.6.25-0.slh.11.
+  * reinclude aufs into the lineup.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 29 Apr 2008 13:58:29 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev4) unstable; urgency=low
+
+  * rebuild against 2.6.25-0.slh.10.
+  * ensure to build against 2.6.25 compatible external modules.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 28 Apr 2008 23:47:17 +0200
+
+linux-modules-sidux-main-2.6 (2.6.25.rev3) unstable; urgency=low
+
+  * switch trunk to 2.6.25.
+  * rebuild against 2.6.25-0.slh.9.
+  * disable broken module for the time being:
+    - aufs
+  * re- enable locally fixed modules:
+    - omnibook
+    - r5u870
+    - squashfs
+    - virtualbox-ose-guest-modules
+  * drop external modules merged upstream:
+    - acer-acpi
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 28 Apr 2008 20:27:50 +0200
+
+linux-modules-sidux-main-2.6 (2.6.24.rev28) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.4.slh.6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 17 Apr 2008 17:38:12 +0200
+
+linux-modules-sidux-main-2.6 (2.6.24.rev27) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.4.slh.5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Apr 2008 00:13:26 +0200
+
+linux-modules-sidux-main-2.6 (2.6.24.rev26) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.4.slh.4.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 06 Apr 2008 16:09:52 +0200
+
+linux-modules-sidux-main-2.6 (2.6.24.rev25) unstable; urgency=low
+
+  [ Stefan Lippers-Hollmann ]
+  * no longer build lzma modules, squashfs doesn't need those anymore.
+  * rebuild against 2.6.24-2.6.24.4.slh.3.
+
+  [ Kel Modderman ]
+  * Remove remnants of lzma from ./debian/* using maintainerclean.
+  * Add r5u870 module to the line-up.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 31 Mar 2008 18:07:51 +0200
+
+linux-modules-sidux-main-2.6 (2.6.24.rev24) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.4.slh.1.
+  * hope to generate the initramfs with busybox >= 1:1.9.2-1+c0.sidux.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 25 Mar 2008 19:03:56 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev23) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.4.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 25 Mar 2008 02:01:02 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev22) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.11.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 23 Mar 2008 04:11:10 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev19) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.8.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 21 Mar 2008 10:31:41 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev18) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.7.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 19 Mar 2008 15:27:11 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev17) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.6.
+  * make sure to build against acer-acpi 0.11.2-1.
+  * make sure to build against et131x 1.2.3-2-1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 14 Mar 2008 00:10:20 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev16) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.5.
+  * give ndiswrapper 1.52+svn20080312.r2638 some real life exposure.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 12 Mar 2008 13:10:00 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev14) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.3.
+  * make sure to pull in the official acerhk.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 11 Mar 2008 14:18:23 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev13) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 06 Mar 2008 23:10:40 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev12) unstable; urgency=low
+
+  * rebuild against 2.6.24-2.6.24.3.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 26 Feb 2008 14:17:58 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev11.b1) unstable; urgency=low
+
+  * drop drbd8.
+  * rebuild against new squashfs 3.3-3+c0.sidux.1, fixing a number of data
+    corruption issues.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 25 Feb 2008 00:47:05 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24.rev11) unstable; urgency=low
+
+  * build against kernel 2.6.24-2.6.24.2.slh.12.
+  * switch to new versioning scheme based on the debian revision of the given
+    linux-2.6-sidux package.
+  * loop-aes diverts kernel functionality, don't ship it.
+  * drop redhat-cluster, gfs2 is shipping mainline.
+
+  [ Kel Modderman ]
+  * Add ndiswrapper to module line-up, providing ndiswrapper/rules override
+    file with targets for build and install phase.
+  * Add debain/README.hacking with small note about howto add/remove modules
+    from this package.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 24 Feb 2008 04:10:42 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.11) unstable; urgency=low
+
+  * build against kernel 2.6.24-2.6.24.2.slh.11.
+  * virtualbox-ose works fine on amd64.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 22 Feb 2008 01:39:44 +0100
+
+linux-modules-sidux-main-2.6 (2.6.24-2.6.24.2.slh.10) unstable; urgency=low
+
+  * fork package as linux-modules-sidux-main-2.6 for sidux.
+  * shut up lintian and write (C) as © in debian/copyright, talk about the
+    fork and its intentions.
+  * drop unused modules:
+    - iscsitarget
+    - mol
+    - r6040, no yada accepted.
+    - tp-smapi
+  * don't build unionfs, we use kernel patches.
+  * adapt package templates.
+  * drop the dependency on
+    linux-latest-modules-@upstreamversion@@abiname@@localversion@, we don't
+    provide it.
+  * add new external module packages:
+    - acerhk (i386 only)
+    - acer-acpi (amd64 and i386)
+    - et131x
+    - fsam7400
+    - omnibook
+    - qc-usb
+    - rfswitch
+  * disable for the time being (FTBS inside of linux-modules-sidux-main-2.6):
+    - kqemu, FTBS.
+    - ndiswrapper
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Feb 2008 14:30:09 +0100
+
+linux-modules-extra-2.6 (2.6.24-4) unstable; urgency=low
+
+  * Disabling atl2 on s390.
+  * Adding missing and improving existing long descriptions.
+  * Re-enabling unionfs.
+  * Adding lzma.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon,  4 Feb 2008 13:43:00 +0100
+
+linux-modules-extra-2.6 (2.6.24-3) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Enabling kqemu on amd64 (Closes: #433527).
+  * Enabling atl2 on all archs.
+  * This build is build against the fixed squashfs (Closes: #463594).
+  * Adding and enabling r6040 (Closes: #457603).
+  * Enabling redhat-cluster again.
+
+  [ Max Vozeler ]
+  * Adding long description for loop-aes.
+  * Updating loop-aes/rules to install into updates/.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon,  4 Feb 2008 13:43:00 +0100
+
+linux-modules-extra-2.6 (2.6.24-2) unstable; urgency=low
+
+  * Enabling forgotten virtualbox-ose-guest (Closes: #451116).
+  * Disabling mol, doesn't build with 2.6.24.
+  * Disabling drdb8 on alpha and s390, doesn't build with 2.6.24 on those
+    architectures.
+
+ -- Daniel Baumann <daniel@debian.org>  Thu, 31 Jan 2008 14:06:00 +0100
+
+linux-modules-extra-2.6 (2.6.24-1) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Adding Vcs fields in control.
+  * Enabling kqemu, finally (Closes: #433527).
+  * Updating to 2.6.24-1 (Closes: #456647, #460380).
+  * Bumping standards version, no other changes needed.
+  * Disabling iscsitarget, doesn't build with 2.6.24.
+  * Disabling unionfs, doesn't build with 2.6.24.
+  * Updating gspca long-description.
+  * Updating redhat-cluster copyright.
+  * Adding virtualbox-ose-guest (Closes: #451116).
+  * Disabling atl2 on xen flavours.
+
+  [ Max Vozeler ]
+  * Adding loop-aes (Closes: #461754).
+
+ -- Daniel Baumann <daniel@debian.org>  Tue, 31 Jan 2008 08:25:00 +0100
+
+linux-modules-extra-2.6 (2.6.22-9) unstable; urgency=low
+
+  * Don't build drbd8 on mips/mipsel.
+
+ -- Daniel Baumann <daniel@debian.org>  Tue, 27 Nov 2007 08:56:00 +0100
+
+linux-modules-extra-2.6 (2.6.22-8) unstable; urgency=low
+
+  * Restricting atl2 to i386 only.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon, 26 Nov 2007 20:20:00 +0100
+
+linux-modules-extra-2.6 (2.6.22-7) unstable; urgency=low
+
+  * Adding atl2.
+  * Adding provides to control (Closes: #451955).
+  * Re-enabling virtualbox-ose.
+  * Updating virtualbox-ose copyright file.
+  * Adding drbd8.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon, 26 Nov 2007 13:54:00 +0100
+
+linux-modules-extra-2.6 (2.6.22-6) unstable; urgency=low
+
+  * Disabling btrfs on some architectures.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon, 29 Oct 2007 22:10:00 +0100
+
+linux-modules-extra-2.6 (2.6.22-5) unstable; urgency=low
+
+  * Updating to 2.6.22-3.
+  * Disabling virtualbox-ose; module source is broken.
+
+ -- Daniel Baumann <daniel@debian.org>  Thu, 25 Oct 2007 12:10:00 +0200
+
+linux-modules-extra-2.6 (2.6.22-4) unstable; urgency=low
+
+  * Adding btrfs.
+  * Adding iscsitarget.
+  * Adding virtualbox-ose.
+
+ -- Daniel Baumann <daniel@debian.org>  Thu, 11 Oct 2007 10:04:00 +0200
+
+linux-modules-extra-2.6 (2.6.22-3) unstable; urgency=medium
+
+  * Re-enabling vserver flavours for aufs.
+  * Re-enabling unionfs.
+
+ -- Daniel Baumann <daniel@debian.org>  Tue,  9 Oct 2007 12:35:00 +0200
+
+linux-modules-extra-2.6 (2.6.22-2) unstable; urgency=low
+
+  * Not building aufs on vserver flavours.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat,  8 Sep 2007 22:47:00 +0200
+
+linux-modules-extra-2.6 (2.6.22-1) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Added aufs modules.
+  * Moving kqemu from linux-modules-non-free-2.6 to here.
+  * Removed squashfs overrides, not needed anymore.
+  * Update to 2.6.22-2.
+
+  [ Bastian Blank ]
+  * Adopt linux-latest-2.6 changes.
+
+ -- Daniel Baumann <daniel@debian.org>  Tue,  4 Sep 2007 07:51:00 +0200
+
+linux-modules-extra-2.6 (2.6.21-4) unstable; urgency=low
+
+  * Rebuild against new gspca upstream release.
+
+ -- Daniel Baumann <daniel@debian.org>  Wed,  4 Jul 2007 20:20:00 +0200
+
+linux-modules-extra-2.6 (2.6.21-3) unstable; urgency=low
+
+  [ Bastian Blank ]
+  * Adopt linux-latest-2.6 changes.
+
+  [ Daniel Baumann ]
+  * Temporarily disabling mol; doesn't build with 2.6.21+.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon,  2 Jul 2007 13:20:00 +0200
+
+linux-modules-extra-2.6 (2.6.21-2) unstable; urgency=low
+
+  * Update to 2.6.21-2.
+
+ -- Daniel Baumann <daniel@debian.org>  Tue, 26 Jun 2007 15:49:00 +0200
+
+linux-modules-extra-2.6 (2.6.21-1) unstable; urgency=low
+
+  [ Bastian Blank ]
+  * Update to 2.6.21-1.
+
+  [ Daniel Baumann ]
+  * Temporarily disabling redhat-cluster; doesn't build with 2.6.21+.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 17 Jun 2007 20:55:00 +0100
+
+linux-modules-extra-2.6 (2.6.18-8) unstable; urgency=medium
+
+  * Triggering rebuild because of redhat-cluster modules.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 11 Mar 2007 11:57:00 +0100
+
+linux-modules-extra-2.6 (2.6.18-7) unstable; urgency=medium
+
+  * linux-modules-*-2.6 are currently not binNMU capable, so triggering
+    required rebuild for sparc (see #410497) with new revision.
+
+ -- Daniel Baumann <daniel@debian.org>  Fri, 23 Feb 2007 09:55:00 +0100
+
+linux-modules-extra-2.6 (2.6.18-6) unstable; urgency=low
+
+  * Building against 2.6.18-4.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 27 Jan 2007 20:26:00 +0100
+
+linux-modules-extra-2.6 (2.6.18-5) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Added myself as co-maintainer.
+  * rules.real:
+    - Adjusting install-base:, now the module copyright file is installed
+      instead of the wrong one of the conglomeration package.
+  * Removing spca5xx modules as requested by maintainer (Closes: #400750).
+  * Adding gspca modules as requested by maintainer (Closes: #400751).
+
+ -- Daniel Baumann <daniel@debian.org>  Sat,  6 Jan 2007 17:58:00 +0100
+
+linux-modules-extra-2.6 (2.6.18-4) unstable; urgency=low
+
+  * Disable squashfs on hppa.
+
+ -- Bastian Blank <waldi@debian.org>  Wed,  6 Dec 2006 12:05:33 +0100
+
+linux-modules-extra-2.6 (2.6.18-3) unstable; urgency=low
+
+  * Disable squashfs on arm.
+
+ -- Bastian Blank <waldi@debian.org>  Mon,  4 Dec 2006 19:49:43 +0100
+
+linux-modules-extra-2.6 (2.6.18-2) unstable; urgency=low
+
+  [ Gaudenz Steinlin ]
+  * Add mol modules.
+
+  [ Bastian Blank ]
+  * Update to 2.6.18-3.
+  * Depend on linux-modules instead of linux-image.
+
+ -- Bastian Blank <waldi@debian.org>  Tue, 28 Nov 2006 15:10:49 +0100
+
+linux-modules-extra-2.6 (2.6.18-1) unstable; urgency=low
+
+  * Update to 2.6.18.
+
+ -- Bastian Blank <waldi@debian.org>  Thu,  5 Oct 2006 10:25:57 +0200
+
+linux-modules-extra-2.6 (2.6.17-2) unstable; urgency=low
+
+  * Add spca5xx modules.
+
+ -- Bastian Blank <waldi@debian.org>  Thu, 31 Aug 2006 15:12:36 +0200
+
+linux-modules-extra-2.6 (2.6.17-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Bastian Blank <waldi@debian.org>  Tue, 15 Aug 2006 14:48:09 +0200
