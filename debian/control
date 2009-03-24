@@ -1,0 +1,477 @@
+Source: linux-modules-sidux-main-2.6
+Section: devel
+Priority: optional
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 6), linux-support-2.6.28-9.slh.1, linux-headers-2.6.28-9.slh.1-all-amd64 [amd64], linux-headers-2.6.28-9.slh.1-all-i386 [i386], acerhk-source [amd64 i386], fsam7400-source [amd64 i386], lirc-modules-source, ndiswrapper-source [amd64 i386], qc-usb-source, rfswitch-source, virtualbox-ose-source [amd64 i386], virtualbox-ose-guest-source [amd64 i386]
+Vcs-Svn: svn://svn.berlios.de/fullstory/linux-modules-sidux-main-2.6/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/linux-modules-sidux-main-2.6/trunk/
+
+Package: acerhk-modules-2.6.28-9.slh.1-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: acerhk-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-amd64
+Description: Acer Hotkey driver for Linux modules for Linux 2.6.28 on AMD64
+ This package provides the Acer Hotkey driver for Linux modules for the
+ Linux kernel version 2.6.28 on all 64bit single- and multiprocessor AMD
+ and Intel machines.
+ .
+ This driver will give access to the special keys on notebooks of the Acer
+ Travelmate series, which are not handled by the keyboard driver.  It also
+ works on notebooks from other manufacturers (some Medion, Fujitsu-Siemens,
+ ...).
+ .
+ It also has some other related functionality (depending on the model): -
+ controlling LEDs (Mail, Wireless) - enable/disable wireless hardware
+
+Package: acerhk-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: acerhk-modules-2.6.28-9.slh.1-sidux-amd64
+Description: Acer Hotkey driver for Linux modules for Linux 2.6 on AMD64
+ This package depends on the Acer Hotkey driver for Linux modules for
+ latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
+ AMD and Intel machines.
+ .
+ This driver will give access to the special keys on notebooks of the Acer
+ Travelmate series, which are not handled by the keyboard driver.  It also
+ works on notebooks from other manufacturers (some Medion, Fujitsu-Siemens,
+ ...).
+ .
+ It also has some other related functionality (depending on the model): -
+ controlling LEDs (Mail, Wireless) - enable/disable wireless hardware
+
+Package: fsam7400-modules-2.6.28-9.slh.1-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: fsam7400-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-amd64
+Description: SW RF kill switch driver for Fujitsu Siemens Amilo M 7400 modules for Linux 2.6.28 on AMD64
+ This package provides the SW RF kill switch driver for Fujitsu Siemens
+ Amilo M 7400 modules for the Linux kernel version 2.6.28 on all 64bit
+ single- and multiprocessor AMD and Intel machines.
+ .
+ The fsam7400 module for the Linux kernel provides support for the software
+ RF kill switches on the Fujitsu Siemens Amilo M 7400 laptop.  This package
+ provides the source code for the fsam7400 modules.
+
+Package: fsam7400-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: fsam7400-modules-2.6.28-9.slh.1-sidux-amd64
+Description: SW RF kill switch driver for Fujitsu Siemens Amilo M 7400 modules for Linux 2.6 on AMD64
+ This package depends on the SW RF kill switch driver for Fujitsu Siemens
+ Amilo M 7400 modules for latest Linux kernel 2.6  for sidux on all 64bit
+ single- and multiprocessor AMD and Intel machines.
+ .
+ The fsam7400 module for the Linux kernel provides support for the software
+ RF kill switches on the Fujitsu Siemens Amilo M 7400 laptop.  This package
+ provides the source code for the fsam7400 modules.
+
+Package: lirc-modules-modules-2.6.28-9.slh.1-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: lirc-modules-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-amd64
+Description: infra-red remote control support modules for Linux 2.6.28 on AMD64
+ This package provides the infra-red remote control support modules for the
+ Linux kernel version 2.6.28 on all 64bit single- and multiprocessor AMD
+ and Intel machines.
+
+Package: lirc-modules-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: lirc-modules-modules-2.6.28-9.slh.1-sidux-amd64
+Description: infra-red remote control support modules for Linux 2.6 on AMD64
+ This package depends on the infra-red remote control support modules for
+ latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
+ AMD and Intel machines.
+
+Package: ndiswrapper-modules-2.6.28-9.slh.1-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: ndiswrapper-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-amd64
+Description: ndiswrapper Linux kernel module modules for Linux 2.6.28 on AMD64
+ This package provides the ndiswrapper Linux kernel module modules for the
+ Linux kernel version 2.6.28 on all 64bit single- and multiprocessor AMD
+ and Intel machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
+
+Package: ndiswrapper-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: ndiswrapper-modules-2.6.28-9.slh.1-sidux-amd64
+Description: ndiswrapper Linux kernel module modules for Linux 2.6 on AMD64
+ This package depends on the ndiswrapper Linux kernel module modules for
+ latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
+ AMD and Intel machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
+
+Package: qc-usb-modules-2.6.28-9.slh.1-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: qc-usb-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-amd64
+Description: Modules for the QuickCam Express driver modules for Linux 2.6.28 on AMD64
+ This package provides the Modules for the QuickCam Express driver modules
+ for the Linux kernel version 2.6.28 on all 64bit single- and
+ multiprocessor AMD and Intel machines.
+ .
+ This package provides the source code for the quickcam kernel module for
+ Logitech's QuickCam Express webcam and similar webcams.  This driver
+ supercedes the qce-ga driver.
+
+Package: qc-usb-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: qc-usb-modules-2.6.28-9.slh.1-sidux-amd64
+Description: Modules for the QuickCam Express driver modules for Linux 2.6 on AMD64
+ This package depends on the Modules for the QuickCam Express driver
+ modules for latest Linux kernel 2.6  for sidux on all 64bit single- and
+ multiprocessor AMD and Intel machines.
+ .
+ This package provides the source code for the quickcam kernel module for
+ Logitech's QuickCam Express webcam and similar webcams.  This driver
+ supercedes the qce-ga driver.
+
+Package: rfswitch-modules-2.6.28-9.slh.1-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: rfswitch-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-amd64
+Description: Modules for the rfswitch drivers modules for Linux 2.6.28 on AMD64
+ This package provides the Modules for the rfswitch drivers modules for the
+ Linux kernel version 2.6.28 on all 64bit single- and multiprocessor AMD
+ and Intel machines.
+ .
+ Modules for controlling the software RF kill switch on the Averatec 5100P
+ and Packard Bell EasyNote E5. The code may work on other laptops, but
+ these are the only models on which it has been tested.
+
+Package: rfswitch-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: rfswitch-modules-2.6.28-9.slh.1-sidux-amd64
+Description: Modules for the rfswitch drivers modules for Linux 2.6 on AMD64
+ This package depends on the Modules for the rfswitch drivers modules for
+ latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
+ AMD and Intel machines.
+ .
+ Modules for controlling the software RF kill switch on the Averatec 5100P
+ and Packard Bell EasyNote E5. The code may work on other laptops, but
+ these are the only models on which it has been tested.
+
+Package: virtualbox-ose-modules-2.6.28-9.slh.1-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: virtualbox-ose-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-amd64
+Description: PC virtualization solution modules for Linux 2.6.28 on AMD64
+ This package provides the PC virtualization solution modules for the Linux
+ kernel version 2.6.28 on all 64bit single- and multiprocessor AMD and
+ Intel machines.
+ .
+ VirtualBox is a free PC virtualization solution allowing you to run a wide
+ range of PC operating systems on your system.
+
+Package: virtualbox-ose-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: virtualbox-ose-modules-2.6.28-9.slh.1-sidux-amd64
+Description: PC virtualization solution modules for Linux 2.6 on AMD64
+ This package depends on the PC virtualization solution modules for latest
+ Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor AMD
+ and Intel machines.
+ .
+ VirtualBox is a free PC virtualization solution allowing you to run a wide
+ range of PC operating systems on your system.
+
+Package: virtualbox-ose-guest-modules-2.6.28-9.slh.1-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: virtualbox-ose-guest-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-amd64
+Description: PC virtualization solution modules for Linux 2.6.28 on AMD64
+ This package provides the PC virtualization solution modules for the Linux
+ kernel version 2.6.28 on all 64bit single- and multiprocessor AMD and
+ Intel machines.
+ .
+ VirtualBox is a free PC virtualization solution allowing you to run a wide
+ range of PC operating systems on your system.
+
+Package: virtualbox-ose-guest-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: virtualbox-ose-guest-modules-2.6.28-9.slh.1-sidux-amd64
+Description: PC virtualization solution modules for Linux 2.6 on AMD64
+ This package depends on the PC virtualization solution modules for latest
+ Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor AMD
+ and Intel machines.
+ .
+ VirtualBox is a free PC virtualization solution allowing you to run a wide
+ range of PC operating systems on your system.
+
+Package: acerhk-modules-2.6.28-9.slh.1-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: acerhk-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-686
+Description: Acer Hotkey driver for Linux modules for Linux 2.6.28 on PPro/Celeron/PII/PIII/P4
+ This package provides the Acer Hotkey driver for Linux modules for the
+ Linux kernel version 2.6.28 on Pentium Pro/Celeron/Pentium II/Pentium
+ III/Pentium 4 machines.
+ .
+ This driver will give access to the special keys on notebooks of the Acer
+ Travelmate series, which are not handled by the keyboard driver.  It also
+ works on notebooks from other manufacturers (some Medion, Fujitsu-Siemens,
+ ...).
+ .
+ It also has some other related functionality (depending on the model): -
+ controlling LEDs (Mail, Wireless) - enable/disable wireless hardware
+
+Package: acerhk-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: acerhk-modules-2.6.28-9.slh.1-sidux-686
+Description: Acer Hotkey driver for Linux modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the Acer Hotkey driver for Linux modules for
+ latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
+ II/Pentium III/Pentium 4 machines.
+ .
+ This driver will give access to the special keys on notebooks of the Acer
+ Travelmate series, which are not handled by the keyboard driver.  It also
+ works on notebooks from other manufacturers (some Medion, Fujitsu-Siemens,
+ ...).
+ .
+ It also has some other related functionality (depending on the model): -
+ controlling LEDs (Mail, Wireless) - enable/disable wireless hardware
+
+Package: fsam7400-modules-2.6.28-9.slh.1-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: fsam7400-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-686
+Description: SW RF kill switch driver for Fujitsu Siemens Amilo M 7400 modules for Linux 2.6.28 on PPro/Celeron/PII/PIII/P4
+ This package provides the SW RF kill switch driver for Fujitsu Siemens
+ Amilo M 7400 modules for the Linux kernel version 2.6.28 on Pentium
+ Pro/Celeron/Pentium II/Pentium III/Pentium 4 machines.
+ .
+ The fsam7400 module for the Linux kernel provides support for the software
+ RF kill switches on the Fujitsu Siemens Amilo M 7400 laptop.  This package
+ provides the source code for the fsam7400 modules.
+
+Package: fsam7400-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: fsam7400-modules-2.6.28-9.slh.1-sidux-686
+Description: SW RF kill switch driver for Fujitsu Siemens Amilo M 7400 modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the SW RF kill switch driver for Fujitsu Siemens
+ Amilo M 7400 modules for latest Linux kernel 2.6  for sidux on Pentium
+ Pro/Celeron/Pentium II/Pentium III/Pentium 4 machines.
+ .
+ The fsam7400 module for the Linux kernel provides support for the software
+ RF kill switches on the Fujitsu Siemens Amilo M 7400 laptop.  This package
+ provides the source code for the fsam7400 modules.
+
+Package: lirc-modules-modules-2.6.28-9.slh.1-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: lirc-modules-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-686
+Description: infra-red remote control support modules for Linux 2.6.28 on PPro/Celeron/PII/PIII/P4
+ This package provides the infra-red remote control support modules for the
+ Linux kernel version 2.6.28 on Pentium Pro/Celeron/Pentium II/Pentium
+ III/Pentium 4 machines.
+
+Package: lirc-modules-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: lirc-modules-modules-2.6.28-9.slh.1-sidux-686
+Description: infra-red remote control support modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the infra-red remote control support modules for
+ latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
+ II/Pentium III/Pentium 4 machines.
+
+Package: ndiswrapper-modules-2.6.28-9.slh.1-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: ndiswrapper-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-686
+Description: ndiswrapper Linux kernel module modules for Linux 2.6.28 on PPro/Celeron/PII/PIII/P4
+ This package provides the ndiswrapper Linux kernel module modules for the
+ Linux kernel version 2.6.28 on Pentium Pro/Celeron/Pentium II/Pentium
+ III/Pentium 4 machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
+
+Package: ndiswrapper-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: ndiswrapper-modules-2.6.28-9.slh.1-sidux-686
+Description: ndiswrapper Linux kernel module modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the ndiswrapper Linux kernel module modules for
+ latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
+ II/Pentium III/Pentium 4 machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
+
+Package: qc-usb-modules-2.6.28-9.slh.1-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: qc-usb-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-686
+Description: Modules for the QuickCam Express driver modules for Linux 2.6.28 on PPro/Celeron/PII/PIII/P4
+ This package provides the Modules for the QuickCam Express driver modules
+ for the Linux kernel version 2.6.28 on Pentium Pro/Celeron/Pentium
+ II/Pentium III/Pentium 4 machines.
+ .
+ This package provides the source code for the quickcam kernel module for
+ Logitech's QuickCam Express webcam and similar webcams.  This driver
+ supercedes the qce-ga driver.
+
+Package: qc-usb-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: qc-usb-modules-2.6.28-9.slh.1-sidux-686
+Description: Modules for the QuickCam Express driver modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the Modules for the QuickCam Express driver
+ modules for latest Linux kernel 2.6  for sidux on Pentium
+ Pro/Celeron/Pentium II/Pentium III/Pentium 4 machines.
+ .
+ This package provides the source code for the quickcam kernel module for
+ Logitech's QuickCam Express webcam and similar webcams.  This driver
+ supercedes the qce-ga driver.
+
+Package: rfswitch-modules-2.6.28-9.slh.1-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: rfswitch-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-686
+Description: Modules for the rfswitch drivers modules for Linux 2.6.28 on PPro/Celeron/PII/PIII/P4
+ This package provides the Modules for the rfswitch drivers modules for the
+ Linux kernel version 2.6.28 on Pentium Pro/Celeron/Pentium II/Pentium
+ III/Pentium 4 machines.
+ .
+ Modules for controlling the software RF kill switch on the Averatec 5100P
+ and Packard Bell EasyNote E5. The code may work on other laptops, but
+ these are the only models on which it has been tested.
+
+Package: rfswitch-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: rfswitch-modules-2.6.28-9.slh.1-sidux-686
+Description: Modules for the rfswitch drivers modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the Modules for the rfswitch drivers modules for
+ latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
+ II/Pentium III/Pentium 4 machines.
+ .
+ Modules for controlling the software RF kill switch on the Averatec 5100P
+ and Packard Bell EasyNote E5. The code may work on other laptops, but
+ these are the only models on which it has been tested.
+
+Package: virtualbox-ose-modules-2.6.28-9.slh.1-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: virtualbox-ose-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-686
+Description: PC virtualization solution modules for Linux 2.6.28 on PPro/Celeron/PII/PIII/P4
+ This package provides the PC virtualization solution modules for the Linux
+ kernel version 2.6.28 on Pentium Pro/Celeron/Pentium II/Pentium
+ III/Pentium 4 machines.
+ .
+ VirtualBox is a free PC virtualization solution allowing you to run a wide
+ range of PC operating systems on your system.
+
+Package: virtualbox-ose-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: virtualbox-ose-modules-2.6.28-9.slh.1-sidux-686
+Description: PC virtualization solution modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the PC virtualization solution modules for latest
+ Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium II/Pentium
+ III/Pentium 4 machines.
+ .
+ VirtualBox is a free PC virtualization solution allowing you to run a wide
+ range of PC operating systems on your system.
+
+Package: virtualbox-ose-guest-modules-2.6.28-9.slh.1-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: virtualbox-ose-guest-modules
+Depends: linux-modules-2.6.28-9.slh.1-sidux-686
+Description: PC virtualization solution modules for Linux 2.6.28 on PPro/Celeron/PII/PIII/P4
+ This package provides the PC virtualization solution modules for the Linux
+ kernel version 2.6.28 on Pentium Pro/Celeron/Pentium II/Pentium
+ III/Pentium 4 machines.
+ .
+ VirtualBox is a free PC virtualization solution allowing you to run a wide
+ range of PC operating systems on your system.
+
+Package: virtualbox-ose-guest-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: virtualbox-ose-guest-modules-2.6.28-9.slh.1-sidux-686
+Description: PC virtualization solution modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the PC virtualization solution modules for latest
+ Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium II/Pentium
+ III/Pentium 4 machines.
+ .
+ VirtualBox is a free PC virtualization solution allowing you to run a wide
+ range of PC operating systems on your system.
+
