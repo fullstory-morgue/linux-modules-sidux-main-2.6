@@ -1,13 +1,75 @@
-linux-modules-sidux-main-2.6 (2.6.29~rc8.git5-2) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.29.rev1-1) unstable; urgency=low
 
-  * NOT RELEASED YET
-  * build against 2.6.29-rc8-git5.
+  * build against 2.6.29-0.slh.1.
   * temporarily disable, building but broken:
     - aufs, aufs2 included as kernel patch for now.
   * disable, FTBS:
     - ndiswrapper
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 23 Mar 2009 00:02:45 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Mar 2009 03:27:42 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev41-1) unstable; urgency=low
+
+  * build against 2.6.28-9.slh.1.
+  * drop metapackages, 2.6.29 is default now.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Mar 2009 02:51:34 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev40-1) unstable; urgency=low
+
+  * build against 2.6.28-8.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 23 Mar 2009 02:25:07 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev39-1) unstable; urgency=low
+
+  * build against 2.6.28-8.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 21 Mar 2009 12:02:28 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev38-1) unstable; urgency=low
+
+  * build against 2.6.28-8.slh.1.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 18 Mar 2009 20:14:23 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev37-1) unstable; urgency=low
+
+  * build against 2.6.28-7.slh.6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 15 Mar 2009 03:04:41 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev35-1) unstable; urgency=low
+
+  * build against 2.6.28-7.slh.4.
+  * drop aufs v1 for now.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 12 Mar 2009 02:37:22 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev34.1-1) unstable; urgency=low
+
+  * build against 2.6.28-7.slh.3.
+  * pull in 2.6.29 compatible lirc.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 10 Mar 2009 01:32:10 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev34-1) unstable; urgency=low
+
+  * build against 2.6.28-7.slh.3.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Mar 2009 23:57:29 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev33-1) unstable; urgency=low
+
+  * build against 2.6.28-7.slh.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Mar 2009 01:55:38 +0100
+
+linux-modules-sidux-main-2.6 (2.6.28.rev32.1-1) unstable; urgency=low
+
+  * pull in new virtualbox-ose sources.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 01 Mar 2009 21:56:19 +0100
 
 linux-modules-sidux-main-2.6 (2.6.28.rev32-1) unstable; urgency=low
 
