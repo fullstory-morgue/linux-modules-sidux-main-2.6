@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Standards-Version: 3.7.3
-Build-Depends: debhelper (>= 6), linux-support-2.6.29-0.slh.1, linux-headers-2.6.29-0.slh.1-all-amd64 [amd64], linux-headers-2.6.29-0.slh.1-all-i386 [i386], acerhk-source [amd64 i386], fsam7400-source [amd64 i386], lirc-modules-source, qc-usb-source, rfswitch-source, virtualbox-ose-source [amd64 i386], virtualbox-ose-guest-source [amd64 i386]
+Build-Depends: debhelper (>= 6), linux-support-2.6.29-0.slh.1, linux-headers-2.6.29-0.slh.1-all-amd64 [amd64], linux-headers-2.6.29-0.slh.1-all-i386 [i386], acerhk-source [amd64 i386], fsam7400-source [amd64 i386], lirc-modules-source, ndiswrapper-source [amd64 i386], qc-usb-source, rfswitch-source, virtualbox-ose-source [amd64 i386], virtualbox-ose-guest-source [amd64 i386]
 Vcs-Svn: svn://svn.berlios.de/fullstory/linux-modules-sidux-main-2.6/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/linux-modules-sidux-main-2.6/trunk/
 
@@ -93,6 +93,41 @@ Description: infra-red remote control support modules for Linux 2.6 on AMD64
  This package depends on the infra-red remote control support modules for
  latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
  AMD and Intel machines.
+
+Package: ndiswrapper-modules-2.6.29-0.slh.1-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Provides: ndiswrapper-modules
+Depends: linux-modules-2.6.29-0.slh.1-sidux-amd64
+Description: ndiswrapper Linux kernel module modules for Linux 2.6.29 on AMD64
+ This package provides the ndiswrapper Linux kernel module modules for the
+ Linux kernel version 2.6.29 on all 64bit single- and multiprocessor AMD
+ and Intel machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
+
+Package: ndiswrapper-modules-2.6-sidux-amd64
+Architecture: amd64
+Section: admin
+Priority: optional
+Depends: ndiswrapper-modules-2.6.29-0.slh.1-sidux-amd64
+Description: ndiswrapper Linux kernel module modules for Linux 2.6 on AMD64
+ This package depends on the ndiswrapper Linux kernel module modules for
+ latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
+ AMD and Intel machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
 
 Package: qc-usb-modules-2.6.29-0.slh.1-sidux-amd64
 Architecture: amd64
@@ -292,6 +327,41 @@ Description: infra-red remote control support modules for Linux 2.6 on PPro/Cele
  This package depends on the infra-red remote control support modules for
  latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
  II/Pentium III/Pentium 4 machines.
+
+Package: ndiswrapper-modules-2.6.29-0.slh.1-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Provides: ndiswrapper-modules
+Depends: linux-modules-2.6.29-0.slh.1-sidux-686
+Description: ndiswrapper Linux kernel module modules for Linux 2.6.29 on PPro/Celeron/PII/PIII/P4
+ This package provides the ndiswrapper Linux kernel module modules for the
+ Linux kernel version 2.6.29 on Pentium Pro/Celeron/Pentium II/Pentium
+ III/Pentium 4 machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
+
+Package: ndiswrapper-modules-2.6-sidux-686
+Architecture: i386
+Section: admin
+Priority: optional
+Depends: ndiswrapper-modules-2.6.29-0.slh.1-sidux-686
+Description: ndiswrapper Linux kernel module modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
+ This package depends on the ndiswrapper Linux kernel module modules for
+ latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
+ II/Pentium III/Pentium 4 machines.
+ .
+ Some vendors do not release specifications of the hardware or provide a
+ Linux driver for their wireless network cards.  This project implements
+ Windows kernel API and NDIS (Network Driver Interface Specification) API
+ within Linux kernel.  A Windows driver for wireless network card is then
+ linked to this implementation so that the driver runs natively, as though
+ it is in Windows, without binary emulation.
 
 Package: qc-usb-modules-2.6.29-0.slh.1-sidux-686
 Architecture: i386
