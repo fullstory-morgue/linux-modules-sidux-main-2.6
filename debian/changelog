@@ -1,8 +1,8 @@
-linux-modules-sidux-main-2.6 (2.6.29.rev7-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.29.rev7-1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * build against 2.6.29-1.slh.1.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 01 Apr 2009 14:09:05 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 03 Apr 2009 02:37:58 +0200
 
 linux-modules-sidux-main-2.6 (2.6.29.rev6-1) unstable; urgency=low
 
