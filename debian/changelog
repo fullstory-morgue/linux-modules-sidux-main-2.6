@@ -1,9 +1,9 @@
-linux-modules-sidux-main-2.6 (2.6.29.rev13-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.29.rev13-1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * build against 2.6.29-2.slh.2.
   * re-enable aufs-source, it's supposed to be compatible with 2.6.29 now.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 24 Apr 2009 17:11:31 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 27 Apr 2009 23:24:22 +0200
 
 linux-modules-sidux-main-2.6 (2.6.29.rev12-1) unstable; urgency=low
 
