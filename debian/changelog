@@ -1,12 +1,13 @@
-linux-modules-sidux-main-2.6 (2.6.29.rev14-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.29.rev13.1-1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * build against 2.6.29-2.slh.1.
+  * rebuild against new virtualbox-ose.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 27 Apr 2009 23:33:27 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 30 Apr 2009 01:17:43 +0200
 
 linux-modules-sidux-main-2.6 (2.6.29.rev13-1) unstable; urgency=low
 
-  * build against 2.6.29-2.slh.2.
+  * build against 2.6.29-2.slh.1.
   * re-enable aufs-source, it's supposed to be compatible with 2.6.29 now.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 27 Apr 2009 23:24:22 +0200
