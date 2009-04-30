@@ -2,10 +2,10 @@
 modules:
  acerhk
  aufs
- fsam7400
+# fsam7400
  lirc-modules
  ndiswrapper
- rfswitch
+# rfswitch
 # unionfs
  virtualbox-ose
  virtualbox-ose-guest

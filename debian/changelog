@@ -1,8 +1,12 @@
-linux-modules-sidux-main-2.6 (2.6.29.rev14-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.29.rev15-1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * build against 2.6.29-2.slh.3.
+  * drop modules abandoned upstream, let's see if anyone actually needs them 
+    anymore:
+    - fsam7400
+    - rfswitch
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 30 Apr 2009 01:24:03 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 30 Apr 2009 20:12:03 +0200
 
 linux-modules-sidux-main-2.6 (2.6.29.rev13.1-1) unstable; urgency=low
 
