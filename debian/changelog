@@ -1,8 +1,9 @@
-linux-modules-sidux-main-2.6 (2.6.29.rev18-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.29.rev18-1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * build against 2.6.29-2.slh.6.
+  * pull in new virtualbox-ose.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 05 May 2009 15:57:30 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 05 May 2009 22:04:13 +0200
 
 linux-modules-sidux-main-2.6 (2.6.29.rev17-1) unstable; urgency=low
 
