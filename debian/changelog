@@ -1,7 +1,7 @@
-linux-modules-sidux-main-2.6 (2.6.30~rc8.git3-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.30~rc8.git6-1) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
-  * build against 2.6.30~rc8-1~git3.slh.1.
+  * build against 2.6.30~rc8-1~git6.slh.1.
   * drop unionfs meta data for good, it's dead Jim.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Jun 2009 11:57:39 +0200
