@@ -1,8 +1,9 @@
-linux-modules-sidux-main-2.6 (2.6.30.rev9-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.30.rev9-1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * build against 2.6.30-1.slh.2.
+  * pull in new virtualbox-ose 3.0.0-dfsg-2.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 03 Jul 2009 10:10:13 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 06 Jul 2009 00:33:27 +0200
 
 linux-modules-sidux-main-2.6 (2.6.30.rev8-1) unstable; urgency=low
 
@@ -13,7 +14,7 @@ linux-modules-sidux-main-2.6 (2.6.30.rev8-1) unstable; urgency=low
 linux-modules-sidux-main-2.6 (2.6.30.rev7.1-1) unstable; urgency=low
 
   * rebuild against 2.6.30-0.slh.7.
-  * pull in new virtualbox-ose 3.0.
+  * pull in new virtualbox-ose 3.0.0-dfsg-1.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 03 Jul 2009 00:32:25 +0200
 
