@@ -1,7 +1,0 @@
-[base]
-desc: Modules for the rfswitch drivers
-longdesc:
- Modules for controlling the software RF kill switch on the
- Averatec 5100P and Packard Bell EasyNote E5. The code may work
- on other laptops, but these are the only models on which it has
- been tested.

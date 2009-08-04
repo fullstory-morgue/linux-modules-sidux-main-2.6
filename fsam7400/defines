@@ -1,7 +1,0 @@
-[base]
-arches: amd64 i386
-desc: SW RF kill switch driver for Fujitsu Siemens Amilo M 7400
-longdesc:
- The fsam7400 module for the Linux kernel provides support for the
- software RF kill switches on the Fujitsu Siemens Amilo M 7400 laptop.
- This package provides the source code for the fsam7400 modules.
