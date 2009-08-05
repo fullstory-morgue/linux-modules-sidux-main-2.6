@@ -1,13 +1,13 @@
-linux-modules-sidux-main-2.6 (2.6.31~rc5.git2.1-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.31~rc5.git3-1) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
-  * build against 2.6.31-rc5-git2.
+  * build against 2.6.31-rc5-git3.
   * drop obsolete module defintions, no one has missed them yet:
     - fsam7400
     - rfswitch
   * pull in fixed lirc 0.8.3-4~svnr348.2.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 Aug 2009 02:51:45 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 Aug 2009 15:14:35 +0200
 
 linux-modules-sidux-main-2.6 (2.6.30.rev15-1) unstable; urgency=low
 
