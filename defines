@@ -1,0 +1,11 @@
+[base]
+modules:
+ acerhk
+ aufs
+# fsam7400
+ lirc-modules
+ ndiswrapper
+# rfswitch
+# unionfs
+ virtualbox-ose
+ virtualbox-ose-guest
