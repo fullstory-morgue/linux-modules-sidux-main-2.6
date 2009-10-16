@@ -1,7 +1,7 @@
 [base]
 modules:
  acerhk
- aufs
+# aufs
  lirc-modules
  ndiswrapper
  virtualbox-ose
