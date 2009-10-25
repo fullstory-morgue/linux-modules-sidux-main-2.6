@@ -3,16 +3,16 @@ Section: devel
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Standards-Version: 3.7.3
-Build-Depends: debhelper (>= 6), linux-support-2.6.31-5.slh.1, linux-headers-2.6.31-5.slh.1-all-amd64 [amd64], linux-headers-2.6.31-5.slh.1-all-i386 [i386], acerhk-source [amd64 i386], lirc-modules-source, ndiswrapper-source [amd64 i386], virtualbox-ose-source [amd64 i386], virtualbox-ose-guest-source [amd64 i386]
+Build-Depends: debhelper (>= 6), linux-support-2.6.31-5.slh.2, linux-headers-2.6.31-5.slh.2-all-amd64 [amd64], linux-headers-2.6.31-5.slh.2-all-i386 [i386], acerhk-source [amd64 i386], lirc-modules-source, ndiswrapper-source [amd64 i386], virtualbox-ose-source [amd64 i386], virtualbox-ose-guest-source [amd64 i386]
 Vcs-Svn: svn://svn.berlios.de/fullstory/linux-modules-sidux-main-2.6/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/linux-modules-sidux-main-2.6/trunk/
 
-Package: acerhk-modules-2.6.31-5.slh.1-sidux-amd64
+Package: acerhk-modules-2.6.31-5.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: acerhk-modules
-Depends: linux-modules-2.6.31-5.slh.1-sidux-amd64
+Depends: linux-modules-2.6.31-5.slh.2-sidux-amd64
 Description: Acer Hotkey driver for Linux modules for Linux 2.6.31 on AMD64
  This package provides the Acer Hotkey driver for Linux modules for the
  Linux kernel version 2.6.31 on all 64bit single- and multiprocessor AMD
@@ -30,7 +30,7 @@ Package: acerhk-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: acerhk-modules-2.6.31-5.slh.1-sidux-amd64
+Depends: acerhk-modules-2.6.31-5.slh.2-sidux-amd64
 Description: Acer Hotkey driver for Linux modules for Linux 2.6 on AMD64
  This package depends on the Acer Hotkey driver for Linux modules for
  latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
@@ -44,12 +44,12 @@ Description: Acer Hotkey driver for Linux modules for Linux 2.6 on AMD64
  It also has some other related functionality (depending on the model): -
  controlling LEDs (Mail, Wireless) - enable/disable wireless hardware
 
-Package: lirc-modules-modules-2.6.31-5.slh.1-sidux-amd64
+Package: lirc-modules-modules-2.6.31-5.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: lirc-modules-modules
-Depends: linux-modules-2.6.31-5.slh.1-sidux-amd64
+Depends: linux-modules-2.6.31-5.slh.2-sidux-amd64
 Description: infra-red remote control support modules for Linux 2.6.31 on AMD64
  This package provides the infra-red remote control support modules for the
  Linux kernel version 2.6.31 on all 64bit single- and multiprocessor AMD
@@ -59,18 +59,18 @@ Package: lirc-modules-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: lirc-modules-modules-2.6.31-5.slh.1-sidux-amd64
+Depends: lirc-modules-modules-2.6.31-5.slh.2-sidux-amd64
 Description: infra-red remote control support modules for Linux 2.6 on AMD64
  This package depends on the infra-red remote control support modules for
  latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
  AMD and Intel machines.
 
-Package: ndiswrapper-modules-2.6.31-5.slh.1-sidux-amd64
+Package: ndiswrapper-modules-2.6.31-5.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: ndiswrapper-modules
-Depends: linux-modules-2.6.31-5.slh.1-sidux-amd64
+Depends: linux-modules-2.6.31-5.slh.2-sidux-amd64
 Description: ndiswrapper Linux kernel module modules for Linux 2.6.31 on AMD64
  This package provides the ndiswrapper Linux kernel module modules for the
  Linux kernel version 2.6.31 on all 64bit single- and multiprocessor AMD
@@ -87,7 +87,7 @@ Package: ndiswrapper-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: ndiswrapper-modules-2.6.31-5.slh.1-sidux-amd64
+Depends: ndiswrapper-modules-2.6.31-5.slh.2-sidux-amd64
 Description: ndiswrapper Linux kernel module modules for Linux 2.6 on AMD64
  This package depends on the ndiswrapper Linux kernel module modules for
  latest Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor
@@ -100,12 +100,12 @@ Description: ndiswrapper Linux kernel module modules for Linux 2.6 on AMD64
  linked to this implementation so that the driver runs natively, as though
  it is in Windows, without binary emulation.
 
-Package: virtualbox-ose-modules-2.6.31-5.slh.1-sidux-amd64
+Package: virtualbox-ose-modules-2.6.31-5.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: virtualbox-ose-modules
-Depends: linux-modules-2.6.31-5.slh.1-sidux-amd64
+Depends: linux-modules-2.6.31-5.slh.2-sidux-amd64
 Description: PC virtualization solution modules for Linux 2.6.31 on AMD64
  This package provides the PC virtualization solution modules for the Linux
  kernel version 2.6.31 on all 64bit single- and multiprocessor AMD and
@@ -118,7 +118,7 @@ Package: virtualbox-ose-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: virtualbox-ose-modules-2.6.31-5.slh.1-sidux-amd64
+Depends: virtualbox-ose-modules-2.6.31-5.slh.2-sidux-amd64
 Description: PC virtualization solution modules for Linux 2.6 on AMD64
  This package depends on the PC virtualization solution modules for latest
  Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor AMD
@@ -127,12 +127,12 @@ Description: PC virtualization solution modules for Linux 2.6 on AMD64
  VirtualBox is a free PC virtualization solution allowing you to run a wide
  range of PC operating systems on your system.
 
-Package: virtualbox-ose-guest-modules-2.6.31-5.slh.1-sidux-amd64
+Package: virtualbox-ose-guest-modules-2.6.31-5.slh.2-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
 Provides: virtualbox-ose-guest-modules
-Depends: linux-modules-2.6.31-5.slh.1-sidux-amd64
+Depends: linux-modules-2.6.31-5.slh.2-sidux-amd64
 Description: PC virtualization solution modules for Linux 2.6.31 on AMD64
  This package provides the PC virtualization solution modules for the Linux
  kernel version 2.6.31 on all 64bit single- and multiprocessor AMD and
@@ -145,7 +145,7 @@ Package: virtualbox-ose-guest-modules-2.6-sidux-amd64
 Architecture: amd64
 Section: admin
 Priority: optional
-Depends: virtualbox-ose-guest-modules-2.6.31-5.slh.1-sidux-amd64
+Depends: virtualbox-ose-guest-modules-2.6.31-5.slh.2-sidux-amd64
 Description: PC virtualization solution modules for Linux 2.6 on AMD64
  This package depends on the PC virtualization solution modules for latest
  Linux kernel 2.6  for sidux on all 64bit single- and multiprocessor AMD
@@ -154,12 +154,12 @@ Description: PC virtualization solution modules for Linux 2.6 on AMD64
  VirtualBox is a free PC virtualization solution allowing you to run a wide
  range of PC operating systems on your system.
 
-Package: acerhk-modules-2.6.31-5.slh.1-sidux-686
+Package: acerhk-modules-2.6.31-5.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: acerhk-modules
-Depends: linux-modules-2.6.31-5.slh.1-sidux-686
+Depends: linux-modules-2.6.31-5.slh.2-sidux-686
 Description: Acer Hotkey driver for Linux modules for Linux 2.6.31 on PPro/Celeron/PII/PIII/P4
  This package provides the Acer Hotkey driver for Linux modules for the
  Linux kernel version 2.6.31 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -177,7 +177,7 @@ Package: acerhk-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: acerhk-modules-2.6.31-5.slh.1-sidux-686
+Depends: acerhk-modules-2.6.31-5.slh.2-sidux-686
 Description: Acer Hotkey driver for Linux modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the Acer Hotkey driver for Linux modules for
  latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
@@ -191,12 +191,12 @@ Description: Acer Hotkey driver for Linux modules for Linux 2.6 on PPro/Celeron/
  It also has some other related functionality (depending on the model): -
  controlling LEDs (Mail, Wireless) - enable/disable wireless hardware
 
-Package: lirc-modules-modules-2.6.31-5.slh.1-sidux-686
+Package: lirc-modules-modules-2.6.31-5.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: lirc-modules-modules
-Depends: linux-modules-2.6.31-5.slh.1-sidux-686
+Depends: linux-modules-2.6.31-5.slh.2-sidux-686
 Description: infra-red remote control support modules for Linux 2.6.31 on PPro/Celeron/PII/PIII/P4
  This package provides the infra-red remote control support modules for the
  Linux kernel version 2.6.31 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -206,18 +206,18 @@ Package: lirc-modules-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: lirc-modules-modules-2.6.31-5.slh.1-sidux-686
+Depends: lirc-modules-modules-2.6.31-5.slh.2-sidux-686
 Description: infra-red remote control support modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the infra-red remote control support modules for
  latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
  II/Pentium III/Pentium 4 machines.
 
-Package: ndiswrapper-modules-2.6.31-5.slh.1-sidux-686
+Package: ndiswrapper-modules-2.6.31-5.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: ndiswrapper-modules
-Depends: linux-modules-2.6.31-5.slh.1-sidux-686
+Depends: linux-modules-2.6.31-5.slh.2-sidux-686
 Description: ndiswrapper Linux kernel module modules for Linux 2.6.31 on PPro/Celeron/PII/PIII/P4
  This package provides the ndiswrapper Linux kernel module modules for the
  Linux kernel version 2.6.31 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -234,7 +234,7 @@ Package: ndiswrapper-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: ndiswrapper-modules-2.6.31-5.slh.1-sidux-686
+Depends: ndiswrapper-modules-2.6.31-5.slh.2-sidux-686
 Description: ndiswrapper Linux kernel module modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the ndiswrapper Linux kernel module modules for
  latest Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium
@@ -247,12 +247,12 @@ Description: ndiswrapper Linux kernel module modules for Linux 2.6 on PPro/Celer
  linked to this implementation so that the driver runs natively, as though
  it is in Windows, without binary emulation.
 
-Package: virtualbox-ose-modules-2.6.31-5.slh.1-sidux-686
+Package: virtualbox-ose-modules-2.6.31-5.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: virtualbox-ose-modules
-Depends: linux-modules-2.6.31-5.slh.1-sidux-686
+Depends: linux-modules-2.6.31-5.slh.2-sidux-686
 Description: PC virtualization solution modules for Linux 2.6.31 on PPro/Celeron/PII/PIII/P4
  This package provides the PC virtualization solution modules for the Linux
  kernel version 2.6.31 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -265,7 +265,7 @@ Package: virtualbox-ose-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: virtualbox-ose-modules-2.6.31-5.slh.1-sidux-686
+Depends: virtualbox-ose-modules-2.6.31-5.slh.2-sidux-686
 Description: PC virtualization solution modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the PC virtualization solution modules for latest
  Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium II/Pentium
@@ -274,12 +274,12 @@ Description: PC virtualization solution modules for Linux 2.6 on PPro/Celeron/PI
  VirtualBox is a free PC virtualization solution allowing you to run a wide
  range of PC operating systems on your system.
 
-Package: virtualbox-ose-guest-modules-2.6.31-5.slh.1-sidux-686
+Package: virtualbox-ose-guest-modules-2.6.31-5.slh.2-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
 Provides: virtualbox-ose-guest-modules
-Depends: linux-modules-2.6.31-5.slh.1-sidux-686
+Depends: linux-modules-2.6.31-5.slh.2-sidux-686
 Description: PC virtualization solution modules for Linux 2.6.31 on PPro/Celeron/PII/PIII/P4
  This package provides the PC virtualization solution modules for the Linux
  kernel version 2.6.31 on Pentium Pro/Celeron/Pentium II/Pentium
@@ -292,7 +292,7 @@ Package: virtualbox-ose-guest-modules-2.6-sidux-686
 Architecture: i386
 Section: admin
 Priority: optional
-Depends: virtualbox-ose-guest-modules-2.6.31-5.slh.1-sidux-686
+Depends: virtualbox-ose-guest-modules-2.6.31-5.slh.2-sidux-686
 Description: PC virtualization solution modules for Linux 2.6 on PPro/Celeron/PII/PIII/P4
  This package depends on the PC virtualization solution modules for latest
  Linux kernel 2.6  for sidux on Pentium Pro/Celeron/Pentium II/Pentium
