@@ -4,5 +4,3 @@ modules:
 # aufs
  lirc-modules
  ndiswrapper
- virtualbox-ose
- virtualbox-ose-guest

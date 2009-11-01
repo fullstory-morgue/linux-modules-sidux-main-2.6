@@ -1,8 +1,9 @@
-linux-modules-sidux-main-2.6 (2.6.31.rev20-1) UNRELEASED; urgency=low
+linux-modules-sidux-main-2.6 (2.6.31.rev19.1-1) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * drop prebuilt virtualbox-ose modules, they've switched to dkms and have
+    therefore become unredistributable.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 25 Oct 2009 22:22:29 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 01 Nov 2009 16:46:29 +0100
 
 linux-modules-sidux-main-2.6 (2.6.31.rev19-1) unstable; urgency=low
 
