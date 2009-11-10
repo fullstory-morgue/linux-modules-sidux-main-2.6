@@ -1,5 +1,4 @@
 [base]
 modules:
- acerhk
  lirc-modules
  ndiswrapper
